@@ -69,36 +69,6 @@ const pageController = () => {
   return bool;
 };
 
-window.addEventListener('wheel', e => {
-  const deltaY = e.deltaY > 0;
-
-  if (deltaY) {
-    counter1++;
-    counter2++;
-  } else {
-    counter1--;
-    counter2--;
-  }
-
-  pageController();
-  progressCounter();
-  console.log(counter1, counter2);
-
-  if (bool) {
-    document.querySelector(
-      `.section-${deltaY ? counter1 : counter2}`
-    ).style.left = `${deltaY ? '-100vw' : '0'}`;
-
-    document.querySelector(
-      `.section-${deltaY ? counter1 : counter2}-wrapper`
-    ).style.transform = `scale(${deltaY ? '1.5' : '1'})`;
-
-    document.querySelector(
-      `.section-${deltaY ? counter1 + 1 : counter2 + 1}-wrapper`
-    ).style.transform = `scale(${deltaY ? '1' : '1.5'})`;
-  }
-});
-
 document.querySelector('.left-btn').addEventListener('click', () => {
   counter1--;
   counter2--;
