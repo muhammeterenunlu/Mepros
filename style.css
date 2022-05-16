@@ -211,7 +211,7 @@ html {
 }
 
 .page-btn {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   top: 50%;
   transform: translateY(-50%);
@@ -360,13 +360,14 @@ section {
 }
 
 .section-3-heading {
-  font-size: 20rem;
+  font-size: 12rem;
   color: #ccc;
   text-transform: uppercase;
-  transform: rotate(-20deg);
+  transform: rotate(-10deg);
   text-align: center;
   text-shadow: 0 0.5rem 1.5rem #000;
   user-select: none;
+  margin-bottom: 20rem;
 }
 
 .section-4 {
