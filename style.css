@@ -124,6 +124,7 @@ html {
   background-color: rgb(230, 230, 230);
   transition: right 0.5s;
   z-index: 100;
+  opacity: 0.8;
 }
 
 .change .sidebar {
@@ -192,7 +193,7 @@ html {
 
 .scroll-btn {
   position: fixed;
-  right: 3rem;
+  right: 2rem;
   bottom: 1rem;
   width: 4.5rem;
   height: 4.5rem;
