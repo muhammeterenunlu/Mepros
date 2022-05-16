@@ -434,6 +434,21 @@ section {
   color: #eee;
   letter-spacing: 0.2rem;
 }
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+	font-size: 14px;
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
 @media (max-width: 1400px) {
   .menu-link {
     font-size: 3rem;
