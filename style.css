@@ -247,7 +247,7 @@ html {
 }
 
 .progress-wrapper {
-  position: fixed;
+  position: absolute;
   z-index: 100;
   bottom: 2rem;
   left: 3rem;
