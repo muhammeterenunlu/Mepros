@@ -329,7 +329,7 @@ section {
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   border-bottom: 0.2rem solid #f26522;
-  text-align: right;
+  text-align: center;
   user-select: none;
 }
 
