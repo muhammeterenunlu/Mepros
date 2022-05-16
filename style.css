@@ -445,6 +445,20 @@ section {
 	font-size: 14px;
 }
 
+.footer-map {
+	overflow:hidden;
+	padding-bottom:20%;
+	position:relative;
+	height:0;
+}
+
+.footer-map iframe {
+	height: 100%;
+	width: 30%;
+	position: absolute;
+	margin-left: 70%;
+}
+
 .footer > * {
   flex:  1 100%;
 }
