@@ -11,6 +11,7 @@
 
 html {
   font-size: 45%;
+	scroll-behavior: smooth;
 }
 
 .topleft-logo {
@@ -313,6 +314,7 @@ section {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(images/section-1-bg.jpeg) center no-repeat;
   background-size: cover;
+	transform: scale(1);
 }
 
 .section-1-heading-wrapper {
