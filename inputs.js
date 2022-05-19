@@ -1,3 +1,5 @@
+startSliding();
+
 document.querySelector('.hamburger-menu').addEventListener('click', toggleHamburgerMenu);
 
 document.querySelector('.left-btn').addEventListener('click', slideSectionsToLeft);
