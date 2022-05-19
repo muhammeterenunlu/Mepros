@@ -27,8 +27,8 @@ html {
 
 .menu-mepros-logo {
   align-items: center;
-  width: 15rem;
-  padding-bottom: 2.5rem;
+  width: 25rem;
+  padding-bottom: 8rem;
 }
 
 .container {
@@ -79,24 +79,6 @@ html {
 
 .change .line-3 {
   transform: rotate(-45deg) translate(0.3rem, -0.8rem);
-}
-
-.hamburger-menu span {
-  position: absolute;
-  left: 5rem;
-  width: 10rem;
-  height: 4rem;
-  background-color: #f26522;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-family: 'Baloo Da 2', serif;
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.2s;
 }
 
 .change .hamburger-menu:hover span {
@@ -471,6 +453,7 @@ section {
   position: absolute;
   bottom: 0;
   padding: 2rem;
+  padding-bottom: 4rem;
   text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
@@ -489,32 +472,35 @@ section {
 
 .c-info h2 {
   font-family: 'Baloo Da 2', serif;
-  font-size: 2.5rem;
+  font-size: 4rem;
+  padding-bottom: 4rem;
   line-height: 2.5rem;
   font-weight: 300;
   color: #eee;
 }
 
+/*
 .c-info p {
   font-family: 'Baloo da 2', serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   line-height: 1.6rem;
   font-weight: 300;
   color: #eee;
   width: 80%;
   margin-bottom: 2rem;
 }
+*/
 
 .c-info button {
-  width: 10rem;
-  height: 3rem;
-  background-color: #c29525;
+  width: 12rem;
+  height: 5rem;
+  background-color: #d9b660dd;
   border: none;
   font-family: 'Baloo Da 2', serif;
-  font-size: 1.4rem;
+  font-size: 2rem;
   line-height: 1.5rem;
   color: #eee;
-  border-radius: 0.3rem;
+  border-radius: 0.9rem;
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
@@ -533,10 +519,10 @@ section {
 }
 
 .products-underline {
-  width: 12rem;
+  width: 20rem;
   height: 0.3rem;
   padding: 0;
-  background-color: #c29525;
+  background-color: #f26522;
 }
 
 .copyright {
@@ -549,16 +535,7 @@ section {
   letter-spacing: 0.2rem;
 }
 
-.footer {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 30px 30px 20px 30px;
-  color: #2f2f2f;
-  background-color: #fff;
-  border-top: 1px solid #e5e5e5;
-  font-size: 14px;
-}
-
+/*
 .footer-map {
   overflow: hidden;
   padding-bottom: 20%;
@@ -570,12 +547,8 @@ section {
   height: 100%;
   width: 30%;
   position: absolute;
-  margin-left: 70%;
 }
-
-.footer > * {
-  flex: 1 100%;
-}
+*/
 
 @media (max-width: 1400px) {
   .menu-link {
@@ -585,7 +558,7 @@ section {
 
 @media (max-width: 500px) {
   html {
-    font-size: 20%;
+    font-size: 30%;
   }
 
   .sidebar {
