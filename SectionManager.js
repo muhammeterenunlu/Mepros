@@ -71,6 +71,10 @@ class SectionManager {
 			this.#moveToLeft();
 		}
 	}
+
+	getCurrentSectionIndex() {
+		return this.#index;
+	}
 	
 	#updateScale(sectionIndex, newScale) {
 		const element = document.querySelector(`.section-${sectionIndex}-wrapper`);
