@@ -14,7 +14,24 @@ html {
   scroll-behavior: smooth;
 }
 
-.topleft-logo {
+.mepros-display {
+  line-height: normal;
+}
+
+.mepros-container {
+  display: none;
+}
+
+.mepros-display .mepros-container {
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+}
+.mepros-topleft-logo {
   position: absolute;
   top: 8px;
   left: 16px;
@@ -25,21 +42,27 @@ html {
   width: 20rem;
 }
 
-.menu-mepros-logo {
+.mepros-whatsapp-logo {
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: right 0.3s;
+}
+
+.mepros-menu-mepros-logo {
   align-items: center;
   width: 25rem;
   padding-bottom: 8rem;
 }
 
-.container {
-  display: none;
-}
-
-.display .container {
-  display: block;
-}
-
-.hamburger-menu {
+.mepros-hamburger-menu {
   width: 3rem;
   height: 3rem;
   position: fixed;
@@ -53,40 +76,40 @@ html {
   transition: right 0.7s;
 }
 
-.change .hamburger-menu {
+.change .mepros-hamburger-menu {
   right: 33rem;
 }
 
-.line {
+.mepros-line {
   width: 100%;
   height: 0.2rem;
   background-color: #fff;
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0);
 }
 
-.change .line {
+.change .mepros-line {
   background-color: rgba(0, 0, 0);
 }
 
-.change .line-1 {
+.change .mepros-line-1 {
   transform: rotate(45deg) translate(0.3rem, 0.8rem);
 }
 
-.change .line-2 {
+.change .mepros-line-2 {
   opacity: 0;
   visibility: hidden;
 }
 
-.change .line-3 {
+.change .mepros-line-3 {
   transform: rotate(-45deg) translate(0.3rem, -0.8rem);
 }
 
-.change .hamburger-menu:hover span {
+.change .mepros-hamburger-menu:hover span {
   opacity: 1;
   visibility: visible;
 }
 
-.hamburger-menu span::before {
+.mepros-hamburger-menu span::before {
   content: '';
   position: absolute;
   border-left: 1rem solid transparent;
@@ -98,7 +121,7 @@ html {
   transform: translateY(-50%);
 }
 
-.sidebar {
+.mepros-sidebar {
   width: 40rem;
   height: 100vh;
   position: fixed;
@@ -110,29 +133,29 @@ html {
   opacity: 0.8;
 }
 
-.change .sidebar {
+.change .mepros-sidebar {
   right: 0;
 }
 
-.menu {
+.mepros-menu {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.menu-item {
+.mepros-menu-item {
   text-align: center;
 }
 
-.menu-link {
+.mepros-menu-link {
   font-family: 'Baloo Da 2', serif;
   font-size: 4rem;
   color: #555;
   position: relative;
 }
 
-.menu-link::before {
+.mepros-menu-link::before {
   content: attr(data-content);
   position: absolute;
   top: 0;
@@ -144,11 +167,11 @@ html {
   transition: width 0.3s ease-in-out;
 }
 
-.menu-link:hover::before {
+.mepros-menu-link:hover::before {
   width: 100%;
 }
 
-.social-media {
+.mepros-social-media {
   position: absolute;
   bottom: 3rem;
   width: 100%;
@@ -156,7 +179,7 @@ html {
   justify-content: center;
 }
 
-.social-media i {
+.mepros-social-media i {
   font-size: 2.2rem;
   margin: 3rem;
   width: 4.5rem;
@@ -170,14 +193,14 @@ html {
   transition: background-color 0.3s;
 }
 
-.social-media i:hover {
+.mepros-social-media i:hover {
   background-color: #f26522;
 }
 
-.scroll-btn {
+.mepros-scroll-btn {
   position: fixed;
-  right: 2rem;
-  bottom: 1rem;
+  right: 2.3rem;
+  bottom: 7rem;
   width: 4.5rem;
   height: 4.5rem;
   background-color: #f26522;
@@ -190,11 +213,11 @@ html {
   border-radius: 0.3rem;
 }
 
-.scroll-btn:hover {
+.mepros-scroll-btn:hover {
   background-color: rgb(230, 138, 17);
 }
 
-.page-btn {
+.mepros-page-btn {
   position: absolute;
   z-index: 100;
   top: 50%;
@@ -203,56 +226,56 @@ html {
   border: none;
 }
 
-.left-btn {
+.mepros-left-btn {
   left: 4rem;
 }
 
-.left-btn img {
+.mepros-left-btn img {
   transform: rotate(-90deg);
 }
 
-.right-btn {
+.mepros-right-btn {
   right: 4rem;
 }
 
-.right-btn img {
+.mepros-right-btn img {
   transform: rotate(90deg);
 }
 
-.page-btn img {
+.mepros-page-btn img {
   width: 5rem;
   opacity: 0.6;
   cursor: pointer;
   transition: opacity 0.2s;
 }
 
-.page-btn img:hover {
+.mepros-page-btn img:hover {
   opacity: 1;
 }
 
-.progress-wrapper {
+.mepros-progress-wrapper {
   position: absolute;
   z-index: 100;
   bottom: 2rem;
   left: 3rem;
 }
 
-.progress {
+.mepros-progress {
   margin: 1rem 0;
   text-align: center;
 }
 
-.progress h2 {
+.mepros-progress h2 {
   font-size: 2.5rem;
   font-weight: 300;
   color: #fff;
 }
 
-.circle-wrapper {
+.mepros-circle-wrapper {
   display: flex;
 }
 
-.circle {
+.mepros-circle {
   width: 1rem;
   height: 1rem;
   border: 0.1rem solid #fff;
@@ -261,18 +284,18 @@ html {
   transition: background-color 0.3s;
 }
 
-.circle-1 {
+.mepros-circle-1 {
   background-color: #ddd;
 }
 
-.wrapper {
+.mepros-wrapper {
   width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-section {
+.mepros-wrapper-section {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -281,47 +304,48 @@ section {
   transition: left 1.5s;
 }
 
-.section-1 {
+.mepros-section-1 {
   z-index: 50;
 }
 
-.section-wrapper {
+.mepros-section-wrapper {
   width: inherit;
   height: inherit;
   transform: scale(1.5);
   transition: all 2s;
 }
 
-.section-1-wrapper {
+.mepros-section-1-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(images/section-1-bg.jpeg) center no-repeat;
   background-size: cover;
   transform: scale(1);
 }
 
-.section-1-heading-wrapper {
+.mepros-section-1-heading-wrapper {
   position: absolute;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.section-1-heading {
-  font-size: 10rem;
-  font-weight: 300;
+.mepros-section-1-heading {
+  font-size: 8rem;
+  font-weight: 500;
   color: #fff;
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   border-bottom: 0.2rem solid #f26522;
   text-align: center;
   user-select: none;
+  margin-bottom: 12rem;
 }
 
-.section-2 {
+.mepros-section-2 {
   z-index: 40;
 }
 
-.section-2-wrapper {
+.mepros-section-2-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(images/section-2-bg.jpeg) center no-repeat;
   background-size: cover;
@@ -330,12 +354,12 @@ section {
   justify-content: space-evenly;
 }
 
-.section-3 {
+.mepros-section-3 {
   z-index: 30;
   background-color: #000;
 }
 
-.section-3-wrapper {
+.mepros-section-3-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(images/section-3-bg.jpeg) center no-repeat;
   background-size: cover;
@@ -344,9 +368,10 @@ section {
   justify-content: center;
 }
 
-.section-3-heading {
+.mepros-section-3-heading {
   font-size: 12rem;
-  color: #ccc;
+  font-weight: 500;
+  color: #fff;
   text-transform: uppercase;
   transform: rotate(-10deg);
   text-align: center;
@@ -355,18 +380,18 @@ section {
   margin-bottom: 20rem;
 }
 
-.section-4 {
+.mepros-section-4 {
   z-index: 20;
 }
 
-.section-4-wrapper {
+.mepros-section-4-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.section-4-bg {
+.mepros-section-4-bg {
   width: 110%;
   height: 110%;
   position: absolute;
@@ -377,27 +402,28 @@ section {
   filter: blur(0.5rem);
 }
 
-.section-4-heading {
+.mepros-section-4-heading {
   font-size: 10rem;
-  font-weight: 300;
+  font-weight: 500;
   text-align: center;
+  padding-top: 15rem;
   margin-bottom: 7rem;
-  color: #f26522;
+  color: #fff;
   user-select: none;
 }
 
-.new-sofas-img {
+.mepros-new-sofas-img {
   width: 70rem;
   border: 0.1rem solid #fff;
   padding: 1rem;
   opacity: 0.7;
 }
 
-.section-5 {
+.mepros-section-5 {
   z-index: 10;
 }
 
-.section-5-wrapper {
+.mepros-section-5-wrapper {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
     url(images/section-5-bg.jpeg) center no-repeat;
   background-size: cover;
@@ -406,7 +432,7 @@ section {
   justify-content: center;
 }
 
-.products {
+.mepros-products {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -414,42 +440,42 @@ section {
   padding: 0 5rem 20rem 5rem;
 }
 
-.cards-wrapper {
+.mepros-cards-wrapper {
   display: flex;
   justify-content: space-evenly;
   margin-top: 8rem;
-  width: 100%;
+  width: 90%;
 }
 
-.card {
-  width: 37rem;
+.mepros-card {
   height: 45rem;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 0.5rem;
+  margin: 1rem;
   position: relative;
 }
 
-.card-img-wrapper {
+.mepros-card-img-wrapper {
   width: 100%;
   height: 100%;
   background-color: #262626;
   border-radius: 0.5rem;
 }
 
-.card-img-wrapper img {
+.mepros-card-img-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: center;
   opacity: 0.8;
   border-radius: 0.5rem;
   transition: opacity 0.3s;
 }
 
-.card:hover .card-img-wrapper img {
+.mepros-card:hover .mepros-card-img-wrapper img {
   opacity: 0.5;
 }
 
-.c-info {
+.mepros-c-info {
   position: absolute;
   bottom: 0;
   padding: 2rem;
@@ -460,17 +486,17 @@ section {
   transition: all 0.3s;
 }
 
-.card:hover .c-info {
+.mepros-card:hover .mepros-c-info {
   bottom: 2rem;
   opacity: 1;
   visibility: visible;
 }
 
-.products-section-heading h2 {
+.mepros-products-section-heading h2 {
   font-size: 5rem;
 }
 
-.c-info h2 {
+.mepros-c-info h2 {
   font-family: 'Baloo Da 2', serif;
   font-size: 4rem;
   padding-bottom: 4rem;
@@ -480,7 +506,7 @@ section {
 }
 
 /*
-.c-info p {
+.mepros-c-info p {
   font-family: 'Baloo da 2', serif;
   font-size: 1rem;
   line-height: 1.6rem;
@@ -491,10 +517,10 @@ section {
 }
 */
 
-.c-info button {
+.mepros-c-info button {
   width: 12rem;
   height: 5rem;
-  background-color: #d9b660dd;
+  background-color: #f26522;
   border: none;
   font-family: 'Baloo Da 2', serif;
   font-size: 2rem;
@@ -504,28 +530,28 @@ section {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
-.products-section-header {
+.mepros-products-section-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 3rem 0 0.5rem 0;
 }
 
-.products-section-heading {
+.mepros-products-section-heading {
   font-family: 'Baloo Da 2', serif;
   font-size: 5rem;
   font-weight: 400;
   color: #4b4b4b;
 }
 
-.products-underline {
+.mepros-products-underline {
   width: 20rem;
   height: 0.3rem;
   padding: 0;
   background-color: #f26522;
 }
 
-.copyright {
+.mepros-copyright {
   position: absolute;
   bottom: 2rem;
   font-size: 2rem;
@@ -536,14 +562,14 @@ section {
 }
 
 /*
-.footer-map {
+.mepros-footer-map {
   overflow: hidden;
   padding-bottom: 20%;
   position: relative;
   height: 0;
 }
 
-.footer-map iframe {
+.mepros-footer-map iframe {
   height: 100%;
   width: 30%;
   position: absolute;
@@ -551,7 +577,7 @@ section {
 */
 
 @media (max-width: 1400px) {
-  .menu-link {
+  .mepros-menu-link {
     font-size: 3rem;
   }
 }
@@ -561,12 +587,17 @@ section {
     font-size: 30%;
   }
 
-  .sidebar {
-    width: 100%;
+  .mepros-sidebar {
+    width: 40%;
     right: -100%;
   }
 
-  .change .hamburger-menu {
+  .change .mepros-hamburger-menu {
     right: 35rem;
+  }
+
+  .mepros-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }

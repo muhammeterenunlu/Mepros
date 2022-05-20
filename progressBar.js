@@ -1,24 +1,26 @@
 class ProgressBar {
-	#max
-	#domElement
-	#progress
-	#circles
-	
-	constructor(max, domElement) {
-		this.#max = max;
-		this.#domElement = domElement;
-		this.#progress = domElement.querySelector('.progress h2');
-		this.#circles = domElement.querySelectorAll('.circle');
-	}
+  #max;
+  #domElement;
+  #progress;
+  #circles;
 
-	updateProgressBar(currentIndex) {
-		this.#progress.textContent = `${currentIndex}/${this.#max}`;
+  constructor(max, domElement) {
+    this.#max = max;
+    this.#domElement = domElement;
+    this.#progress = domElement.querySelector('.mepros-progress h2');
+    this.#circles = domElement.querySelectorAll('.mepros-circle');
+  }
 
-		Array.from(this.#circles).forEach(circle => {
-			circle.style.backgroundColor = 'transparent';
-		});
+  updateProgressBar(currentIndex) {
+    this.#progress.textContent = `${currentIndex}/${this.#max}`;
 
-		const currentCircle = this.#domElement.querySelector(`.circle-${currentIndex}`);
-		currentCircle.style.backgroundColor = '#ddd';
-	}
+    Array.from(this.#circles).forEach(circle => {
+      circle.style.backgroundColor = 'transparent';
+    });
+
+    const currentCircle = this.#domElement.querySelector(
+      `.mepros-circle-${currentIndex}`
+    );
+    currentCircle.style.backgroundColor = '#ddd';
+  }
 }
