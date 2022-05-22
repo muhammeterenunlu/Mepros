@@ -11,13 +11,16 @@
     href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
-  <script defer src="hamburgerMenu.js"></script>
-  <script defer src="SectionManager.js"></script>
-  <script defer src="progressBar.js"></script>
-  <script defer src="timer.js"></script>
-  <script defer src="cyclingTimer.js"></script>
-  <script defer src="sectionChanger.js"></script>
-  <script defer src="inputs.js"></script>
+  <link rel="stylesheet" href="aboutUs.css" />
+  <script defer src="js/hamburgerMenu.js"></script>
+  <script defer src="js/SectionManager.js"></script>
+  <script defer src="js/progressBar.js"></script>
+  <script defer src="js/timer.js"></script>
+  <script defer src="js/cyclingTimer.js"></script>
+  <script defer src="js/sectionChanger.js"></script>
+  <script defer src="js/inputs.js"></script>
+  <script defer src="js/videoManager.js"></script>
+  <script defer src="js/tilt.js"></script>
 </head>
 
 <body class="mepros-display">
@@ -27,12 +30,14 @@
       <div class="mepros-line mepros-line-2"></div>
       <div class="mepros-line mepros-line-3"></div>
     </div>
+
     <a href="#">
       <img src="images/mepros-whatsapp.png" alt="whatsapp-logo" class="mepros-whatsapp-logo">
     </a>
     <a href="#" class="mepros-scroll-btn">
       <i class="fas fa-arrow-up"></i>
     </a>
+
     <div class="mepros-sidebar">
       <ul class="mepros-menu">
         <li class="mepros-menu-item">
@@ -45,7 +50,7 @@
           <a href="#mepros-products-section" class="mepros-menu-link" data-content="Products">Products</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#" class="mepros-menu-link" data-content="About Us">About Us</a>
+          <a href="#mepros-about-us-section" class="mepros-menu-link" data-content="About Us">About Us</a>
         </li>
         <li class="mepros-menu-item">
           <a href="#" class="mepros-menu-link" data-content="Contact Us">Contact Us</a>
@@ -77,6 +82,8 @@
         <div class="mepros-circle mepros-circle-5"></div>
       </div>
     </div>
+
+    <!-- Section 1-->
     <section class="mepros-wrapper">
       <section class="mepros-wrapper-section mepros-section-1">
         <div class="mepros-section-wrapper mepros-section-1-wrapper">
@@ -134,13 +141,13 @@
         </div>
       </section>
     </section>
+    <!-- Section 2-->
     <section id="mepros-products-section">
       <div class="mepros-products">
         <div class="mepros-products-section-header">
           <h1 class="mepros-products-section-heading">Products</h1>
           <div class="mepros-products-underline"></div>
         </div>
-
         <div class="mepros-cards-wrapper">
           <div class="mepros-card">
             <div class="mepros-card-img-wrapper">
@@ -167,6 +174,66 @@
             <div class="mepros-c-info">
               <h2>Shading Systems</h2>
               <button>See More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section 3-->
+    <section id="mepros-about-us-section">
+      <div class="mepros-about-us">
+        <div class="mepros-about-us-header">
+          <h1 class="mepros-about-us-heading">About Us</h1>
+          <div class="mepros-about-us-underline"></div>
+        </div>
+        <div class="mepros-about-us-video-wrapper">
+          <video src="videos/about-us-video.mp4" class="mepros-about-us-video"></video>
+          <div class="mepros-about-us-controls">
+            <div class="mepros-about-us-video-bar-wrapper">
+              <div class="mepros-about-us-video-bar"></div>
+            </div>
+            <div class="mepros-about-us-buttons">
+              <button id="mepros-about-us-play-pause">
+                <i class="far fa-play-circle"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="mepros-about-us-stories-wrapper">
+          <div class="mepros-about-us-story-bg">
+            <div class="mepros-about-us-story">
+              <img src="images/index-furniture.jpg" alt="Customer image" class="mepros-about-us-story-image" />
+              <div class="mepros-about-us-story-text">
+                <h1 class="mepros-about-us-story-heading">
+                  Who are we?
+                </h1>
+                <p class="mepros-about-us-story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto quas, repudiandae veritatis nam mollitia cumque
+                  distinctio, quia aperiam aliquid at consequuntur libero
+                  quisquam facilis laborum inventore repellat perspiciatis vel
+                  fugiat molestias recusandae eum necessitatibus quo possimus
+                  aspernatur? Nobis, architecto eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mepros-about-us-story-bg">
+            <div class="mepros-about-us-story">
+              <img src="images/index-lighting.jpg" alt="Customer image" class="mepros-about-us-story-image" />
+              <div class="mepros-about-us-story-text">
+                <h1 class="mepros-about-us-story-heading">
+                  Our mission and vision
+                </h1>
+                <p class="mepros-about-us-story-paragraph">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto quas, repudiandae veritatis nam mollitia cumque
+                  distinctio, quia aperiam aliquid at consequuntur libero
+                  quisquam facilis laborum inventore repellat perspiciatis vel
+                  fugiat molestias recusandae eum necessitatibus quo possimus
+                  aspernatur? Nobis, architecto eaque.
+                </p>
+              </div>
             </div>
           </div>
         </div>

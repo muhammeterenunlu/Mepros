@@ -3,7 +3,6 @@
   padding: 0;
   outline: none;
   box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
   list-style-type: none;
   font-family: 'Cormorant Garamond', serif;
@@ -43,17 +42,42 @@ a:hover {
 }
 
 .mepros-whatsapp-logo {
+  position: fixed;
+  right: 8rem;
+  bottom: 1rem;
   width: 5rem;
   height: 5rem;
-  position: fixed;
-  bottom: 1rem;
-  right: 2rem;
   z-index: 200;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   cursor: pointer;
   transition: right 0.3s;
+}
+
+.mepros-whatsapp-logo:hover {
+  opacity: 0.8;
+}
+
+.mepros-scroll-btn {
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  bottom: 1rem;
+  right: 2rem;
+  background-color: #f26522;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  z-index: 200;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
+
+.mepros-scroll-btn:hover {
+  background-color: rgb(230, 138, 17);
 }
 
 .mepros-menu-mepros-logo {
@@ -195,26 +219,6 @@ a:hover {
 
 .mepros-social-media i:hover {
   background-color: #f26522;
-}
-
-.mepros-scroll-btn {
-  position: fixed;
-  right: 2.3rem;
-  bottom: 7rem;
-  width: 4.5rem;
-  height: 4.5rem;
-  background-color: #f26522;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2rem;
-  color: #fff;
-  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
-}
-
-.mepros-scroll-btn:hover {
-  background-color: rgb(230, 138, 17);
 }
 
 .mepros-page-btn {
@@ -451,8 +455,9 @@ a:hover {
   height: 45rem;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 0.5rem;
-  margin: 1rem;
+  margin: 1.5rem;
   position: relative;
+  box-shadow: 0.5rem 0.5rem 3rem #f29b22;
 }
 
 .mepros-card-img-wrapper {
@@ -530,6 +535,10 @@ a:hover {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
+.mepros-c-info button:hover {
+  background-color: rgb(230, 138, 17);
+}
+
 .mepros-products-section-header {
   display: flex;
   flex-direction: column;
@@ -600,4 +609,26 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+
+  .mepros-about-us {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  /*
+  .section-2-paragraph1 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80rem;
+  }
+
+  .section-2-paragraph2 {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80rem;
+  }
+  */
 }
