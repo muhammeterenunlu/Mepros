@@ -105,8 +105,8 @@ a:hover {
 }
 
 .mepros-line {
-  width: 100%;
-  height: 0.2rem;
+  width: 120%;
+  height: 0.25rem;
   background-color: #fff;
   box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0);
 }
@@ -442,6 +442,8 @@ a:hover {
   justify-content: center;
   align-items: center;
   padding: 0 5rem 20rem 5rem;
+  background: url(images/mepros-products-wall-bg.jpg) center no-repeat;
+  background-size: cover;
 }
 
 .mepros-cards-wrapper {
@@ -550,7 +552,7 @@ a:hover {
   font-family: 'Baloo Da 2', serif;
   font-size: 5rem;
   font-weight: 400;
-  color: #4b4b4b;
+  color: #000000;
 }
 
 .mepros-products-underline {
@@ -570,20 +572,40 @@ a:hover {
   letter-spacing: 0.2rem;
 }
 
-/*
+.mepros-section-hr-line {
+  border: 0;
+  height: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.mepros-footer-map-wrapper {
+  padding: 5rem;
+  background: url(images/mepros-footer-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
 .mepros-footer-map {
-  overflow: hidden;
-  padding-bottom: 20%;
+  padding-bottom: 30%;
+  padding-left: 10%;
   position: relative;
-  height: 0;
 }
 
 .mepros-footer-map iframe {
-  height: 100%;
-  width: 30%;
+  height: 80%;
+  width: 80%;
   position: absolute;
 }
-*/
+
+.mepros-footer-copyright {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
 
 @media (max-width: 1400px) {
   .mepros-menu-link {
@@ -617,18 +639,4 @@ a:hover {
   .mepros-about-us-stories-wrapper {
     flex-direction: column;
   }
-
-  /*
-  .section-2-paragraph1 {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80rem;
-  }
-
-  .section-2-paragraph2 {
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80rem;
-  }
-  */
 }

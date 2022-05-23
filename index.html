@@ -12,6 +12,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="aboutUs.css" />
+  <link rel="stylesheet" href="contactUs.css" />
   <script defer src="js/hamburgerMenu.js"></script>
   <script defer src="js/SectionManager.js"></script>
   <script defer src="js/progressBar.js"></script>
@@ -53,7 +54,7 @@
           <a href="#mepros-about-us-section" class="mepros-menu-link" data-content="About Us">About Us</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#" class="mepros-menu-link" data-content="Contact Us">Contact Us</a>
+          <a href="#mepros-contact-us-section" class="mepros-menu-link" data-content="Contact Us">Contact Us</a>
         </li>
       </ul>
       <div class="mepros-social-media">
@@ -136,11 +137,12 @@
             </a>
           </div>
           <p class="mepros-copyright">
-            Copyright &copy; DTeam. All Rights Reserved
+            Copyright &copy; DTeam. All Rights Reserved.
           </p>
         </div>
       </section>
     </section>
+    <hr class="mepros-section-hr-line">
     <!-- Section 2-->
     <section id="mepros-products-section">
       <div class="mepros-products">
@@ -179,6 +181,7 @@
         </div>
       </div>
     </section>
+    <hr class="mepros-section-hr-line">
     <!-- Section 3-->
     <section id="mepros-about-us-section">
       <div class="mepros-about-us">
@@ -239,14 +242,61 @@
         </div>
       </div>
     </section>
+    <hr class="mepros-section-hr-line">
+    <!-- Section 4 -->
+    <section id="mepros-contact-us-section">
+      <div class="mepros-contact-us">
+        <div class="mepros-contact-us-header">
+          <h1 class="mepros-contact-us-heading">Contact Us</h1>
+          <div class="mepros-contact-us-heading-line"></div>
+        </div>
+        <div class="contact-wrapper">
+          <div class="mepros-email-wrapper">
+            <h3>Send Email</h3>
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name">
+              <input type="email" placeholder="Your Email">
+              <textarea placeholder="Your Message"></textarea>
+              <input type="submit" value="Send Message">
+            </form>
+          </div>
+          <div class="contact-details">
+            <div class="phone">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Phone</h3>
+              <p>+90 532 532 32 32</p>
+              <p>+90 534 534 34 34</p>
+            </div>
+            <div class="address">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Address</h3>
+              <p>Wall street #123</p>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope"></i>
+              <h3>Email</h3>
+              <p>support@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 4 -->
+    <hr class="mepros-section-hr-line">
   </div>
 </body>
-<!--
-<div class="mepros-footer-map">
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48192.21068372217!2d29.028033407070197!3d40.98119249847857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1652717214918!5m2!1str!2str"
-    style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
--->
+
+<footer>
+  <div class="mepros-footer-map-wrapper">
+    <div class="mepros-footer-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48192.21068372217!2d29.028033407070197!3d40.98119249847857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac790b17ba89d%3A0xd2d24ea0437a7ee2!2zS2FkxLFrw7Z5L8Swc3RhbmJ1bA!5e0!3m2!1str!2str!4v1652717214918!5m2!1str!2str"
+        style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h1 class="mepros-footer-copyright">
+      Copyright &copy; DTeam. All Rights Reserved.
+    </h1>
+  </div>
+</footer>
 
 </html>

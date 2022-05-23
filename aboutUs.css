@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #4c4b4b;
+  background: url(images/mepros-about-us-wall-bg.jpg) center no-repeat;
+  background-size: cover;
 }
 .mepros-about-us-header {
   display: flex;
@@ -16,7 +17,7 @@
   font-size: 5rem;
   font-family: 'Baloo Da 2', sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: #000000;
   margin-right: 3rem;
   margin-left: 3rem;
 }
@@ -45,7 +46,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: opacity 0.3s;
 }
 
 .mepros-about-us-controls {
@@ -70,7 +70,7 @@
   height: 100%;
   width: 0;
   background-color: #f26522;
-  transition: width 0.5s linear;
+  transition: width 1s linear;
 }
 
 .mepros-about-us-buttons {
@@ -112,7 +112,7 @@
 }
 
 .mepros-about-us-story-bg:hover {
-  background-color: #928f8f;
+  background-color: #9b9b9b;
 }
 
 .mepros-about-us-story {
