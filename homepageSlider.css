@@ -1,0 +1,232 @@
+.mepros-left-btn {
+  left: 4rem;
+}
+
+.mepros-left-btn img {
+  transform: rotate(-90deg);
+}
+
+.mepros-right-btn {
+  right: 4rem;
+}
+
+.mepros-right-btn img {
+  transform: rotate(90deg);
+}
+
+.mepros-page-btn img {
+  width: 5rem;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.mepros-page-btn img:hover {
+  opacity: 1;
+}
+
+.mepros-progress-wrapper {
+  position: absolute;
+  z-index: 100;
+  bottom: 2rem;
+  left: 3rem;
+}
+
+.mepros-progress {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.mepros-progress h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: #fff;
+}
+
+.mepros-circle-wrapper {
+  display: flex;
+}
+
+.mepros-circle {
+  width: 1rem;
+  height: 1rem;
+  border: 0.1rem solid #fff;
+  border-radius: 50%;
+  margin: 0 0.3rem;
+  transition: background-color 0.3s;
+}
+
+.mepros-circle-1 {
+  background-color: #ddd;
+}
+
+.mepros-circle-2 {
+  background-color: #ddd;
+}
+
+.mepros-circle-3 {
+  background-color: #ddd;
+}
+
+.mepros-circle-4 {
+  background-color: #ddd;
+}
+
+.mepros-circle-5 {
+  background-color: #ddd;
+}
+
+.mepros-wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.mepros-wrapper-section {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  transition: left 1.5s;
+}
+
+.mepros-section-1 {
+  z-index: 50;
+}
+
+.mepros-section-wrapper {
+  width: inherit;
+  height: inherit;
+  transform: scale(1.5);
+  transition: all 2s;
+}
+
+.mepros-section-1-wrapper {
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/section-1-bg.jpeg) center no-repeat;
+  background-size: cover;
+  transform: scale(1);
+}
+
+.mepros-section-1-heading-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mepros-section-1-heading {
+  font-size: 8rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #f26522;
+  text-align: center;
+  user-select: none;
+  margin-bottom: 12rem;
+}
+
+.mepros-section-2 {
+  z-index: 40;
+}
+
+.mepros-section-2-wrapper {
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/section-2-bg.jpeg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mepros-section-3 {
+  z-index: 30;
+  background-color: #000;
+}
+
+.mepros-section-3-wrapper {
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/section-3-bg.jpeg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mepros-section-3-heading {
+  font-size: 12rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotate(-10deg);
+  text-align: center;
+  text-shadow: 0 0.5rem 1.5rem #000;
+  user-select: none;
+  margin-bottom: 20rem;
+}
+
+.mepros-section-4 {
+  z-index: 20;
+}
+
+.mepros-section-4-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mepros-section-4-bg {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/section-4-bg.jpeg) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+
+.mepros-section-4-heading {
+  font-size: 10rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15rem;
+  margin-bottom: 7rem;
+  color: #fff;
+  user-select: none;
+}
+
+.mepros-new-sofas-img {
+  width: 70rem;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
+  opacity: 0.7;
+}
+
+.mepros-section-5 {
+  z-index: 10;
+}
+
+.mepros-section-5-wrapper {
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/section-5-bg.jpeg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mepros-topleft-logo {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.mepros-logo {
+  width: 20rem;
+}

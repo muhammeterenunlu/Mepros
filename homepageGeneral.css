@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+html {
+  font-size: 45%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+@media (max-width: 1400px) {
+  .mepros-menu-link {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+
+  .mepros-sidebar {
+    width: 40%;
+    right: -100%;
+  }
+
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+
+  .mepros-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+}

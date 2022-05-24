@@ -10,9 +10,13 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="aboutUs.css" />
-  <link rel="stylesheet" href="contactUs.css" />
+  <link rel="stylesheet" href="homepageGeneral.css" />
+  <link rel="stylesheet" href="homepageOthers.css" />
+  <link rel="stylesheet" href="homepageSlider.css" />
+  <link rel="stylesheet" href="homepageProducts.css" />
+  <link rel="stylesheet" href="homepageAboutUs.css" />
+  <link rel="stylesheet" href="homepageContactUs.css" />
+  <link rel="stylesheet" href="homepageFooter.css" />
   <script defer src="js/hamburgerMenu.js"></script>
   <script defer src="js/SectionManager.js"></script>
   <script defer src="js/progressBar.js"></script>
@@ -42,7 +46,7 @@
     <div class="mepros-sidebar">
       <ul class="mepros-menu">
         <li class="mepros-menu-item">
-          <a href="index.html"><img src="images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
+          <a href="homepage.html"><img src="images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
         </li>
         <li class="mepros-menu-item">
           <a href="#" class="mepros-menu-link" data-content="Home">Home</a>
@@ -64,32 +68,33 @@
         <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-    <button class="mepros-page-btn mepros-left-btn">
-      <img src="images/arrow.png" />
-    </button>
-    <button class="mepros-page-btn mepros-right-btn">
-      <img src="images/arrow.png" />
-    </button>
-
-    <div class="mepros-progress-wrapper">
-      <div class="mepros-progress">
-        <h2>1/5</h2>
-      </div>
-      <div class="mepros-circle-wrapper">
-        <div class="mepros-circle mepros-circle-1"></div>
-        <div class="mepros-circle mepros-circle-2"></div>
-        <div class="mepros-circle mepros-circle-3"></div>
-        <div class="mepros-circle mepros-circle-4"></div>
-        <div class="mepros-circle mepros-circle-5"></div>
-      </div>
-    </div>
 
     <!-- Section 1-->
     <section class="mepros-wrapper">
+      <button class="mepros-page-btn mepros-left-btn">
+        <img src="images/arrow.png" />
+      </button>
+      <button class="mepros-page-btn mepros-right-btn">
+        <img src="images/arrow.png" />
+      </button>
+
+      <div class="mepros-progress-wrapper">
+        <div class="mepros-progress">
+          <h2>1/5</h2>
+        </div>
+        <div class="mepros-circle-wrapper">
+          <div class="mepros-circle mepros-circle-1"></div>
+          <div class="mepros-circle mepros-circle-2"></div>
+          <div class="mepros-circle mepros-circle-3"></div>
+          <div class="mepros-circle mepros-circle-4"></div>
+          <div class="mepros-circle mepros-circle-5"></div>
+        </div>
+      </div>
+
       <section class="mepros-wrapper-section mepros-section-1">
         <div class="mepros-section-wrapper mepros-section-1-wrapper">
           <div class="mepros-topleft-logo">
-            <a href="index.html">
+            <a href="homepage.html">
               <img src="images/logo.png" alt="Mepros-logo" class="mepros-logo">
             </a>
           </div>
@@ -101,7 +106,7 @@
       <section class="mepros-wrapper-section mepros-section-2">
         <div class="mepros-section-wrapper mepros-section-2-wrapper">
           <div class="mepros-topleft-logo">
-            <a href="index.html">
+            <a href="homepage.html">
               <img src="images/logo.png" alt="Mepros-logo" class="mepros-logo">
             </a>
           </div>
@@ -110,7 +115,7 @@
       <section class="mepros-wrapper-section mepros-section-3">
         <div class="mepros-section-wrapper mepros-section-3-wrapper">
           <div class="mepros-topleft-logo">
-            <a href="index.html">
+            <a href="homepage.html">
               <img src="images/logo.png" alt="Mepros-logo" class="mepros-logo">
             </a>
           </div>
@@ -120,7 +125,7 @@
       <section class="mepros-wrapper-section mepros-section-4">
         <div class="mepros-section-wrapper mepros-section-4-wrapper">
           <div class="mepros-topleft-logo">
-            <a href="index.html">
+            <a href="homepage.html">
               <img src="images/logo.png" alt="Mepros-logo" class="mepros-logo">
             </a>
           </div>
@@ -132,13 +137,10 @@
       <section class="mepros-wrapper-section mepros-section-5">
         <div class="mepros-section-wrapper mepros-section-5-wrapper">
           <div class="mepros-topleft-logo">
-            <a href="index.html">
+            <a href="homepage.html">
               <img src="images/logo.png" alt="Mepros-logo" class="mepros-logo">
             </a>
           </div>
-          <p class="mepros-copyright">
-            Copyright &copy; DTeam. All Rights Reserved.
-          </p>
         </div>
       </section>
     </section>
@@ -153,7 +155,7 @@
         <div class="mepros-cards-wrapper">
           <div class="mepros-card">
             <div class="mepros-card-img-wrapper">
-              <img src="images/index-furniture.jpg" alt="furniture">
+              <img src="images/homepage-furniture.jpg" alt="furniture">
             </div>
             <div class="mepros-c-info">
               <h2>Furniture</h2>
@@ -162,7 +164,7 @@
           </div>
           <div class="mepros-card">
             <div class="mepros-card-img-wrapper">
-              <img src="images/index-lighting.jpg" alt="lighting">
+              <img src="images/homepage-lighting.jpg" alt="lighting">
             </div>
             <div class="mepros-c-info">
               <h2>Lighting Systems</h2>
@@ -171,7 +173,7 @@
           </div>
           <div class="mepros-card">
             <div class="mepros-card-img-wrapper">
-              <img src="images/index-shading.jpg" alt="shading">
+              <img src="images/homepage-shading.jpg" alt="shading">
             </div>
             <div class="mepros-c-info">
               <h2>Shading Systems</h2>
@@ -205,7 +207,7 @@
         <div class="mepros-about-us-stories-wrapper">
           <div class="mepros-about-us-story-bg">
             <div class="mepros-about-us-story">
-              <img src="images/index-furniture.jpg" alt="Customer image" class="mepros-about-us-story-image" />
+              <img src="images/homepage-furniture.jpg" alt="Customer image" class="mepros-about-us-story-image" />
               <div class="mepros-about-us-story-text">
                 <h1 class="mepros-about-us-story-heading">
                   Who are we?
@@ -223,7 +225,7 @@
           </div>
           <div class="mepros-about-us-story-bg">
             <div class="mepros-about-us-story">
-              <img src="images/index-lighting.jpg" alt="Customer image" class="mepros-about-us-story-image" />
+              <img src="images/homepage-lighting.jpg" alt="Customer image" class="mepros-about-us-story-image" />
               <div class="mepros-about-us-story-text">
                 <h1 class="mepros-about-us-story-heading">
                   Our mission and vision
@@ -250,29 +252,49 @@
           <h1 class="mepros-contact-us-heading">Contact Us</h1>
           <div class="mepros-contact-us-heading-line"></div>
         </div>
-        <div class="contact-wrapper">
-          <div class="mepros-email-wrapper">
+        <div class="mepros-contact-us-wrapper">
+          <div class="mepros-contact-us-email-wrapper">
             <h3>Send Email</h3>
-            <form class="contact-form">
-              <input type="text" placeholder="Your Name">
-              <input type="email" placeholder="Your Email">
-              <textarea placeholder="Your Message"></textarea>
-              <input type="submit" value="Send Message">
+            <form action="mailto:muhammeterenunlu2@gmail.com" method="post" class="mepros-contact-us-form"
+              enctype="text/plain">
+              <table>
+                <tr>
+                  <td>
+                    <input type="text" name="My Name:" id="name" placeholder="Your Name" autocomplete="off">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" name="My Email:" id="email" placeholder="Your Email" autocomplete="off">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="text" id="subject" placeholder="Subject" autocomplete="off">
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <textarea id="message" name="My Message:" placeholder="Your Message" cols="30" rows="10"></textarea>
+                  </td>
+                </tr>
+              </table>
+              <input type="submit" id="btn" value="Send Message">
             </form>
           </div>
-          <div class="contact-details">
-            <div class="phone">
+          <div class="mepros-contact-us-details">
+            <div class="mepros-contact-us-phone">
               <i class="fas fa-mobile-alt"></i>
               <h3>Phone</h3>
               <p>+90 532 532 32 32</p>
               <p>+90 534 534 34 34</p>
             </div>
-            <div class="address">
+            <div class="mepros-contact-us-address">
               <i class="fas fa-map-marker-alt"></i>
               <h3>Address</h3>
               <p>Wall street #123</p>
             </div>
-            <div class="email">
+            <div class="mepros-contact-us-email">
               <i class="far fa-envelope"></i>
               <h3>Email</h3>
               <p>support@gmail.com</p>
@@ -282,7 +304,6 @@
       </div>
     </section>
     <!-- End of Section 4 -->
-    <hr class="mepros-section-hr-line">
   </div>
 </body>
 
