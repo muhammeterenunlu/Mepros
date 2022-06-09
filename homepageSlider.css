@@ -76,6 +76,10 @@
   background-color: #ddd;
 }
 
+.mepros-circle-6 {
+  background-color: #ddd;
+}
+
 .mepros-wrapper {
   width: 100vw;
   height: 100vh;
@@ -92,10 +96,6 @@
   transition: left 1.5s;
 }
 
-.mepros-section-1 {
-  z-index: 50;
-}
-
 .mepros-section-wrapper {
   width: inherit;
   height: inherit;
@@ -103,9 +103,13 @@
   transition: all 2s;
 }
 
+.mepros-section-1 {
+  z-index: 50;
+}
+
 .mepros-section-1-wrapper {
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/section-1-bg.jpeg) center no-repeat;
+    url(images/kali-corner-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
   transform: scale(1);
 }
@@ -134,38 +138,68 @@
 }
 
 .mepros-section-2-wrapper {
-  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/section-2-bg.jpeg) center no-repeat;
-  background-size: cover;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+}
+
+.mepros-section-2-bg {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/him-corner-homepage-slider-1.jpeg) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+
+.mepros-section-2-heading {
+  font-size: 10rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15rem;
+  margin-bottom: 7rem;
+  color: #fff;
+  user-select: none;
+}
+
+.mepros-new-sofas-img {
+  width: 70rem;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
+  opacity: 0.7;
 }
 
 .mepros-section-3 {
   z-index: 30;
-  background-color: #000;
 }
 
 .mepros-section-3-wrapper {
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/section-3-bg.jpeg) center no-repeat;
+    url(images/lobo-two-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transform: scale(1);
+}
+
+.mepros-section-3-heading-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .mepros-section-3-heading {
-  font-size: 12rem;
+  font-size: 8rem;
   font-weight: 500;
   color: #fff;
-  text-transform: uppercase;
-  transform: rotate(-10deg);
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #f26522;
   text-align: center;
-  text-shadow: 0 0.5rem 1.5rem #000;
   user-select: none;
-  margin-bottom: 20rem;
+  margin-bottom: 12rem;
 }
 
 .mepros-section-4 {
@@ -184,7 +218,7 @@
   height: 110%;
   position: absolute;
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/section-4-bg.jpeg) center no-repeat;
+    url(images/kets-three-homepage-slider-1.jpeg) center no-repeat;
   background-size: cover;
   z-index: -1;
   filter: blur(0.5rem);
@@ -213,11 +247,67 @@
 
 .mepros-section-5-wrapper {
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/section-5-bg.jpeg) center no-repeat;
+    url(images/maria-two-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
+  transform: scale(1);
+}
+
+.mepros-section-5-heading-wrapper {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mepros-section-5-heading {
+  font-size: 8rem;
+  font-weight: 500;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.2rem solid #f26522;
+  text-align: center;
+  user-select: none;
+  margin-bottom: 12rem;
+}
+
+.mepros-section-6 {
+  z-index: 0;
+}
+
+.mepros-section-6-wrapper {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.mepros-section-6-bg {
+  width: 110%;
+  height: 110%;
+  position: absolute;
+  background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+    url(images/loop-three-homepage-slider-1.jpeg) center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  filter: blur(0.5rem);
+}
+
+.mepros-section-6-heading {
+  font-size: 10rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 15rem;
+  margin-bottom: 7rem;
+  color: #fff;
+  user-select: none;
+}
+
+.mepros-new-sofas-img {
+  width: 70rem;
+  border: 0.1rem solid #fff;
+  padding: 1rem;
+  opacity: 0.7;
 }
 
 .mepros-topleft-logo {

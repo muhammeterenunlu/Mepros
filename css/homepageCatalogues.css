@@ -1,0 +1,117 @@
+.mepros-catalogues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5rem 10rem 5rem;
+  background: url(../images/mepros-homepage-bg-2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.mepros-catalogues-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.mepros-catalogues-section-heading h2 {
+  font-size: 5rem;
+}
+
+.mepros-catalogues-section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 0.5rem 0;
+}
+
+.mepros-catalogues-section-heading {
+  font-family: 'Baloo Da 2', serif;
+  font-size: 5rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.mepros-catalogues-underline {
+  width: 20rem;
+  height: 0.3rem;
+  padding: 0;
+  background-color: #f26522;
+}
+
+div.first {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  margin: auto;
+  margin-top: 5rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.first::before {
+  content: '';
+  width: 10%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-left: solid 1rem #f26522;
+  border-top: solid 1rem #f26522;
+  border-bottom: solid 1rem #f26522;
+  transition: all 0.3s ease;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+div.first::after {
+  content: '';
+  width: 10%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  border-right: solid 1rem #f26522;
+  border-top: solid 1rem #f26522;
+  border-bottom: solid 1rem #f26522;
+  transition: all 0.3s ease;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+div.first:hover {
+  cursor: crosshair;
+}
+div.first:hover::before,
+div.first:hover::after {
+  width: 50%;
+}
+div.first:hover .background {
+  height: 100%;
+  transition-delay: 0.3s;
+  top: 0;
+}
+div.first:hover h1 {
+  color: rgb(0, 0, 0);
+  transition-delay: 0.3s;
+}
+div.first div.background {
+  width: 100%;
+  height: 0;
+  position: absolute;
+  background-color: #f29b22;
+  opacity: 0.5;
+  bottom: 0;
+  left: 0;
+  transition: all ease 0.3s;
+  border-radius: 0.5rem;
+}
+div.first h1 {
+  width: fit-content;
+  padding: 1rem;
+  font-size: 2.5rem;
+  z-index: 5;
+  text-transform: uppercase;
+  color: #f26522;
+  transition: all ease 0.5s;
+  font-family: 'Baloo Da 2', serif;
+}

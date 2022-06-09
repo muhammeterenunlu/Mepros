@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+html {
+  font-size: 45%;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Media Query for Very Small Devices*/
+@media (max-width: 284px) {
+  html {
+    font-size: 25%;
+  }
+
+  .mepros-sidebar {
+    width: 40%;
+    right: -100%;
+  }
+
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+
+  .mepros-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 50rem;
+    height: 25rem;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-story-bg {
+    transform: skewX(8deg);
+    padding: 0.5rem;
+  }
+
+  .mepros-about-us-story {
+    transform: skewX(-8deg);
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 2rem;
+  }
+
+  .mepros-contact-us-details {
+    flex-direction: column;
+  }
+
+  .mepros-contact-us-details div {
+    width: 28rem;
+  }
+
+  .mepros-catalogues-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* Media Query for Mobile Devices */
+@media (min-width: 285px) and (max-width: 480px) {
+  html {
+    font-size: 25%;
+  }
+
+  .mepros-sidebar {
+    width: 40%;
+    right: -100%;
+  }
+
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+
+  .mepros-cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 70rem;
+    height: 35rem;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-story-bg {
+    transform: skewX(12deg);
+    padding: 2rem;
+  }
+
+  .mepros-about-us-story {
+    transform: skewX(-12deg);
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .mepros-contact-us-details {
+    flex-direction: column;
+  }
+
+  .mepros-contact-us-details h3 {
+    font-size: 3.5rem;
+  }
+
+  .mepros-contact-us-details p {
+    font-size: 3.5rem;
+  }
+
+  .mepros-catalogues-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  html {
+    font-size: 25%;
+  }
+
+  .mepros-sidebar {
+    width: 40%;
+    right: -100%;
+  }
+
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 90rem;
+    height: 45rem;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-story-bg {
+    transform: skewX(12deg);
+    padding: 2rem;
+  }
+
+  .mepros-about-us-story {
+    transform: skewX(-12deg);
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 5rem;
+  }
+
+  .mepros-contact-us-details div {
+    width: 30rem;
+  }
+
+  .mepros-catalogues-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 25%;
+  }
+
+  .mepros-sidebar {
+    width: 40%;
+    right: -100%;
+  }
+
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 150rem;
+    height: 75rem;
+  }
+
+  .mepros-about-us-story-bg {
+    transform: skewX(12deg);
+    padding: 2rem;
+  }
+
+  .mepros-about-us-story {
+    transform: skewX(-12deg);
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 5rem;
+  }
+
+  .mepros-contact-us-details div {
+    width: 50rem;
+  }
+
+  .mepros-contact-us-details h3 {
+    font-size: 6rem;
+  }
+
+  .mepros-contact-us-details p {
+    font-size: 6rem;
+  }
+
+  .mepros-products-section-heading {
+    font-size: 8rem;
+  }
+
+  .mepros-about-us-heading {
+    font-size: 8rem;
+  }
+
+  .mepros-contact-us-heading {
+    font-size: 8rem;
+  }
+
+  .mepros-catalogues-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html {
+    font-size: 35%;
+  }
+
+  .mepros-about-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mepros-about-us-stories-wrapper {
+    flex-direction: column;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 160rem;
+    height: 80rem;
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 5rem;
+  }
+
+  .mepros-contact-us-details div {
+    width: 50rem;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  html {
+    font-size: 40%;
+  }
+
+  .mepros-about-us-video-wrapper {
+    width: 170rem;
+    height: 85rem;
+  }
+
+  .mepros-about-us-story-paragraph {
+    font-size: 2.5rem;
+  }
+
+  .mepros-contact-us-details div {
+    width: 55rem;
+  }
+}

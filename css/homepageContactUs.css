@@ -1,0 +1,114 @@
+/* Section 4 */
+.mepros-contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/mepros-homepage-bg-2.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.mepros-contact-us-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 0.5rem 0;
+}
+
+.mepros-contact-us-heading {
+  font-size: 5rem;
+  font-family: 'Baloo Da 2', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.mepros-contact-us-heading-line {
+  width: 20rem;
+  height: 0.3rem;
+  padding: 0;
+  background-color: #f26522;
+}
+
+.mepros-contact-us-wrapper {
+  width: 80%;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mepros-contact-us-details {
+  display: flex;
+  position: relative;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.mepros-contact-us-details div {
+  width: 40rem;
+  text-align: center;
+  margin: 4rem;
+}
+
+.mepros-contact-us-details i {
+  font-size: 5rem;
+  color: #ff4800;
+}
+
+.mepros-contact-us-details h3 {
+  font-family: 'Baloo Da 2', serif;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
+.mepros-contact-us-details p {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.mepros-contact-us-wrapper h3 {
+  font-size: 3rem;
+  color: #242424;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.mepros-contact-us-phone {
+  border-radius: 15px 50px;
+  padding: 1rem;
+  background-color: #f29b2288;
+  box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);
+}
+
+.mepros-contact-us-phone:hover {
+  background-color: #f29b22;
+}
+
+.mepros-contact-us-address {
+  border-radius: 15px 50px;
+  padding: 1rem;
+  background-color: #f29b2288;
+  box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);
+}
+
+.mepros-contact-us-address:hover {
+  background-color: #f29b22;
+}
+
+.mepros-contact-us-email {
+  border-radius: 15px 50px;
+  padding: 1rem;
+  background-color: #f29b2288;
+  box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);
+}
+
+.mepros-contact-us-email:hover {
+  background-color: #f29b22;
+}
+
+/* End of Section 4 */

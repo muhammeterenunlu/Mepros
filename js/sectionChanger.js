@@ -1,9 +1,9 @@
-const sectionManager = new SectionManager(5);
+const sectionManager = new SectionManager(6);
 const progressBar = new ProgressBar(
-  5,
+  6,
   document.querySelector('.mepros-progress-wrapper')
 );
-const cyclingTimer = new CyclingTimer(5, 5000);
+const cyclingTimer = new CyclingTimer(6, 5000);
 cyclingTimer.setOnTickFunction(onTick);
 
 function onTick() {

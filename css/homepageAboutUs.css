@@ -1,0 +1,150 @@
+.mepros-about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/mepros-homepage-bg-1.jpg) center no-repeat;
+  background-size: cover;
+}
+.mepros-about-us-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0 0.5rem 0;
+}
+
+.mepros-about-us-heading {
+  font-size: 5rem;
+  font-family: 'Baloo Da 2', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.mepros-about-us-underline {
+  width: 20rem;
+  height: 0.3rem;
+  padding: 0;
+  background-color: #f26522;
+}
+
+.mepros-about-us-video-wrapper {
+  width: 120rem;
+  height: 60rem;
+  position: relative;
+  top: 5rem;
+  box-shadow: 3rem 3rem 10rem #f29b22;
+  overflow: hidden;
+}
+
+.mepros-about-us-video-wrapper:hover .mepros-about-us-controls {
+  transform: translateY(0);
+}
+
+.mepros-about-us-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mepros-about-us-controls {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translateY(calc(100% - 0.4rem));
+  transition: transform 0.4s;
+}
+
+.mepros-about-us-video-bar-wrapper {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mepros-about-us-video-bar {
+  height: 100%;
+  width: 0;
+  background-color: #f26522;
+  transition: width 1s linear;
+}
+
+.mepros-about-us-buttons {
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.mepros-about-us-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mepros-about-us-buttons i {
+  width: 3rem;
+  height: 3rem;
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.mepros-about-us-buttons i:hover {
+  color: #f26522;
+}
+
+.mepros-about-us-stories-wrapper {
+  margin-top: 10rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  padding: 5rem;
+}
+
+.mepros-about-us-story-bg {
+  background-color: rgba(238, 238, 238, 0.85);
+  padding: 5rem;
+  margin: 5rem;
+  width: 100%;
+  box-shadow: 0 2rem 5rem #f29b22;
+  transform: skewX(20deg);
+}
+
+.mepros-about-us-story-bg:hover {
+  background-color: #9b9b9b;
+}
+
+.mepros-about-us-story {
+  transform: skewX(-20deg);
+  display: flex;
+}
+
+.mepros-about-us-story-image {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 5rem;
+}
+
+.mepros-about-us-story-text {
+  letter-spacing: 0.1rem;
+}
+
+.mepros-about-us-story-heading {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: var(--grey-color);
+  margin-bottom: 1rem;
+}
+
+.mepros-about-us-story-paragraph {
+  font-size: 2rem;
+  color: var(--light-grey-color);
+}
+
+.mepros-about-us-story-paragraph::first-letter {
+  margin-left: 1rem;
+}
