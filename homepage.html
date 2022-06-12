@@ -18,6 +18,13 @@
   <link rel="stylesheet" href="css/homepageFooter.css" />
   <link rel="stylesheet" href="css/homepageGeneral.css" />
   <link rel="stylesheet" href="css/homepageOthers.css" />
+
+  <script defer src="Languages/tr.js"></script>
+  <script defer src="Languages/en.js"></script>
+  <script defer src="langm/langm.js"></script>
+
+  <script defer src="js/LanguageManager.js"></script>
+  <script defer src="js/languageHandler.js"></script>
   <script defer src="js/hamburgerMenu.js"></script>
   <script defer src="js/SectionManager.js"></script>
   <script defer src="js/progressBar.js"></script>
@@ -37,8 +44,8 @@
       <div class="mepros-line mepros-line-3"></div>
     </div>
     <div class="language-wrapper">
-      <a href="en-homepage.html"><img src="images/en.png" alt="en" class="en"></a>
-      <a href="tr-homepage.html"><img src="images/tr.png" alt="tr" class="tr"></a>
+      <img src="images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
+      <img src="images/tr.png" onclick="changeHomepageLanguageToTurkish()"alt="tr" class="tr">
     </div>
 
     <!--!!! Change whatsapp number !!!-->
@@ -55,16 +62,16 @@
           <a href="homepage.html"><img src="images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#" class="mepros-menu-link" data-content="Home">Home</a>
+          <a href="#" name="hamburger_menu_home" class="mepros-menu-link translatable">Home</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-products-section" class="mepros-menu-link" data-content="Products">Products</a>
+          <a href="#mepros-products-section" name="hamburger_menu_products" class="mepros-menu-link translatable">Products</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-about-us-section" class="mepros-menu-link" data-content="About Us">About Us</a>
+          <a href="#mepros-about-us-section" name="hamburger_menu_about" class="mepros-menu-link translatable">About Us</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-contact-us-section" class="mepros-menu-link" data-content="Contact Us">Contact Us</a>
+          <a href="#mepros-contact-us-section" name="hamburger_menu_contact" class="mepros-menu-link translatable">Contact Us</a>
         </li>
       </ul>
       <div class="mepros-social-media">
@@ -251,7 +258,7 @@
     <section id="mepros-about-us-section">
       <div class="mepros-about-us">
         <div class="mepros-about-us-header">
-          <h1 class="mepros-about-us-heading">About Us</h1>
+          <h1 name="about" class="mepros-about-us-heading translatable">About Us</h1>
           <div class="mepros-about-us-underline"></div>
         </div>
         <div class="mepros-about-us-video-wrapper">
