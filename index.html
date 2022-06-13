@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link
     href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"> 
   <link rel="stylesheet" href="homepageSlider.css" />
   <link rel="stylesheet" href="css/homepageProducts.css" />
   <link rel="stylesheet" href="css/homepageCatalogues.css" />
@@ -18,6 +18,13 @@
   <link rel="stylesheet" href="css/homepageFooter.css" />
   <link rel="stylesheet" href="css/homepageGeneral.css" />
   <link rel="stylesheet" href="css/homepageOthers.css" />
+
+  <script defer src="Languages/tr.js"></script>
+  <script defer src="Languages/en.js"></script>
+  <script defer src="langm/langm.js"></script>
+
+  <script defer src="js/LanguageManager.js"></script>
+  <script defer src="js/languageHandler.js"></script>
   <script defer src="js/hamburgerMenu.js"></script>
   <script defer src="js/SectionManager.js"></script>
   <script defer src="js/progressBar.js"></script>
@@ -37,8 +44,8 @@
       <div class="mepros-line mepros-line-3"></div>
     </div>
     <div class="language-wrapper">
-      <a href="en-homepage.html"><img src="images/en.png" alt="en" class="en"></a>
-      <a href="tr-homepage.html"><img src="images/tr.png" alt="tr" class="tr"></a>
+      <img src="images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
+      <img src="images/tr.png" onclick="changeHomepageLanguageToTurkish()"alt="tr" class="tr">
     </div>
 
     <!--!!! Change whatsapp number !!!-->
@@ -52,19 +59,19 @@
     <div class="mepros-sidebar">
       <ul class="mepros-menu">
         <li class="mepros-menu-item">
-          <a href="homepage.html"><img src="images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
+          <a href="index.html"><img src="images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#" class="mepros-menu-link" data-content="Home">Home</a>
+          <a href="#" name="hamburger_menu_home" class="mepros-menu-link translatable">Home</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-products-section" class="mepros-menu-link" data-content="Products">Products</a>
+          <a href="#mepros-products-section" name="hamburger_menu_products" class="mepros-menu-link translatable">Products</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-about-us-section" class="mepros-menu-link" data-content="About Us">About Us</a>
+          <a href="#mepros-about-us-section" name="hamburger_menu_about" class="mepros-menu-link translatable">About Us</a>
         </li>
         <li class="mepros-menu-item">
-          <a href="#mepros-contact-us-section" class="mepros-menu-link" data-content="Contact Us">Contact Us</a>
+          <a href="#mepros-contact-us-section" name="hamburger_menu_contact" class="mepros-menu-link translatable">Contact Us</a>
         </li>
       </ul>
       <div class="mepros-social-media">
@@ -176,7 +183,7 @@
     <section id="mepros-products-section">
       <div class="mepros-products">
         <div class="mepros-products-section-header">
-          <h1 class="mepros-products-section-heading">Products</h1>
+          <h1 name="products" class="mepros-products-section-heading translatable">Products</h1>
           <div class="mepros-products-underline"></div>
         </div>
         <div class="mepros-cards-wrapper">
@@ -186,8 +193,8 @@
                 <img src="images/homepage-furniture.jpg" alt="furniture">
               </div>
               <div class="mepros-c-info">
-                <h2>Furniture Solutions</h2>
-                <a href="furniture.html"><button>See More</button></a>
+                <h2 name="furniture_solutions" class="translatable">Furniture Solutions</h2>
+                <a href="furniture.html"><button name="furniture_solutions_seemore" class="translatable">See More</button></a>
               </div>
             </div>
           </a>
@@ -197,8 +204,8 @@
                 <img src="images/homepage-lighting.jpg" alt="lighting">
               </div>
               <div class="mepros-c-info">
-                <h2>Lighting System Solutions</h2>
-                <a href="lighting.html"><button>See More</button></a>
+                <h2 name="lighting_system_solutions" class="translatable">Lighting System Solutions</h2>
+                <a href="lighting.html"><button name="lighting_system_solutions_seemore" class="translatable">See More</button></a>
               </div>
             </div>
           </a>
@@ -208,8 +215,8 @@
                 <img src="images/homepage-shading.jpg" alt="shading">
               </div>
               <div class="mepros-c-info">
-                <h2>Shading System Solutions</h2>
-                <a href="shading.html"><button>See More</button></a>
+                <h2 name="shading_system_solutions" class="translatable">Shading System Solutions</h2>
+                <a href="shading.html"><button name="shading_system_solutions_seemore" class="translatable">See More</button></a>
               </div>
             </div>
           </a>
@@ -227,19 +234,19 @@
         <div class="mepros-catalogues-buttons">
           <a href="">
             <div class="first first1">
-              <h1>Furniture Solutions</h1>
+              <h1 name="catalogue_furniture_solutions" class="translatable">Furniture Solutions</h1>
               <div class="background"></div>
             </div>
           </a>
           <a href="">
             <div class="first">
-              <h1>Lighting System Solutions</h1>
+              <h1 name="catalogue_lighting_system_solutions" class="translatable">Lighting System Solutions</h1>
               <div class="background"></div>
             </div>
           </a>
           <a href="">
             <div class="first">
-              <h1>Shading System Solutions</h1>
+              <h1 name="catalogue_shading_system_solutions" class="translatable">Shading System Solutions</h1>
               <div class="background"></div>
             </div>
           </a>
@@ -251,7 +258,7 @@
     <section id="mepros-about-us-section">
       <div class="mepros-about-us">
         <div class="mepros-about-us-header">
-          <h1 class="mepros-about-us-heading">About Us</h1>
+          <h1 name="about" class="mepros-about-us-heading translatable">About Us</h1>
           <div class="mepros-about-us-underline"></div>
         </div>
         <div class="mepros-about-us-video-wrapper">
@@ -272,10 +279,10 @@
             <div class="mepros-about-us-story">
               <img src="images/homepage-furniture.jpg" alt="Customer image" class="mepros-about-us-story-image" />
               <div class="mepros-about-us-story-text">
-                <h1 class="mepros-about-us-story-heading">
+                <h1 name="about_us_story_heading" class="mepros-about-us-story-heading translatable">
                   Who are we?
                 </h1>
-                <p class="mepros-about-us-story-paragraph">
+                <p name="about_us_story_paragraph" class="mepros-about-us-story-paragraph translatable">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto quas, repudiandae veritatis nam mollitia cumque
                   distinctio, quia aperiam aliquid at consequuntur libero
@@ -290,10 +297,10 @@
             <div class="mepros-about-us-story">
               <img src="images/homepage-lighting.jpg" alt="Customer image" class="mepros-about-us-story-image" />
               <div class="mepros-about-us-story-text">
-                <h1 class="mepros-about-us-story-heading">
+                <h1 name="about_us_vision_heading" class="mepros-about-us-story-heading translatable">
                   Our mission and vision
                 </h1>
-                <p class="mepros-about-us-story-paragraph">
+                <p name="about_us_vision_paragraph" class="mepros-about-us-story-paragraph translatable">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Architecto quas, repudiandae veritatis nam mollitia cumque
                   distinctio, quia aperiam aliquid at consequuntur libero
@@ -312,25 +319,25 @@
     <section id="mepros-contact-us-section">
       <div class="mepros-contact-us">
         <div class="mepros-contact-us-header">
-          <h1 class="mepros-contact-us-heading">Contact Us</h1>
+          <h1 name="contact_us" class="mepros-contact-us-heading translatable">Contact Us</h1>
           <div class="mepros-contact-us-heading-line"></div>
         </div>
         <div class="mepros-contact-us-wrapper">
           <div class="mepros-contact-us-details">
             <div class="mepros-contact-us-phone">
               <i class="fas fa-mobile-alt"></i>
-              <h3>Phone</h3>
+              <h3 name="contact_us_phone" class="translatable">Phone</h3>
               <p>+90 532 532 32 32</p>
               <p>+90 534 534 34 34</p>
             </div>
             <div class="mepros-contact-us-address">
               <i class="fas fa-map-marker-alt"></i>
-              <h3>Address</h3>
+              <h3 name="contact_us_address" class="translatable">Address</h3>
               <p>Wall street #123</p>
             </div>
             <div class="mepros-contact-us-email">
               <i class="far fa-envelope"></i>
-              <h3>Email</h3>
+              <h3 name="contact_us_email" class="translatable">Email</h3>
               <p>support@gmail.com</p>
             </div>
           </div>
