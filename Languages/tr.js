@@ -14,6 +14,20 @@ trlang = {
   shading_system_solutions: "Gölgelendirme Sistemleri",
   shading_system_solutions_seemore: "Daha Fazla",
 
-  about: "Hakkımızda",
+  catalogues: "Katalog",
+  catalogue_furniture_solutions: "Mobilyalar",
+  catalogue_lighting_system_solutions: "Aydınlatma Sistemleri",
+  catalogue_shading_system_solutions: "Gölgelendirme Sistemleri",
 
+  about: "Hakkımızda",
+  about_us_story_heading: "Biz Kimiz?",
+  about_us_story_paragraph: "TURKISH ABOUT US STORY PLACEHOLDER",
+
+  about_us_vision_heading: "Misyon ve Vizyonumuz",
+  about_us_vision_paragraph: "TURKISH ABOUT US VISION PARAGRAPH PLACEHOLDER",
+
+  contact_us: "Bize Ulaşın",
+  contact_us_phone: "Telefon",
+  contact_us_address: "Adres",
+  contact_us_email: "Email"
 }

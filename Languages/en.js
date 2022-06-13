@@ -20,7 +20,6 @@ enlang = {
   catalogue_shading_system_solutions: "Shading System Solutions",
 
   about: "About Us",
-
   about_us_story_heading: "Who Are We?",
   about_us_story_paragraph: "ENGLISH ABOUT US STORY PARAGRAPH PLACEHOLDER",
   about_us_vision_heading: "Our Mission and Vision",
@@ -29,5 +28,5 @@ enlang = {
   contact_us: "Contact Us",
   contact_us_phone: "Phone",
   contact_us_address: "Address",
-  contact_us_email: "email"
+  contact_us_email: "Email"
 }
