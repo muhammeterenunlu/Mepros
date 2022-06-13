@@ -1,4 +1,4 @@
-homepageTrLang = {
+trlang = {
   hamburger_menu_home: "Anasayfa",
   hamburger_menu_products: "Ürünler",
   hamburger_menu_about: "Hakkımızda",
@@ -16,5 +16,4 @@ homepageTrLang = {
 
   about: "Hakkımızda",
 
-  hello_world: "Merhaba Dünya"
 }

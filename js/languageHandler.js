@@ -1,20 +1,23 @@
 let lastLanguage = JSON.parse(window.localStorage.getItem('lastLanguage'))
 
-if(!lastLanguage) lastLanguage = homepageEnLang;
+if(!lastLanguage) {
+  lastLanguage = enlang;
+  window.localStorage.setItem('lastLanguage', JSON.stringify(enlang));
+}
 
 languageManagerSetLanguage(lastLanguage);
 languageManagerTranslate();
 
 function changeHomepageLanguageToTurkish() {
-  languageManagerSetLanguage(homepageTrLang)
+  languageManagerSetLanguage(trlang)
   languageManagerTranslate();
 
-  window.localStorage.setItem('lastLanguage', JSON.stringify(homepageTrLang))
+  window.localStorage.setItem('lastLanguage', JSON.stringify(trlang))
 }
 
 function changeHomepageLanguageToEnglish() {
-  languageManagerSetLanguage(homepageEnLang)
+  languageManagerSetLanguage(enlang)
   languageManagerTranslate();
 
-  window.localStorage.setItem('lastLanguage', JSON.stringify(homepageEnLang))
+  window.localStorage.setItem('lastLanguage', JSON.stringify(enlang))
 }
