@@ -111,6 +111,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/kali-corner-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   transform: scale(1);
 }
 
@@ -151,6 +152,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/him-corner-homepage-slider-1.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   z-index: -1;
   filter: blur(0.5rem);
 }
@@ -169,7 +171,6 @@
   width: 70rem;
   border: 0.1rem solid #fff;
   padding: 1rem;
-  opacity: 0.7;
 }
 
 .mepros-section-3 {
@@ -180,6 +181,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/lobo-two-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   transform: scale(1);
 }
 
@@ -220,6 +222,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/kets-three-homepage-slider-1.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   z-index: -1;
   filter: blur(0.5rem);
 }
@@ -234,13 +237,6 @@
   user-select: none;
 }
 
-.mepros-new-sofas-img {
-  width: 70rem;
-  border: 0.1rem solid #fff;
-  padding: 1rem;
-  opacity: 0.7;
-}
-
 .mepros-section-5 {
   z-index: 10;
 }
@@ -249,6 +245,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/maria-two-homepage-slider.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   transform: scale(1);
 }
 
@@ -289,6 +286,7 @@
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
     url(images/loop-three-homepage-slider-1.jpeg) center no-repeat;
   background-size: cover;
+  background-position: center;
   z-index: -1;
   filter: blur(0.5rem);
 }
@@ -301,13 +299,6 @@
   margin-bottom: 7rem;
   color: #fff;
   user-select: none;
-}
-
-.mepros-new-sofas-img {
-  width: 70rem;
-  border: 0.1rem solid #fff;
-  padding: 1rem;
-  opacity: 0.7;
 }
 
 .mepros-topleft-logo {

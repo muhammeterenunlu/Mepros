@@ -81,6 +81,30 @@ a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .mepros-section-1-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-2-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-3-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-4-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-5-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-6-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
 }
 /* Media Query for Mobile Devices */
 @media (min-width: 285px) and (max-width: 480px) {
@@ -114,6 +138,7 @@ a:hover {
 
   .mepros-about-us-stories-wrapper {
     flex-direction: column;
+    width: 70%;
   }
 
   .mepros-about-us-story-bg {
@@ -123,6 +148,10 @@ a:hover {
 
   .mepros-about-us-story {
     transform: skewX(-12deg);
+  }
+
+  .mepros-about-us-story-heading {
+    font-size: 3rem;
   }
 
   .mepros-about-us-story-paragraph {
@@ -145,6 +174,30 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .mepros-section-1-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-2-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-3-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-4-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-5-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-6-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
   }
 }
 
@@ -175,6 +228,7 @@ a:hover {
 
   .mepros-about-us-stories-wrapper {
     flex-direction: column;
+    width: 70%;
   }
 
   .mepros-about-us-story-bg {
@@ -186,8 +240,12 @@ a:hover {
     transform: skewX(-12deg);
   }
 
+  .mepros-about-us-story-heading {
+    font-size: 3rem;
+  }
+
   .mepros-about-us-story-paragraph {
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
 
   .mepros-contact-us-details div {
@@ -198,6 +256,42 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .mepros-contact-us-details div {
+    width: 30rem;
+  }
+
+  .mepros-contact-us-details h3 {
+    font-size: 4rem;
+  }
+
+  .mepros-contact-us-details p {
+    font-size: 3rem;
+  }
+  .mepros-section-1-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-2-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-3-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-4-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-5-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-6-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
   }
 }
 
@@ -223,6 +317,7 @@ a:hover {
 
   .mepros-about-us-stories-wrapper {
     flex-direction: column;
+    width: 70%;
   }
 
   .mepros-about-us-video-wrapper {
@@ -239,8 +334,12 @@ a:hover {
     transform: skewX(-12deg);
   }
 
+  .mepros-about-us-story-heading {
+    font-size: 3rem;
+  }
+
   .mepros-about-us-story-paragraph {
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
 
   .mepros-contact-us-details div {
@@ -248,11 +347,11 @@ a:hover {
   }
 
   .mepros-contact-us-details h3 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .mepros-contact-us-details p {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   .mepros-products-section-heading {
@@ -263,14 +362,35 @@ a:hover {
     font-size: 8rem;
   }
 
-  .mepros-contact-us-heading {
-    font-size: 8rem;
-  }
-
   .mepros-catalogues-buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .mepros-section-1-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-2-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-3-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-4-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-5-wrapper {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
+  }
+  .mepros-section-6-bg {
+    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
+      url(../images/index-background.jpg) center no-repeat;
   }
 }
 
@@ -287,6 +407,7 @@ a:hover {
 
   .mepros-about-us-stories-wrapper {
     flex-direction: column;
+    width: 70%;
   }
 
   .mepros-about-us-video-wrapper {
@@ -294,12 +415,24 @@ a:hover {
     height: 80rem;
   }
 
+  .mepros-about-us-story-heading {
+    font-size: 3rem;
+  }
+
   .mepros-about-us-story-paragraph {
-    font-size: 5rem;
+    font-size: 2.5rem;
   }
 
   .mepros-contact-us-details div {
     width: 50rem;
+  }
+
+  .mepros-contact-us-details h3 {
+    font-size: 5rem;
+  }
+
+  .mepros-contact-us-details p {
+    font-size: 4rem;
   }
 }
 
@@ -314,11 +447,23 @@ a:hover {
     height: 85rem;
   }
 
+  .mepros-about-us-story-heading {
+    font-size: 3rem;
+  }
+
   .mepros-about-us-story-paragraph {
     font-size: 2.5rem;
   }
 
   .mepros-contact-us-details div {
     width: 55rem;
+  }
+
+  .mepros-contact-us-details h3 {
+    font-size: 5rem;
+  }
+
+  .mepros-contact-us-details p {
+    font-size: 4rem;
   }
 }
