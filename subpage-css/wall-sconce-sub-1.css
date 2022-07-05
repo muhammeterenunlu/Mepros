@@ -7,159 +7,6 @@
   list-style-type: none;
   font-family: 'Cormorant Garamond', serif;
 }
-/* Color Boxes */
-.box {
-  height: 6rem;
-  width: 6rem;
-  margin-top: 4rem;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  border: 1px solid black;
-}
-
-.mepros-color-wrapper {
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2%;
-  width: 100%;
-  background-size: cover;
-}
-
-.grey {
-  background-color: #909194;
-}
-.grey:hover {
-  opacity: 0.25;
-}
-
-.blue {
-  background-color: #202f5c;
-}
-.blue:hover {
-  opacity: 0.25;
-}
-
-.blue1 {
-  background-color: #143789;
-}
-.blue1:hover {
-  opacity: 0.25;
-}
-
-.orange {
-  background-color: #b54519;
-}
-.orange:hover {
-  opacity: 0.25;
-}
-
-.orange2 {
-  background-color: #e67e22;
-}
-.orange2:hover {
-  opacity: 0.25;
-}
-
-.gold {
-  background-color: #b5a919;
-}
-.gold:hover {
-  opacity: 0.25;
-}
-
-.lightbrown {
-  background-color: #796a52;
-}
-.golden:hover {
-  opacity: 0.25;
-}
-
-.cream {
-  background-color: #f5f5dc;
-}
-.cream:hover {
-  opacity: 0.25;
-}
-
-.cream1 {
-  background-color: #ccccb4;
-}
-.cream1:hover {
-  opacity: 0.25;
-}
-
-.cream2 {
-  background-color: #adad94;
-}
-.cream2:hover {
-  opacity: 0.25;
-}
-
-.black {
-  background-color: #000000;
-}
-.black:hover {
-  opacity: 0.25;
-}
-
-.lightgrey {
-  background-color: #e5e5e5;
-}
-.lightgrey:hover {
-  opacity: 0.25;
-}
-
-.darkgrey {
-  background-color: #8c8c8c;
-}
-.darkgrey:hover {
-  opacity: 0.25;
-}
-
-.darkgreen {
-  background-color: #0d3f22;
-}
-.darkgreen:hover {
-  opacity: 0.25;
-}
-
-.lightgreen {
-  background-color: #00a859;
-}
-.lightgreen:hover {
-  opacity: 0.25;
-}
-
-.pink {
-  background-color: #eebaee;
-}
-.pink:hover {
-  opacity: 0.25;
-}
-
-.white {
-  background-color: #ffffff;
-}
-.white:hover {
-  opacity: 0.25;
-}
-
-.brown {
-  background-color: #8c6239;
-}
-.brown:hover {
-  opacity: 0.25;
-}
-
-.red {
-  background-color: #aa2222;
-}
-.red:hover {
-  opacity: 0.25;
-}
 
 a {
   text-decoration: none;
@@ -456,7 +303,7 @@ h3 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-bottom: 12%;
+  margin-bottom: 30%;
 }
 .carousel ul {
   -webkit-transform: translateY(50%);
@@ -465,9 +312,11 @@ h3 {
 }
 .carousel li {
   float: left;
+  position: relative;
+  left: 40%;
   margin: 0 3%;
   text-align: center;
-  width: 20%;
+  width: 25%;
   list-style-type: none;
 }
 .carousel li:first-child {
@@ -596,7 +445,7 @@ h3 {
 
 .mepros-footer-wrapper {
   padding: 5rem;
-  margin-top: 10rem;
+  margin-top: 5rem;
   background-size: cover;
 }
 
