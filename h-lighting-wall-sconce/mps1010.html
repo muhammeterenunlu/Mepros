@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mepros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../images/mepros-m.png" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!--Bootstrap5 CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Bootstrap5 Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="../subpage-css/lighting-sub1.css">
+    <link rel="stylesheet" href="../subpage-css/lighting-sub-general1.css">
+
+    <!--JS Scripts-->
+    <script defer src="../Languages/tr.js"></script>
+    <script defer src="../Languages/en.js"></script>
+    <script defer src="../langm/langm.js"></script>
+
+    <script defer src="../js/LanguageManager.js"></script>
+    <script defer src="../js/languageHandler.js"></script>
+    <script defer src="../js/hamburgerMenu.js"></script>
+    <script defer src="../js/SectionManager.js"></script>
+    <script defer src="../js/progressBar.js"></script>
+    <script defer src="../js/timer.js"></script>
+    <script defer src="../js/cyclingTimer.js"></script>
+    <script defer src="../js/sectionChanger.js"></script>
+    <script defer src="../js/inputs.js"></script>
+    <script defer src="../js/videoManager.js"></script>
+    <script defer src="../js/tilt.js"></script>
+</head>
+
+<body class="mepros-display">
+    <div class="container-fluid">
+        <div class="mepros-container">
+            <div class="mepros-progress-wrapper">
+                <div class="nav-container">
+                    <a href="../../index.html">
+                        <img src="../images/logo.png" alt="Mepros-logo" class="mepros-logo">
+                    </a>
+                    <div class="mepros-hamburger-menu">
+                        <div class="mepros-line mepros-line-1"></div>
+                        <div class="mepros-line mepros-line-2"></div>
+                        <div class="mepros-line mepros-line-3"></div>
+                    </div>
+                </div>
+
+                <div class="language-wrapper">
+                    <img src="../images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
+                    <img src="../images/tr.png" onclick="changeHomepageLanguageToTurkish()" alt="tr" class="tr">
+                </div>
+
+                <!--!!! Change whatsapp number !!!-->
+                <a href="https://wa.me/905319481598" target="_blank"><img src="../images/mepros-whatsapp.png"
+                        alt="whatsapp-logo" class="mepros-whatsapp-logo"></a>
+
+                <a href="#" class="mepros-scroll-btn">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+
+                <div class="mepros-sidebar">
+                    <ul class="mepros-menu">
+                        <li class="mepros-menu-item">
+                            <a href="index.html"><img src="../images/logo.png" alt="Mepros-logo"
+                                    class="mepros-menu-mepros-logo"></a>
+                        </li>
+                        <li class="mepros-menu-item">
+                            <a href="../../index.html" name="hamburger_menu_home"
+                                class="mepros-menu-link translatable">Home</a>
+                        </li>
+                        <li class="mepros-menu-item">
+                            <a href="#mepros-products-section" name="hamburger_menu_products"
+                                class="mepros-menu-link translatable">Products</a>
+                        </li>
+                        <li class="mepros-menu-item">
+                            <a href="#mepros-about-us-section" name="hamburger_menu_about"
+                                class="mepros-menu-link translatable">About
+                                Us</a>
+                        </li>
+                        <li class="mepros-menu-item">
+                            <a href="#mepros-contact-us-section" name="hamburger_menu_contact"
+                                class="mepros-menu-link translatable">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="mepros-social-media">
+                        <!--!!! Change these links !!!-->
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/905319481598" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <section id="mepros-products-heading">
+                        <div class="mepros-heading-wrapper">
+                            <h1 class="mepros-heading">MPS1010</h1>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="row">
+                    <section id="mepros-products-carousel">
+                        <div id="carousel-thingy" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <ul class="reset clearfix">
+                                        <li class="prod1">
+                                            <input type="radio" name="product" id="product-1" value="a" checked>
+                                            <label for="product-1">
+                                                <img src="../lighting-images/MPS1010.png" alt="product-1">
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!--
+                <div class="row">
+                    <section id="mepros-color">
+                        <div class="mepros-color-wrapper">
+                            <a href="#">
+                                <div class='box grey'></div>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+               -->
+                <div class="row">
+                    <section id="mepros-description">
+                        <div class="viewport">
+                            <ul class="tabs">
+                                <li>
+                                    <input type="radio" name="tab" id="playlists" value="playlists" checked>
+                                    <label for="playlists">Description</label>
+                                    <div class="tabBody">
+                                        <p>
+                                            •It is a triple product. It can be applied with electrostatic powder paint
+                                            and lacquer coating, opal and blown glass, rosin.•&ensp;
+                                            •Socket:e27•&ensp;
+                                            •Volt:220v•&ensp;
+                                            •Stock Colors: Copper, Black, Antique•&ensp;
+                                            •Applicable Colors: Copper, Yellow, Grey, Black, Antique•
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="row">
+                    <footer>
+                        <div class="mepros-footer-wrapper">
+                            <h1 class="mepros-footer-copyright">
+                                Copyright &copy; DTeam. All Rights Reserved.
+                            </h1>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

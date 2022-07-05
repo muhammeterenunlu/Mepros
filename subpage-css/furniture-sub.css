@@ -201,6 +201,7 @@ h3 {
 .mepros-display {
   line-height: normal;
   background: url(../images/index-background.jpg) center no-repeat;
+  background-size: 125% 125%;
 }
 
 .mepros-container {
@@ -538,116 +539,63 @@ h3 {
 }
 
 /* Descriptions */
-.viewport {
-  position: relative;
+/**
+ * Tabs
+ */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs label {
+  order: 1;
   display: block;
-  height: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  background-color: rgba(255, 136, 0, 0.3);
-  box-shadow: 0 0.25rem 8rem rgba(0, 0, 0, 0.2);
-  padding: 1rem 1.5rem;
-  border-radius: 5rem;
-  animation-name: popAnim;
-  animation-duration: 0.3s;
-  animation-timing-function: forward;
-  width: 75%;
-}
-@keyframes popAnim {
-  0% {
-    transform: scale(0, 0);
-  }
-  100% {
-    transform: scale(1, 1);
-  }
-}
-ul.tabs {
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-ul.tabs:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-ul.tabs li {
-  list-style: none;
-  float: left;
-  margin-left: 3rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-input[type='radio'] {
-  display: none;
-}
-input[type='radio']:checked ~ label:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin-bottom: -1px;
-  height: 0.25rem;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-}
-label {
-  position: relative;
-  display: block;
-  color: #37474f;
-  font-weight: 500;
-  font-size: 5rem;
-  text-align: center;
-  text-transform: capitalize;
-  border-radius: 1rem;
-  padding: 2rem;
-  margin: 0.5rem;
-  line-height: 2rem;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: 0.3s ease-in-out;
+  background: #f27a43;
+  font-weight: bold;
+  transition: background ease 0.2s;
 }
-label:hover:before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #f26522;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  height: 0.5rem;
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1.5rem;
+  background-size: cover;
+  border: #f27a43 solid 0.5rem;
+  border-radius: 5%;
 }
-input[type='radio']:checked ~ .tabBody {
+.tabs input[type='radio'] {
+  display: none;
+}
+.tabs input[type='radio']:checked + label {
+  background: rgb(237, 237, 237);
+}
+.tabs input[type='radio']:checked + label + .tab {
   display: block;
 }
-.tabBody {
-  position: absolute;
-  display: none;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin-top: 10rem;
-  padding: 1rem 1.5rem;
-}
-.tabBody p {
-  margin: 1rem;
-  padding: 2rem;
-  font-size: 2.75rem;
-  border-radius: 2rem;
-  line-height: 4rem;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.8);
+
+/**
+ * Generic Styling for tabs
+*/
+.tab p {
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
 }
 
 /* Footer */
 
 .mepros-footer-wrapper {
   padding: 5rem;
-  margin-top: 20rem;
+  margin-top: 10rem;
   background-size: cover;
 }
 

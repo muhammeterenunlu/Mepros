@@ -69,6 +69,7 @@ h3 {
 .mepros-display {
   line-height: normal;
   background: url(../images/index-background.jpg) center no-repeat;
+  background-size: 150% 150%;
 }
 
 .mepros-container {

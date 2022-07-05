@@ -333,10 +333,10 @@ h3 {
 .carousel li {
   float: left;
   position: relative;
-  left: 15%;
+  left: 40%;
   margin: 0 3%;
   text-align: center;
-  width: 25%;
+  width: 30%;
   list-style-type: none;
 }
 .carousel li:first-child {
@@ -394,7 +394,7 @@ h3 {
   height: max-content;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: rgba(255, 136, 0, 0.3);
   box-shadow: 0 0.25rem 8rem rgba(0, 0, 0, 0.2);
   padding: 1rem 1.5rem;
