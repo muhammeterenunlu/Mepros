@@ -5,5 +5,5 @@ function languageManagerSetLanguage(language) {
 }
 
 function languageManagerTranslate() {
-    langmInstance.translate();
+  langmInstance.translate();
 }
