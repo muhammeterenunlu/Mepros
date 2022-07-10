@@ -1,0 +1,631 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Cormorant Garamond", serif;
+}
+/* Color Boxes */
+.box {
+  height: 6rem;
+  width: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid black;
+}
+
+.box:hover {
+  opacity: 0.25;
+}
+
+.mepros-color-wrapper {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 100%;
+  background-size: cover;
+}
+
+.grey {
+  background-color: #909194;
+}
+.grey:hover {
+  opacity: 0.25;
+}
+
+.blue {
+  background-color: #202f5c;
+}
+.blue:hover {
+  opacity: 0.25;
+}
+
+.blue1 {
+  background-color: #143789;
+}
+.blue1:hover {
+  opacity: 0.25;
+}
+
+.orange {
+  background-color: #b54519;
+}
+.orange:hover {
+  opacity: 0.25;
+}
+
+.orange2 {
+  background-color: #e67e22;
+}
+.orange2:hover {
+  opacity: 0.25;
+}
+
+.gold {
+  background-color: #b5a919;
+}
+.gold:hover {
+  opacity: 0.25;
+}
+
+.lightbrown {
+  background-color: #796a52;
+}
+.golden:hover {
+  opacity: 0.25;
+}
+
+.cream {
+  background-color: #f5f5dc;
+}
+.cream:hover {
+  opacity: 0.25;
+}
+
+.cream1 {
+  background-color: #ccccb4;
+}
+.cream1:hover {
+  opacity: 0.25;
+}
+
+.cream2 {
+  background-color: #adad94;
+}
+.cream2:hover {
+  opacity: 0.25;
+}
+
+.black {
+  background-color: #000000;
+}
+.black:hover {
+  opacity: 0.25;
+}
+
+.lightgrey {
+  background-color: #e5e5e5;
+}
+.lightgrey:hover {
+  opacity: 0.25;
+}
+
+.darkgrey {
+  background-color: #8c8c8c;
+}
+.darkgrey:hover {
+  opacity: 0.25;
+}
+
+.darkgreen {
+  background-color: #0d3f22;
+}
+.darkgreen:hover {
+  opacity: 0.25;
+}
+
+.lightgreen {
+  background-color: #00a859;
+}
+.lightgreen:hover {
+  opacity: 0.25;
+}
+
+.pink {
+  background-color: #eebaee;
+}
+.pink:hover {
+  opacity: 0.25;
+}
+
+.white {
+  background-color: #ffffff;
+}
+.white:hover {
+  opacity: 0.25;
+}
+
+.brown {
+  background-color: #8c6239;
+}
+.brown:hover {
+  opacity: 0.25;
+}
+
+.red {
+  background-color: #aa2222;
+}
+.red:hover {
+  opacity: 0.25;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+}
+
+html {
+  font-size: 40%;
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h1 {
+  font-family: "Baloo Da 2" sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Baloo Da 2" sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Baloo Da 2" sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.mepros-display {
+  line-height: normal;
+  background: url(../images/index-background.jpg) center no-repeat;
+  background-position: center;
+  background-size: 150% 150%;
+}
+
+.mepros-container {
+  display: none;
+}
+
+.mepros-display .mepros-container {
+  display: block;
+}
+
+.mepros-logo {
+  width: 12%;
+  margin: 1rem 1rem;
+}
+
+.mepros-whatsapp-logo {
+  position: fixed;
+  right: 12rem;
+  bottom: 1rem;
+  width: 8rem;
+  height: 8rem;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: right 0.3s;
+}
+
+.mepros-whatsapp-logo:hover {
+  opacity: 0.8;
+}
+
+.mepros-scroll-btn {
+  position: fixed;
+  width: 8rem;
+  height: 8rem;
+  bottom: 1rem;
+  right: 2rem;
+  background-color: #f26522;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fff;
+  z-index: 200;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+}
+
+.mepros-scroll-btn:hover {
+  background-color: rgb(230, 138, 17);
+}
+
+.mepros-menu-mepros-logo {
+  align-items: center;
+  width: 25rem;
+  padding-bottom: 8rem;
+}
+
+.mepros-hamburger-menu {
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 2rem;
+  right: 4rem;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  cursor: pointer;
+  transition: right 0.7s;
+}
+
+.language-wrapper {
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  z-index: 200;
+  display: flex;
+}
+
+.en {
+  width: 7%;
+  margin-right: 0.5rem;
+}
+
+.en:hover {
+  opacity: 0.5;
+}
+
+.tr {
+  width: 7%;
+}
+
+.tr:hover {
+  opacity: 0.5;
+}
+
+.change .mepros-hamburger-menu {
+  right: 33rem;
+}
+
+.mepros-line {
+  width: 200%;
+  height: 0.25rem;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0);
+}
+
+.change .mepros-line {
+  background-color: rgba(0, 0, 0);
+}
+
+.change .mepros-line-1 {
+  transform: rotate(45deg) translate(0.3rem, 0.8rem);
+}
+
+.change .mepros-line-2 {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.change .mepros-line-3 {
+  transform: rotate(-45deg) translate(0.3rem, -0.8rem);
+}
+
+.change .mepros-hamburger-menu:hover span {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mepros-hamburger-menu span::before {
+  content: "";
+  position: absolute;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid #f26522;
+  border-bottom: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  top: 50%;
+  left: -2rem;
+  transform: translateY(-50%);
+}
+
+.mepros-sidebar {
+  width: 40rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -40rem;
+  background-color: rgb(230, 230, 230);
+  transition: right 0.5s;
+  z-index: 100;
+  opacity: 0.8;
+}
+
+.change .mepros-sidebar {
+  right: 0;
+}
+
+.mepros-menu {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mepros-menu-item {
+  text-align: center;
+}
+
+.mepros-menu-link {
+  font-family: "Baloo Da 2", serif;
+  font-size: 4rem;
+  color: #555;
+  position: relative;
+}
+
+.mepros-menu-link::before {
+  content: attr(data-content);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #f26522;
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.3s ease-in-out;
+}
+
+.mepros-menu-link:hover::before {
+  width: 100%;
+}
+
+.mepros-social-media {
+  position: absolute;
+  bottom: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mepros-social-media i {
+  font-size: 2.2rem;
+  margin: 2rem;
+  width: 6rem;
+  height: 6rem;
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.mepros-social-media i:hover {
+  background-color: #f26522;
+}
+
+.mepros-heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  background-size: cover;
+}
+
+.mepros-heading {
+  font-size: 8rem;
+  font-weight: 500;
+  font-family: "Baloo Da 2", sans-serif;
+  color: #555;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-bottom: 0.4rem solid #f26522;
+  text-align: center;
+}
+
+/* Carousel*/
+
+.carousel-inner {
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 12%;
+}
+.carousel ul {
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.carousel li {
+  float: left;
+  owerflow: hidden;
+  text-align: center;
+  width: 20%;
+  list-style-type: none;
+}
+.carp .carousel li:first-child {
+  margin-left: 1%;
+}
+.carousel li:last-child {
+  margin-right: 1%;
+}
+.carousel li {
+  margin: 0 1.75%;
+  width: 30%;
+}
+.carousel img {
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 100%;
+}
+.carousel label {
+  padding: 0;
+  -webkit-transition: all 0.34s linear;
+  transition: all 0.34s linear;
+}
+.carousel input[type="radio"] {
+  display: none;
+}
+.carousel input[type="radio"]:checked + label {
+  border-color: transparent;
+  border-radius: 3px;
+  box-shadow: 0 0 1.25rem 0 #f26522;
+  cursor: pointer;
+  padding: 0;
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition-delay: 0;
+  transition-delay: 0;
+  -webkit-transition: all 0.34s linear;
+  transition: all 0.34s linear;
+  z-index: 2;
+}
+.carousel li:first-child input[type="radio"]:checked + label {
+  position: relative;
+  -ms-transform: translateX(25%) scale(1.5);
+  -webkit-transform: translateX(25%) scale(1.5);
+  transform: translateX(25%) scale(1.5);
+}
+.carousel li:last-child input[type="radio"]:checked + label {
+  position: relative;
+  -ms-transform: translateX(-25%) scale(1.5);
+  -webkit-transform: translateX(-25%) scale(1.5);
+  transform: translateX(-25%) scale(1.5);
+}
+
+/* Techinal Data */
+.technical-data-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 2rem 5rem 2rem;
+}
+.technical-data-text-wrapper h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: "Baloo Da 2", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  color: #555;
+}
+
+/* Descriptions */
+/**
+ * Tabs
+ */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tabs label {
+  order: 1;
+  display: block;
+  padding: 1rem 2rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #f27a43;
+  font-weight: bold;
+  transition: background ease 0.2s;
+}
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1.5rem;
+  background-size: cover;
+  border: #f27a43 solid 0.5rem;
+  border-radius: 5%;
+}
+.tabs input[type="radio"] {
+  display: none;
+}
+.tabs input[type="radio"]:checked + label {
+  background: rgb(237, 237, 237);
+}
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block;
+}
+
+/**
+ * Generic Styling for tabs
+*/
+.tab p {
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 auto;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+}
+
+.tab .listTabBody {
+  margin: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-size: cover;
+  box-sizing: border-box;
+  line-height: 3.5rem;
+}
+
+.tab li {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 2.2rem;
+  color: black;
+  list-style-type: disc;
+}
+
+/* Footer */
+
+.mepros-footer-wrapper {
+  padding: 5rem;
+  margin-top: 10rem;
+  background-size: cover;
+}
+
+.mepros-footer-copyright {
+  width: 50%;
+  margin: auto;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-align: center;
+}

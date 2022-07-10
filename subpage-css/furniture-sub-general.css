@@ -1,0 +1,462 @@
+/* Media Query for Very Small Devices*/
+@media (max-width: 284px) {
+}
+/* Media Query for Mobile Devices */
+@media (min-width: 285px) and (max-width: 480px) {
+  .box {
+    height: 3.8rem;
+    width: 3.8rem;
+  }
+  .mepros-logo {
+    width: 25%;
+  }
+  .en,
+  .tr {
+    width: 15%;
+  }
+  .mepros-whatsapp-logo {
+    width: 6rem;
+    height: 6rem;
+    right: 9rem;
+  }
+  .mepros-scroll-btn {
+    width: 6rem;
+    height: 6rem;
+  }
+  .mepros-sidebar {
+    width: 30rem;
+    opacity: 1;
+  }
+  .mepros-hamburger-menu {
+    width: 2rem;
+  }
+  .change .mepros-hamburger-menu {
+    right: 25rem;
+  }
+  .mepros-menu-link {
+    font-size: 3.5rem;
+  }
+  .mepros-menu-mepros-logo {
+    width: 20rem;
+  }
+  .mepros-social-media i {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  .mepros-heading-wrapper {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .mepros-heading {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+  }
+  .technical-data-text-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .technical-data-text-wrapper h1 {
+    font-size: 1.8rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+  label {
+    font-size: 1.8rem;
+    padding: 0.5rem;
+  }
+  .tab {
+    margin-top: 0.5rem;
+  }
+  .tab p {
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    line-height: 2rem;
+    color: black;
+  }
+  .mepros-footer-wrapper {
+    background-size: cover;
+    padding-bottom: 2.5rem;
+    margin-top: 2rem;
+    bottom: 0;
+  }
+
+  .mepros-footer-copyright {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .box {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .mepros-logo {
+    width: 18%;
+  }
+  .en,
+  .tr {
+    width: 12%;
+  }
+  .mepros-whatsapp-logo {
+    width: 7rem;
+    height: 7rem;
+    right: 10rem;
+  }
+  .mepros-scroll-btn {
+    width: 7rem;
+    height: 7rem;
+  }
+  .mepros-sidebar {
+    width: 30rem;
+    opacity: 1;
+  }
+  .mepros-hamburger-menu {
+    width: 2rem;
+  }
+  .change .mepros-hamburger-menu {
+    right: 25rem;
+  }
+  .mepros-menu-link {
+    font-size: 3.5rem;
+  }
+  .mepros-menu-mepros-logo {
+    width: 20rem;
+  }
+  .mepros-social-media i {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    width: 4.2rem;
+    height: 4.2rem;
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+
+  .mepros-heading-wrapper {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .mepros-heading {
+    margin-top: 5rem;
+    font-size: 4rem;
+  }
+  .technical-data-text-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .technical-data-text-wrapper h1 {
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  label {
+    font-size: 2.2rem;
+    padding: 0.5rem;
+  }
+  .tab {
+    margin-top: 0.5rem;
+  }
+  .tab p {
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+    line-height: 3rem;
+    color: black;
+  }
+  .mepros-footer-wrapper {
+    background-size: cover;
+    padding-bottom: 2.5rem;
+    margin-top: 5rem;
+  }
+
+  .mepros-footer-copyright {
+    font-size: 1.8rem;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .box {
+    height: 5rem;
+    width: 5rem;
+  }
+  .mepros-logo {
+    width: 15%;
+  }
+  .en,
+  .tr {
+    width: 10%;
+  }
+  .mepros-whatsapp-logo {
+    width: 8rem;
+    height: 8rem;
+    right: 11rem;
+  }
+  .mepros-scroll-btn {
+    width: 8rem;
+    height: 8rem;
+  }
+  .mepros-sidebar {
+    width: 35rem;
+    opacity: 1;
+  }
+  .mepros-hamburger-menu {
+    width: 2.5rem;
+  }
+  .change .mepros-hamburger-menu {
+    right: 30rem;
+  }
+  .mepros-menu-link {
+    font-size: 3.8rem;
+  }
+  .mepros-menu-mepros-logo {
+    width: 20rem;
+  }
+  .mepros-social-media i {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  .mepros-heading-wrapper {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .mepros-heading {
+    margin-top: 1 rem;
+    font-size: 5rem;
+  }
+  .technical-data-text-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .technical-data-text-wrapper h1 {
+    font-size: 3rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
+  label {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+  }
+  .tab {
+    margin-top: 0.5rem;
+  }
+  .tab p {
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2.2rem;
+    border-radius: 2rem;
+    line-height: 3.5rem;
+    color: black;
+  }
+  .mepros-footer-wrapper {
+    background-size: cover;
+    margin-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .mepros-footer-copyright {
+    font-size: 2rem;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .box {
+    height: 6rem;
+    width: 6rem;
+  }
+  .mepros-logo {
+    width: 12%;
+  }
+  .en,
+  .tr {
+    width: 8%;
+  }
+  .mepros-whatsapp-logo {
+    width: 9rem;
+    height: 9rem;
+    right: 12rem;
+  }
+  .mepros-scroll-btn {
+    width: 9rem;
+    height: 9rem;
+  }
+  .mepros-sidebar {
+    width: 35rem;
+    opacity: 1;
+  }
+  .mepros-hamburger-menu {
+    width: 3rem;
+  }
+  .change .mepros-hamburger-menu {
+    right: 30rem;
+  }
+  .mepros-menu-link {
+    font-size: 4.2rem;
+  }
+  .mepros-menu-mepros-logo {
+    width: 25rem;
+  }
+  .mepros-social-media i {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  .mepros-heading-wrapper {
+    padding: 0 2rem 2rem 2rem;
+  }
+  .mepros-heading {
+    margin-top: 6rem;
+    font-size: 6rem;
+  }
+  .technical-data-text-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .technical-data-text-wrapper h1 {
+    font-size: 4rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
+  label {
+    font-size: 3.5rem;
+    padding: 1rem;
+  }
+  .tab {
+    margin-top: 0.5rem;
+  }
+  .tab p {
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2.6rem;
+    border-radius: 2rem;
+    line-height: 3.75rem;
+    color: black;
+  }
+  .mepros-footer-wrapper {
+    background-size: cover;
+    padding-bottom: 2.5rem;
+    margin-top: 5rem;
+  }
+
+  .mepros-footer-copyright {
+    font-size: 2.2rem;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .mepros-logo {
+    width: 10%;
+  }
+  .en,
+  .tr {
+    width: 6%;
+  }
+  .mepros-whatsapp-logo {
+    width: 9rem;
+    height: 9rem;
+    right: 12rem;
+  }
+  .mepros-scroll-btn {
+    width: 9rem;
+    height: 9rem;
+  }
+  .mepros-sidebar {
+    width: 40rem;
+    opacity: 1;
+  }
+  .mepros-hamburger-menu {
+    width: 3rem;
+  }
+  .change .mepros-hamburger-menu {
+    right: 35rem;
+  }
+  .mepros-menu-link {
+    font-size: 4.5rem;
+  }
+  .mepros-menu-mepros-logo {
+    width: 25rem;
+  }
+  .mepros-social-media i {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+    width: 6rem;
+    height: 6rem;
+    background-color: #555;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  .mepros-heading-wrapper {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .mepros-heading {
+    margin-top: 2rem;
+    font-size: 7rem;
+  }
+  .technical-data-text-wrapper {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+  .technical-data-text-wrapper h1 {
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  label {
+    font-size: 4rem;
+    padding: 1.5rem;
+  }
+  .tab {
+    margin-top: 0.5rem;
+  }
+  .tab p {
+    margin: 1rem;
+    padding: 2rem;
+    font-size: 2.5rem;
+    border-radius: 2rem;
+    line-height: 3.75rem;
+    color: black;
+  }
+  .mepros-footer-wrapper {
+    background-size: cover;
+    padding-bottom: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+  }
+
+  .mepros-footer-copyright {
+    font-size: 2.5rem;
+  }
+}
