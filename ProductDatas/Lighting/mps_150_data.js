@@ -1,5 +1,5 @@
 mps_150_data = {
-  name: "mps150",
+  name: "mps-150",
   colorsImagesDictionary: {
     "#b87333": [
       "../lighting-images/MPS150.png",
