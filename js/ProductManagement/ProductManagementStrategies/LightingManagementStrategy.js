@@ -1,7 +1,7 @@
 class LightingManagementStrategy extends ManagementStrategy {
-  static lamps = {};
+  static lightingProducts = {};
 
   addProduct(product) {
-    LightingManagementStrategy.lamps[product.getData().name] = product;
+    LightingManagementStrategy.lightingProducts[product.getData().name] = product;
   }
 }

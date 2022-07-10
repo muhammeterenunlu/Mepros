@@ -6,8 +6,12 @@ class FurnitureProduct extends Product{
     this.#data = data;
   }
 
-  getStrategy() {
+  getManagementStrategy() {
     return new FurnitureManagementStrategy();
+  }
+
+  getLoadStrategy() {
+    return new FurnitureLoadStrategy();
   }
 
   getData() {

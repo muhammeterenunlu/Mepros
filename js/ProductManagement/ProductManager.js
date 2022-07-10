@@ -1,10 +1,7 @@
 class ProductManager {
-  #managementStrategy
 
   addProduct(product) {
-    this.#managementStrategy = product.getStrategy();
-
-    this.#managementStrategy.addProduct(product);
+    product.getManagementStrategy().addProduct(product);
   }
 
   getProduct(productName, searchStrategy) {

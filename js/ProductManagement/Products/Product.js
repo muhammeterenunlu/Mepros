@@ -1,5 +1,9 @@
 class Product {
-  getStrategy() {
-    console.error("Error: usage of not implemented getStrategy() method from Product");
+  getManagementStrategy() {
+    console.error("Error: usage of not implemented getManagementStrategy() method from Product");
+  }
+
+  getLoadStrategy() {
+    console.error("Error: usage of not implemented getLoadStrategy() method from Product");
   }
 }

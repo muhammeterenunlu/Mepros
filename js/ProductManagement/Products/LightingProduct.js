@@ -6,8 +6,12 @@ class LightingProduct extends Product{
     this.#data = data;
   }
 
-  getStrategy() {
+  getManagementStrategy() {
     return new LightingManagementStrategy();
+  }
+
+  getLoadStrategy() {
+    return new LightingLoadStrategy();
   }
 
   getData() {
