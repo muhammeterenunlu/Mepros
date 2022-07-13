@@ -26,7 +26,7 @@ mps_f016_data = {
   instructions:
     'Dry clean only. Unzip cushion covers and dry clean. Remove non-greasy stains by carefully dabbing with a lint-free cloth or sponge wrung out in clean warm water. If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
 
-  technicalData: "../techadata/MPS-F016.pdf",
+  technicalData: "../techdata/MPS-F016.pdf",
 };
 
 globals.productManager.addProduct(new FurnitureProduct(mps_f016_data));
