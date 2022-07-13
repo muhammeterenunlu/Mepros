@@ -2,10 +2,20 @@ const globalInformations = {
   productColorInfo: {}
 }
 
-function setChosenColor(color) {
-  let cssRgb = color.style.backgroundColor;
+
+function setChosenColorFromHtml(element) {
+  let cssRgb = element.style.backgroundColor;
   let hex = cssRgbToHex(cssRgb);
 
   globalInformations.productColorInfo.chosenColor = hex;
+
+  UrlManager.updateColorParameter(hex);
+
+  globals.productLoader.loadProduct(globals.productLoader.getCurrentProduct());
+}
+
+function setProductColor(color) {
+  globalInformations.productColorInfo.chosenColor = color;
+
   globals.productLoader.loadProduct(globals.productLoader.getCurrentProduct());
 }

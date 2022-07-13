@@ -1,8 +1,11 @@
 mps_f023_data = {
   name: 'mps-f023',
+
+  //NOTE: MPS-F023 Only has 1 image a unique splitted design will be implemented
+
   colorsImagesDictionary: {
     '#f5f5dc': [
-      '../furniture-images/MPS-F023v1.jpeg',
+      '../furniture-images/MPS-F023.jpeg',
       '../furniture-images/MPS-F023v2.jpeg',
       '../furniture-images/MPS-F023v3.jpeg',
     ],

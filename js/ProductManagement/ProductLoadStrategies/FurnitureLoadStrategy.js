@@ -36,7 +36,7 @@ class FurnitureLoadStrategy extends LoadStrategy {
       let colorElement = document.createElement('div');
       colorElement.classList.add('box');
       colorElement.onclick = function () {
-        setChosenColor(colorElement);
+        setChosenColorFromHtml(colorElement);
       };
       colorElement.style.backgroundColor = color;
 

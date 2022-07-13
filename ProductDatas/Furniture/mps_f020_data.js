@@ -1,4 +1,4 @@
-mps_f20_data = {
+mps_f020_data = {
   name: 'mps-f020',
   colorsImagesDictionary: {
     '#f5f5dc': [
