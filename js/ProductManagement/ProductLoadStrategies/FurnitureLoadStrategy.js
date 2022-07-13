@@ -1,4 +1,4 @@
-class FurnitureLoadStrategy extends LoadStrategy{
+class FurnitureLoadStrategy extends LoadStrategy {
   loadProduct(product) {
     const productData = product.getData();
 
@@ -14,26 +14,30 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #setProductLabel(label) {
-    let productLabel = document.getElementById("product-label");
+    let productLabel = document.getElementById('product-label');
 
     productLabel.innerHTML = label;
   }
 
   #setTechnicalDataLabel(label) {
-    let technicalDataLabel = document.getElementById("product-technical-data-label");
+    let technicalDataLabel = document.getElementById(
+      'product-technical-data-label'
+    );
 
     technicalDataLabel.innerHTML = label.toUpperCase();
   }
 
   #setColors(colorImageDictionary) {
-    let colorContainer = document.getElementById("mepros-color-container");
+    let colorContainer = document.getElementById('mepros-color-container');
 
     colorContainer.innerHTML = '';
 
     for (const color in colorImageDictionary) {
       let colorElement = document.createElement('div');
       colorElement.classList.add('box');
-      colorElement.onclick = function() { setChosenColor(colorElement); };
+      colorElement.onclick = function () {
+        setChosenColor(colorElement);
+      };
       colorElement.style.backgroundColor = color;
 
       colorContainer.appendChild(colorElement);
@@ -43,17 +47,18 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #setImages(colorImageDictionary) {
-    let images = document.querySelectorAll(".product-image");
+    let images = document.querySelectorAll('.product-image');
 
     if (typeof globalInformations.productColorInfo.chosenColor === 'undefined')
-      globalInformations.productColorInfo.chosenColor = Object.keys(colorImageDictionary)[0];
+      globalInformations.productColorInfo.chosenColor =
+        Object.keys(colorImageDictionary)[0];
 
     const chosenColor = globalInformations.productColorInfo.chosenColor;
 
     if (chosenColor in colorImageDictionary) {
       for (let i = 0; i < images.length; i++) {
         const image = images[i];
-        
+
         image.src = colorImageDictionary[chosenColor][i];
       }
     }
@@ -68,7 +73,7 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #clearTags() {
-    let descriptionList = document.getElementById("description-tab-body");
+    let descriptionList = document.getElementById('description-tab-body');
 
     descriptionList.innerHTML = '';
   }
@@ -78,7 +83,7 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #pushTag(tag) {
-    let descriptionList = document.getElementById("description-tab-body");
+    let descriptionList = document.getElementById('description-tab-body');
 
     pushElementToList(descriptionList, tag);
   }
@@ -92,7 +97,7 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #clearMaterials() {
-    let materialList = document.getElementById("materials-tab-body");
+    let materialList = document.getElementById('materials-tab-body');
 
     materialList.innerHTML = '';
   }
@@ -102,13 +107,13 @@ class FurnitureLoadStrategy extends LoadStrategy{
   }
 
   #pushMaterial(material) {
-    let materialList = document.getElementById("materials-tab-body");
+    let materialList = document.getElementById('materials-tab-body');
 
     pushElementToList(materialList, material);
   }
 
   #setInstructions(instructions) {
-    let instructionsSection = document.getElementById("instructions-tab-body");
+    let instructionsSection = document.getElementById('instructions-tab-body');
 
     instructionsSection.innerHTML = instructions;
   }

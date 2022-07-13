@@ -1,10 +1,25 @@
-mps_f016_data = {
-  name: 'mps-f016',
+mps_f042_data = {
+  name: 'mps-f042',
   colorsImagesDictionary: {
-    '#202f5c': [
-      '../furniture-images/MPS-F016v1.jpeg',
-      '../furniture-images/MPS-F016v2.jpeg',
-      '../furniture-images/MPS-F016v3.jpeg',
+    '#e5e5e5': [
+      '../furniture-images/MPS-F042v1-1.jpeg',
+      '../furniture-images/MPS-F042v2-1.jpeg',
+      '../furniture-images/MPS-F042v3-1.jpeg',
+    ],
+    '#000000': [
+      '../furniture-images/MPS-F042v1-2.jpeg',
+      '../furniture-images/MPS-F042v2-2.jpeg',
+      '../furniture-images/MPS-F042v3-2.jpeg',
+    ],
+    '#909194': [
+      '../furniture-images/MPS-F042v1-3.jpeg',
+      '../furniture-images/MPS-F042v2-3.jpeg',
+      '../furniture-images/MPS-F042v3-3.jpeg',
+    ],
+    '#b54519': [
+      '../furniture-images/MPS-F042v1-4.jpeg',
+      '../furniture-images/MPS-F042v2-4.jpeg',
+      '../furniture-images/MPS-F042v3-4.jpeg',
     ],
   },
   tags: [
@@ -27,4 +42,4 @@ mps_f016_data = {
     'Dry clean only. Unzip cushion covers and dry clean. Remove non-greasy stains by carefully dabbing with a lint-free cloth or sponge wrung out in clean warm water. If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
 };
 
-globals.productManager.addProduct(new FurnitureProduct(mps_f016_data));
+globals.productManager.addProduct(new FurnitureProduct(mps_f042_data));

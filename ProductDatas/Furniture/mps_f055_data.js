@@ -1,10 +1,15 @@
-mps_f016_data = {
-  name: 'mps-f016',
+mps_f055_data = {
+  name: 'mps-f055',
   colorsImagesDictionary: {
     '#202f5c': [
-      '../furniture-images/MPS-F016v1.jpeg',
-      '../furniture-images/MPS-F016v2.jpeg',
-      '../furniture-images/MPS-F016v3.jpeg',
+      '../furniture-images/MPS-F055v1-1.jpeg',
+      '../furniture-images/MPS-F055v2-1.jpeg',
+      '../furniture-images/MPS-F055v3-1.jpeg',
+    ],
+    '#f5f5dc': [
+      '../furniture-images/MPS-F055v1-2.jpeg',
+      '../furniture-images/MPS-F055v2-2.jpeg',
+      '../furniture-images/MPS-F055v3-2.jpeg',
     ],
   },
   tags: [
@@ -27,4 +32,4 @@ mps_f016_data = {
     'Dry clean only. Unzip cushion covers and dry clean. Remove non-greasy stains by carefully dabbing with a lint-free cloth or sponge wrung out in clean warm water. If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
 };
 
-globals.productManager.addProduct(new FurnitureProduct(mps_f016_data));
+globals.productManager.addProduct(new FurnitureProduct(mps_f055_data));
