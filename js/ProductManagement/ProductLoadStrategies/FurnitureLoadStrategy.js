@@ -5,6 +5,8 @@ class FurnitureLoadStrategy extends LoadStrategy {
     this.#setProductLabel(productData.name.toUpperCase());
     this.#setTechnicalDataLabel(productData.name.toUpperCase());
 
+    this.#setTechnicalData(productData.technicalData);
+
     this.#setColors(productData.colorsImagesDictionary);
 
     this.#createAndPushTags(productData.tags);
@@ -27,6 +29,14 @@ class FurnitureLoadStrategy extends LoadStrategy {
     technicalDataLabel.innerHTML = label.toUpperCase();
   }
 
+  #setTechnicalData(technicalData) {
+    debugger;
+    let technicalDataHref = document.getElementById('technical-data-href');
+
+    if(typeof technicalData != 'undefined') technicalDataHref.href = technicalData;
+    else technicalDataHref.href = window.location.href;
+  }
+
   #setColors(colorImageDictionary) {
     let colorContainer = document.getElementById('mepros-color-container');
 
@@ -35,7 +45,7 @@ class FurnitureLoadStrategy extends LoadStrategy {
     for (const color in colorImageDictionary) {
       let colorElement = document.createElement('div');
       colorElement.classList.add('box');
-      colorElement.onclick = function () {
+      colorElement.onclick = function() {
         setChosenColorFromHtml(colorElement);
       };
       colorElement.style.backgroundColor = color;
