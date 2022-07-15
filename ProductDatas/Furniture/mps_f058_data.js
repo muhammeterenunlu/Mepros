@@ -8,21 +8,9 @@ mps_f058_data = {
     ],
   },
   tags: [
-    'Removable metal legs via screwer',
-    'Soft plastic glides avoid the floor damage attached under the legs of all kind',
-    'Moveable seat and back cushions',
-    'Removable back cushion covers',
-    'Additioanl two-cylinder cushions for decorative purposes',
+    'Somia brings a surprising and timeless modular sofa system with ultimate seating comfort.Modern and independent: Somia brings a breath of fresh air into your own four walls.',
   ],
-  materials: [
-    'Plywood framework',
-    'Elastic cords (Three Colors-70%) under the seat',
-    'Powder-coated metal legs',
-    '32 Density Foam Seat',
-    'High resilient foam core and blown fiber filled back cushions (separated) (1/3)',
-    'Hypersoft foam lamination',
-    '60gr/m2 fibre lamination',
-  ],
+  materials: ['Light Grey Color'],
   instructions:
     'Dry clean only. Unzip cushion covers and dry clean. Remove non-greasy stains by carefully dabbing with a lint-free cloth or sponge wrung out in clean warm water. If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
 };

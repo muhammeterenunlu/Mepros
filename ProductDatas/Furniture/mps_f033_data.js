@@ -8,11 +8,12 @@ mps_f033_data = {
     ],
   },
   tags: [
+    'Additional two arm pillows for 3 seater sofa, 2 seater sofa and sectional sofa',
     'Removable metal legs via screwer',
     'Soft plastic glides avoid the floor damage attached under the legs of all kind',
     'Moveable seat and back cushions',
-    'Removable back cushion covers',
-    'Additioanl two-cylinder cushions for decorative purposes',
+    'Removable seat and back cushion covers',
+    'Back pillows have number of partitions depending on the filling material',
   ],
   materials: [
     'Plywood framework',

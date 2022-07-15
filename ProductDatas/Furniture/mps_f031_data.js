@@ -8,23 +8,19 @@ mps_f031_data = {
     ],
   },
   tags: [
-    'Removable metal legs via screwer',
-    'Soft plastic glides avoid the floor damage attached under the legs of all kind',
-    'Moveable seat and back cushions',
-    'Removable back cushion covers',
-    'Additioanl two-cylinder cushions for decorative purposes',
+    'With its unique and modern design, Nodus is for assertive people. When you sit on Nodus you realize that comfort and elegance came together in the same sofa.',
   ],
   materials: [
     'Plywood framework',
-    'Elastic cords (Three Colors-70%) under the seat',
-    'Powder-coated metal legs',
+    'Nosag Springs under the seat',
+    'Pine, Beech or Oak Arms.',
     '32 Density Foam Seat',
-    'High resilient foam core and blown fiber filled back cushions (separated) (1/3)',
+    'High resilient foam core and blown fibre filled back cushions (separated) (1/1)',
     'Hypersoft foam lamination',
     '60gr/m2 fibre lamination',
   ],
   instructions:
-    'Dry clean only. Unzip cushion covers and dry clean. Remove non-greasy stains by carefully dabbing with a lint-free cloth or sponge wrung out in clean warm water. If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
+    'If necessary, clean by dabbing with soapy water or water with a little dish soap. Finally dab the surface with clean water.',
 };
 
 globals.productManager.addProduct(new FurnitureProduct(mps_f031_data));

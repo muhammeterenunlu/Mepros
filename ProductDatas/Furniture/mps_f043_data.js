@@ -32,7 +32,7 @@ mps_f043_data = {
     'Soft plastic glides avoid the floor damage attached under the legs of all kind',
     'Moveable seat and back cushions',
     'Removable back cushion covers',
-    'Additioanl two-cylinder cushions for decorative purposes',
+    'Additional two small cushions for decorative purposes',
   ],
   materials: [
     'Plywood framework',
