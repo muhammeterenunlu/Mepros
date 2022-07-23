@@ -2,8 +2,8 @@ mps_1027_data = {
   name: 'mps-1027',
   colorsImagesDictionary: {
     '#8B5A23': [
+      '../lighting-images/MPS1027.png',
       '../lighting-images/MPS1027-1.png',
-      '../lighting-images/MPS1027-2.png',
     ],
   },
   tags: [

@@ -31,6 +31,32 @@
   <link rel="stylesheet" href="../subpage-css/wall-sconce-sub-general-1.css">
 
   <!--JS Scripts-->
+
+  <!-- Utilities -->
+  <script defer src="../js/lowLevelDOMHelper.js"></script>
+  <script defer src="../js/colorUtilites.js"></script>
+  <script defer src="../js/productPageInputs.js"></script>
+
+
+  <!-- Make Sure That Product Management Scripts Loads Before Everything Else Except Data and Utilities-->
+  <script defer src="../js/ProductManagement/ProductManagementStrategies/ManagementStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductManagementStrategies/LightingManagementStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductManagementStrategies/ShadingManagementStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductSearchStrategies/SearchStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductSearchStrategies/LightingSearchStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductSearchStrategies/ShadingSearchStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoadStrategies/LoadStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoadStrategies/LightingLoadStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoadStrategies/ShadingLoadStrategy.js"></script>
+  <script defer src="../js/ProductManagement/Products/Product.js"></script>
+  <script defer src="../js/ProductManagement/Products/LightingProduct.js"></script>
+  <script defer src="../js/ProductManagement/Products/ShadingProduct.js"></script>
+  <script defer src="../js/ProductManagement/ProductManager.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoader.js"></script>
+
+  <script defer src="../js/globalInstances.js"></script>
+
+  <!-- Data -->
   <script defer src="../ProductDatas/Lighting/mps_ch039_data.js"></script>
   <script defer src="../ProductDatas/Lighting/mps_ch040_data.js"></script>
   <script defer src="../ProductDatas/Lighting/mps_ch050_data.js"></script>
@@ -141,32 +167,6 @@
   <script defer src="../ProductDatas/Lighting/mps_lp055_data.js"></script>
   <script defer src="../ProductDatas/Lighting/mps_lp056_data.js"></script>
   <script defer src="../ProductDatas/Lighting/mps_lp057_data.js"></script>
-  <!-- Utilities -->
-  <script defer src="../js/lowLevelDOMHelper.js"></script>
-  <script defer src="../js/colorUtilites.js"></script>
-  <script defer src="../js/productPageInputs.js"></script>
-
-
-  <!-- Make Sure That Product Management Scripts Loads Before Everything Else Except Data and Utilities-->
-  <script defer src="../js/ProductManagement/ProductManagementStrategies/ManagementStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductManagementStrategies/LightingManagementStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductManagementStrategies/ShadingManagementStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductSearchStrategies/SearchStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductSearchStrategies/LightingSearchStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductSearchStrategies/ShadingSearchStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductLoadStrategies/LoadStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductLoadStrategies/LightingLoadStrategy.js"></script>
-  <script defer src="../js/ProductManagement/ProductLoadStrategies/ShadingLoadStrategy.js"></script>
-  <script defer src="../js/ProductManagement/Products/Product.js"></script>
-  <script defer src="../js/ProductManagement/Products/LightingProduct.js"></script>
-  <script defer src="../js/ProductManagement/Products/ShadingProduct.js"></script>
-  <script defer src="../js/ProductManagement/ProductManager.js"></script>
-  <script defer src="../js/ProductManagement/ProductLoader.js"></script>
-
-  <script defer src="../js/globalInstances.js"></script>
-
-  <!-- Data -->
-  <script defer src="../ProductDatas/Lighting/mps_1021_data.js"></script>
 
   <script defer src="../js/lightingLoader.js"></script>
 
@@ -253,7 +253,7 @@
                 <div class="item active">
                   <ul class="reset clearfix">
                     <li class="prod1">
-                      <input type="radio" name="product" id="product-1" value="a">
+                      <input type="radio" name="product" id="product-1" value="a" checked>
                       <label for="product-1">
                         <img src="" class="product-image">
                       </label>
