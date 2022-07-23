@@ -1,7 +1,7 @@
-mps_1021_data = {
-  name: 'mps-1021',
+mps_3061_data = {
+  name: 'mps-3061',
   colorsImagesDictionary: {
-    '#000000': ['../lighting-images/MPS1021.png'],
+    '#8B5A23': ['../lighting-images/MPS3061.png'],
   },
   tags: [
     'It is a triplee product. It can be applied with electrostatic powder paint and lacquer coating, opal and blown glass rosin',
@@ -12,4 +12,4 @@ mps_1021_data = {
   ],
 };
 
-globals.productManager.addProduct(new LightingProduct(mps_1021_data));
+globals.productManager.addProduct(new LightingProduct(mps_3061_data));

@@ -1,17 +1,20 @@
 mps_b011_data = {
-  name: "mps-b011",
+  name: 'mps-b011',
   colorsImagesDictionary: {
-    "#3d3d3d": [
-      "../shading-images/MPS-B011.png",
-    ],
+    '#000000': ['../shading-images/MPS-B011.png'],
+    '#3d3d3d': ['../shading-images/MPS-B011.png'],
+    '#ffffcc': ['../shading-images/MPS-B011.png'],
+    '#ffffff': ['../shading-images/MPS-B011.png'],
   },
   tags: [
-    "It is a triple product. It can be applied with electrostatic powder paint and lacquer coating, opal and blown glass, rosin.",
-    "Socket: e27",
-    "Volt: 220V",
-    "Stock Colors: Copper, Black, Antique",
-    "Applicable Colors: Copper, Yellow, Grey, Black, Antique",
+    'Led chip permeter 60.',
+    'Led Type: Strip',
+    'Current Rate Permeter: 1A',
+    'Voltage: 12V DC',
+    'Power: 12W',
+    'Efficiency: %90',
+    'Protection Class: IP68',
   ],
-}
+};
 
 globals.productManager.addProduct(new ShadingProduct(mps_b011_data));
