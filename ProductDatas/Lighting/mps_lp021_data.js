@@ -1,7 +1,7 @@
 mps_lp021_data = {
   name: 'mps-lp021',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP021.png'],
+    '#000000': ['../lighting-images/MPS-LP021.png'],
   },
   tags: [
     'Galvanized steel housing and pole are powder coating with high corrosion resistance and chemical chromatised protection',

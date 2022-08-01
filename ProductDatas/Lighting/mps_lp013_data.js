@@ -1,7 +1,7 @@
 mps_lp013_data = {
   name: 'mps-lp013',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP013.png'],
+    '#000000': ['../lighting-images/MPS-LP013.png'],
   },
   tags: [
     'Housing accommodates up to 3 LED lighting units (LED Board: 16 / 24 LED)',

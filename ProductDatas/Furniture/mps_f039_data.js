@@ -7,9 +7,9 @@ mps_f039_data = {
       '../furniture-images/MPS-F039v3-1.jpeg',
     ],
     '#b54519': [
-      '../furniture-images/MPS-F039v1-2.jpeg',
-      '../furniture-images/MPS-F039v2-2.jpeg',
-      '../furniture-images/MPS-F039v3-2.jpeg',
+      '../furniture-images/MPS-F039-2.jpeg',
+      '../furniture-images/MPS-F039-2.jpeg',
+      '../furniture-images/MPS-F039-2.jpeg',
     ],
   },
   tags: [

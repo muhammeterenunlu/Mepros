@@ -1,7 +1,7 @@
 mps_lp054_data = {
   name: 'mps-lp054',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP054.png'],
+    '#000000': ['../lighting-images/MPS-LP054.png'],
   },
   tags: [
     'Light building elements with symmetric light distribution',

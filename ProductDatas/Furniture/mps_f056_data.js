@@ -22,7 +22,7 @@ mps_f056_data = {
       '../furniture-images/MPS-F056v3-4.jpeg',
     ],
     '#e67e22': [
-      '../furniture-images/MPS-F056v1-5jpeg',
+      '../furniture-images/MPS-F056v1-5.jpeg',
       '../furniture-images/MPS-F056v2-5.jpeg',
       '../furniture-images/MPS-F056v3-5.jpeg',
     ],

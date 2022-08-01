@@ -2,12 +2,12 @@ mps_f061_data = {
   name: 'mps-f061',
   colorsImagesDictionary: {
     '#202f5c': [
-      '../furniture-images/MPS-F061v1-1.jpeg',
+      '../furniture-images/MPS-F061v1-1.png',
       '../furniture-images/MPS-F061v2-1.jpeg',
       '../furniture-images/MPS-F061v3-1.jpeg',
     ],
     '#b54519': [
-      '../furniture-images/MPS-F061v1-2.jpeg',
+      '../furniture-images/MPS-F061v1-2.png',
       '../furniture-images/MPS-F061v2-2.jpeg',
       '../furniture-images/MPS-F061v3-2.jpeg',
     ],

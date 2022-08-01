@@ -1,7 +1,7 @@
 mps_lp005_data = {
   name: 'mps-lp005',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP005.png'],
+    '#000000': ['../lighting-images/MPS-LP005.png'],
   },
   tags: [
     'Housing accommodates up to 6 LED lighting units (LED Board: 16 / 32 / 48 / 64 / 80 / 96 LED)',
