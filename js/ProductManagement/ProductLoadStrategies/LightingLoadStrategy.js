@@ -23,7 +23,7 @@ class LightingLoadStrategy extends LoadStrategy{
     for (const color in colorImageDictionary) {
       let colorElement = document.createElement('div');
       colorElement.classList.add('box');
-      colorElement.onclick = function() { setChosenColor(colorElement); };
+      colorElement.onclick = function() { setChosenColorFromHtml(colorElement); };
       colorElement.style.backgroundColor = color;
 
       colorContainer.appendChild(colorElement);

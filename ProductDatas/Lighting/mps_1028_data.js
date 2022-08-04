@@ -1,4 +1,4 @@
-mps_1021_data = {
+mps_1028_data = {
   name: 'mps-1028',
   colorsImagesDictionary: {
     '#8B5A23': [

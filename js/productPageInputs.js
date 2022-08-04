@@ -2,8 +2,8 @@ const globalInformations = {
   productColorInfo: {}
 }
 
-
 function setChosenColorFromHtml(element) {
+  debugger;
   let cssRgb = element.style.backgroundColor;
   let hex = cssRgbToHex(cssRgb);
 
