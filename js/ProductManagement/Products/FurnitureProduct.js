@@ -11,7 +11,12 @@ class FurnitureProduct extends Product{
   }
 
   getLoadStrategy() {
-    return new FurnitureLoadStrategy();
+    switch (globals.chosenLanguage) {
+      case 'en':
+        return new FurnitureLoadStrategy();
+      case 'tr':
+        return new FurnitureLoadStrategy_tr();
+    }
   }
 
   getData() {

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+een html>
 <html>
 
 <head>
@@ -46,6 +46,7 @@
   <script defer src="../js/ProductManagement/ProductSearchStrategies/FurnitureSearchStrategy.js"></script>
   <script defer src="../js/ProductManagement/ProductLoadStrategies/LoadStrategy.js"></script>
   <script defer src="../js/ProductManagement/ProductLoadStrategies/FurnitureLoadStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoadStrategies/FurnitureLoadStrategy_tr.js"></script>
   <script defer src="../js/ProductManagement/Products/Product.js"></script>
   <script defer src="../js/ProductManagement/Products/FurnitureProduct.js"></script>
   <script defer src="../js/ProductManagement/ProductManager.js"></script>
@@ -101,7 +102,6 @@
   <script defer src="../ProductDatas/Furniture/mps_f059_data.js"></script>
   <script defer src="../ProductDatas/Furniture/mps_f060_data.js"></script>
   <script defer src="../ProductDatas/Furniture/mps_f061_data.js"></script>
-  <script defer src="../ProductDatas/Lighting/mps_ch038_data.js"></script>
 
   <script defer src="../js/furnitureLoader.js"></script>
 
@@ -131,8 +131,8 @@
         </div>
 
         <div class="language-wrapper">
-          <img src="../images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
-          <img src="../images/tr.png" onclick="changeHomepageLanguageToTurkish()" alt="tr" class="tr">
+          <img src="../images/en.png" onclick="changeProductLanguageToEnglish()" alt="en" class="en">
+          <img src="../images/tr.png" onclick="changeProductLanguageToTurkish()" alt="tr" class="tr">
         </div>
 
         <!--!!! Change whatsapp number !!!-->
@@ -219,19 +219,19 @@
           <section id="mepros-description">
             <div class="tabs">
               <input type="radio" name="tabs" id="tabone" checked="checked">
-              <label for="tabone">Description</label>
+              <label for="tabone" class='translatable' name='product_description'>Description</label>
               <div class="tab">
                 <ul id="description-tab-body" class="listTabBody"></ul>
               </div>
 
               <input type="radio" name="tabs" id="tabtwo">
-              <label for="tabtwo">Material</label>
+              <label for="tabtwo" class="translatable" name='product_material'>Material</label>
               <div class="tab">
                 <ul id="materials-tab-body" class="listTabBody"></ul>
               </div>
 
               <input type="radio" name="tabs" id="tabthree">
-              <label for="tabthree">Instructions</label>
+              <label for="tabthree" class="translatable" name='product_instructions'>Instructions</label>
               <div class="tab">
                 <li id="instructions-tab-body">
                   </p>

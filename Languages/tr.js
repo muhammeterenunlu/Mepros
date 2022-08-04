@@ -41,4 +41,8 @@ trlang = {
   mepros_section_4_heading: 'En İyi Ürünler',
   mepros_section_5_heading: 'Kalite ve Daha Fazlası',
   mepros_section_6_heading: 'Son Teknoloji Çözümler',
+
+  product_description: 'Açıklama',
+  product_material: 'Materyal',
+  product_instructions: 'Yönergeler',
 };

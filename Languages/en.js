@@ -40,4 +40,8 @@ enlang = {
   mepros_section_4_heading: 'The Best Products',
   mepros_section_5_heading: 'Quality and Much More Besides',
   mepros_section_6_heading: 'High End Solutions',
+
+  product_description: 'Description',
+  product_material: 'Material',
+  product_instructions: 'Instructions',
 };
