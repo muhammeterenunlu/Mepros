@@ -179,7 +179,7 @@
 
 .mepros-section-3-wrapper {
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/lobo-two-homepage-slider.jpeg) center no-repeat;
+    url(images/lighting-homepage-slider1.jpeg) center no-repeat;
   background-size: cover;
   background-position: center;
   transform: scale(1);
@@ -220,7 +220,7 @@
   height: 110%;
   position: absolute;
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/kets-three-homepage-slider-1.jpeg) center no-repeat;
+    url(images/lighting-homepage-slider2-1.png) center no-repeat;
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -243,7 +243,7 @@
 
 .mepros-section-5-wrapper {
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/maria-two-homepage-slider.jpeg) center no-repeat;
+    url(images/shading-homepage-slider1.png) center no-repeat;
   background-size: cover;
   background-position: center;
   transform: scale(1);
@@ -284,7 +284,7 @@
   height: 110%;
   position: absolute;
   background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-    url(images/loop-three-homepage-slider-1.jpeg) center no-repeat;
+    url(images/shading-homepage-slider2-1.png) center no-repeat;
   background-size: cover;
   background-position: center;
   z-index: -1;
