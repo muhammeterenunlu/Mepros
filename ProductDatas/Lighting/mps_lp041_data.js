@@ -1,7 +1,7 @@
 mps_lp041_data = {
   name: 'mps-lp041',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP041.png'],
+    '#000000': ['../lighting-images/MPS-LP041.png'],
   },
   tags: [
     'Various light distributions for walkway lighting',

@@ -1,7 +1,7 @@
 mps_f036_data = {
   name: 'mps-f036',
   colorsImagesDictionary: {
-    '#f5f5dc': [
+    '#F3ECE1': [
       '../furniture-images/MPS-F036v1.jpeg',
       '../furniture-images/MPS-F036v2.jpeg',
       '../furniture-images/MPS-F036v3.jpeg',

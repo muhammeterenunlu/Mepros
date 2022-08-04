@@ -1,7 +1,7 @@
 mps_lp056_data = {
   name: 'mps-lp056',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP056.png'],
+    '#000000': ['../lighting-images/MPS-LP056.png'],
   },
   tags: [
     'Light building elements with symmetric light distribution',

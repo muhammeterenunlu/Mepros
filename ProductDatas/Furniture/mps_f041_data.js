@@ -11,7 +11,7 @@ mps_f041_data = {
       '../furniture-images/MPS-F041v2-2.jpeg',
       '../furniture-images/MPS-F041v3-2.jpeg',
     ],
-    '#000000': [
+    '#484643': [
       '../furniture-images/MPS-F041v1-3.jpeg',
       '../furniture-images/MPS-F041v2-3.jpeg',
       '../furniture-images/MPS-F041v3-3.jpeg',

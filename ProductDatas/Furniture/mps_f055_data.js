@@ -2,14 +2,14 @@ mps_f055_data = {
   name: 'mps-f055',
   colorsImagesDictionary: {
     '#202f5c': [
-      '../furniture-images/MPS-F055v1-1.jpeg',
-      '../furniture-images/MPS-F055v2-1.jpeg',
-      '../furniture-images/MPS-F055v3-1.jpeg',
+      '../furniture-images/MPS-F055-1.png',
+      '../furniture-images/MPS-F055-1.png',
+      '../furniture-images/MPS-F055-1.png',
     ],
     '#f5f5dc': [
-      '../furniture-images/MPS-F055v1-2.jpeg',
-      '../furniture-images/MPS-F055v2-2.jpeg',
-      '../furniture-images/MPS-F055v3-2.jpeg',
+      '../furniture-images/MPS-F055v1-2.png',
+      '../furniture-images/MPS-F055v2-2.png',
+      '../furniture-images/MPS-F055v3-2.png',
     ],
   },
   tags: [

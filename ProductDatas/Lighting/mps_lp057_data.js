@@ -1,10 +1,10 @@
 mps_lp057_data = {
   name: 'mps-lp057',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP057.png'],
+    '#000000': ['../lighting-images/MPS-LP057.png'],
   },
   tags: [
-    'Light build�ng element with tiltable distribution',
+    'Light building element with tiltable distribution',
     'A series of single and twin light building elements with tiltable light distribution from 0° to 10°. Light building elements are luminous design features for public areas. They are ideally suited for delineating and structuring interior and exterior spaces such as landscape areas, plazas, building entrances and atria.',
     'Die-cast and extruded aluminum · Clear safety glass Reflector made of pure anodized aluminum Anchorage unit made of galvanized steel',
     'LED color temperatures: 2700K, 3000 K, 3500 K, 4000 K',

@@ -2,9 +2,9 @@ mps_f059_data = {
   name: 'mps-f059',
   colorsImagesDictionary: {
     '#796a52': [
-      '../furniture-images/MPS-F059v1-1.jpeg',
-      '../furniture-images/MPS-F059v2-1.jpeg',
-      '../furniture-images/MPS-F059v3-1.jpeg',
+      '../furniture-images/MPS-F059.jpeg',
+      '../furniture-images/MPS-F059.jpeg',
+      '../furniture-images/MPS-F059.jpeg',
     ],
     '#aa2222': [
       '../furniture-images/MPS-F059v1-2.jpeg',

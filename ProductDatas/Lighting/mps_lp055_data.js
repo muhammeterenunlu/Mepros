@@ -1,7 +1,7 @@
 mps_lp055_data = {
   name: 'mps-lp055',
   colorsImagesDictionary: {
-    '#8B5A23': ['../lighting-images/MPS-LP055.png'],
+    '#000000': ['../lighting-images/MPS-LP055.png'],
   },
   tags: [
     'Shielded bollard with symmetric light distribution',

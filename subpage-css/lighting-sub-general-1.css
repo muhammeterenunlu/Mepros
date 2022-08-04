@@ -56,7 +56,7 @@
     padding: 0 2rem 2rem 2rem;
   }
   .mepros-heading {
-    margin-top: 10rem;
+    margin-top: 4rem;
     margin-bottom: 2rem;
     font-size: 3rem;
   }
@@ -75,13 +75,16 @@
   .tab {
     margin-top: 0.5rem;
   }
-  .tab p {
+  .tab li {
     margin: 1rem;
-    padding: 2rem;
+    padding: 0.1rem;
     font-size: 1.5rem;
     border-radius: 2rem;
     line-height: 2rem;
     color: black;
+  }
+  .mepros-color-wrapper {
+    margin-top: 7%;
   }
   .mepros-footer-wrapper {
     background-size: cover;
@@ -169,13 +172,16 @@
   .tab {
     margin-top: 0.5rem;
   }
-  .tab p {
+  .tab li {
     margin: 1rem;
-    padding: 2rem;
+    padding: 0.2rem;
     font-size: 2rem;
     border-radius: 2rem;
     line-height: 3rem;
     color: black;
+  }
+  .mepros-color-wrapper {
+    margin-top: 9%;
   }
   .mepros-footer-wrapper {
     background-size: cover;
@@ -243,7 +249,7 @@
     padding: 0 2rem 2rem 2rem;
   }
   .mepros-heading {
-    margin-top: 1 rem;
+    margin-top: 6rem;
     font-size: 5rem;
   }
   .technical-data-text-wrapper {
@@ -261,13 +267,16 @@
   .tab {
     margin-top: 0.5rem;
   }
-  .tab p {
+  .tab li {
     margin: 1rem;
-    padding: 2rem;
+    padding: 0.3rem;
     font-size: 2.2rem;
     border-radius: 2rem;
     line-height: 3.5rem;
     color: black;
+  }
+  .mepros-color-wrapper {
+    margin-top: 11%;
   }
   .mepros-footer-wrapper {
     background-size: cover;
@@ -353,13 +362,16 @@
   .tab {
     margin-top: 0.5rem;
   }
-  .tab p {
+  .tab li {
     margin: 1rem;
-    padding: 2rem;
+    padding: 0.4rem;
     font-size: 2.6rem;
     border-radius: 2rem;
     line-height: 3.75rem;
     color: black;
+  }
+  .mepros-color-wrapper {
+    margin-top: 7%;
   }
   .mepros-footer-wrapper {
     background-size: cover;
@@ -423,7 +435,7 @@
     padding: 0 1rem 1rem 1rem;
   }
   .mepros-heading {
-    margin-top: 2rem;
+    margin-top: 7rem;
     font-size: 7rem;
   }
   .technical-data-text-wrapper {
@@ -441,13 +453,16 @@
   .tab {
     margin-top: 0.5rem;
   }
-  .tab p {
+  .tab li {
     margin: 1rem;
-    padding: 2rem;
+    padding: 0.5rem;
     font-size: 2.5rem;
     border-radius: 2rem;
     line-height: 3.75rem;
     color: black;
+  }
+  .mepros-color-wrapper {
+    margin-top: 7%;
   }
   .mepros-footer-wrapper {
     background-size: cover;

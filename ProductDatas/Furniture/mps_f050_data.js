@@ -9,7 +9,7 @@ mps_f050_data = {
     '#e67e22': [
       '../furniture-images/MPS-F050v1-2.jpeg',
       '../furniture-images/MPS-F050v2-2.jpeg',
-      '../furniture-images/MPS-F050v3-2.jpeg',
+      '../furniture-images/MPS-F050v3-2.png',
     ],
   },
   tags: [

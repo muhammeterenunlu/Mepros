@@ -16,12 +16,12 @@ mps_f049_data = {
       '../furniture-images/MPS-F049v2-3.jpeg',
       '../furniture-images/MPS-F049v3-3.jpeg',
     ],
-    '#eebaee': [
+    '#cf571b': [
       '../furniture-images/MPS-F049v1-4.jpeg',
       '../furniture-images/MPS-F049v2-4.jpeg',
       '../furniture-images/MPS-F049v3-4.jpeg',
     ],
-    '#b5a919': [
+    '#dacf1b': [
       '../furniture-images/MPS-F049v1-5.jpeg',
       '../furniture-images/MPS-F049v2-5.jpeg',
       '../furniture-images/MPS-F049v3-5.jpeg',
@@ -31,7 +31,7 @@ mps_f049_data = {
       '../furniture-images/MPS-F049v2-6.jpeg',
       '../furniture-images/MPS-F049v3-6.jpeg',
     ],
-    '#909194': [
+    '#353c6f': [
       '../furniture-images/MPS-F049v1-7.jpeg',
       '../furniture-images/MPS-F049v2-7.jpeg',
       '../furniture-images/MPS-F049v3-7.jpeg',
