@@ -1,4 +1,4 @@
-class ShadingProduct extends Product{
+class ShadingProduct extends Product {
   #data
 
   constructor(data) {
@@ -11,7 +11,12 @@ class ShadingProduct extends Product{
   }
 
   getLoadStrategy() {
-    return new ShadingLoadStrategy();
+    switch (globals.chosenLanguage) {
+      case 'en':
+        return new ShadingLoadStrategy();
+      case 'tr':
+        return new ShadingLoadStrategy_tr();
+    }
   }
 
   getData() {

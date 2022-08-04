@@ -7,11 +7,18 @@ mps_3001_data = {
     ],
   },
   tags: [
-    "Material: Electrostatic powder coat, covered with lac, rozans is applicable",
+    "Material: Opal Glass, Electrostatic powder coat, covered with lac, rozans is applicable",
     "Socket: e14",
     "Volt: 220V",
     "Stock Colors: Copper",
     "Applicable Colors: Copper, Golden, Silver, Black, Aging Paint",
+  ],
+  tags_tr: [
+    "Materyal: Opal ve üfleme cam, Elektrostatik toz boya, Lak kaplama, rozans ile uygulanabilir",
+    "Duy: e14",
+    "Volt: 220V",
+    "Stok Rengi: Bakır",
+    "Uygulanabilir Renkler: Bakır, Altın, Gümüş, Siyah, Eskitme",
   ],
 }
 

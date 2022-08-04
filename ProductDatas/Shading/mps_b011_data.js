@@ -15,6 +15,15 @@ mps_b011_data = {
     'Efficiency: %90',
     'Protection Class: IP68',
   ],
+  tags_tr: [
+    '60 permetreli led çip.',
+    'Led tipi: Şerit',
+    'Akım oranı permetresi: 1A',
+    'Gerilim: 12V DC',
+    'Güç: 12W',
+    'Verimlilik: %90',
+    'Koruma Sınıfı: IP68',
+  ],
 };
 
 globals.productManager.addProduct(new ShadingProduct(mps_b011_data));

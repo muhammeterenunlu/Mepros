@@ -46,6 +46,7 @@
   <script defer src="../js/ProductManagement/ProductSearchStrategies/LightingSearchStrategy.js"></script>
   <script defer src="../js/ProductManagement/ProductLoadStrategies/LoadStrategy.js"></script>
   <script defer src="../js/ProductManagement/ProductLoadStrategies/LightingLoadStrategy.js"></script>
+  <script defer src="../js/ProductManagement/ProductLoadStrategies/LightingLoadStrategy_tr.js"></script>
   <script defer src="../js/ProductManagement/Products/Product.js"></script>
   <script defer src="../js/ProductManagement/Products/LightingProduct.js"></script>
   <script defer src="../js/ProductManagement/ProductManager.js"></script>
@@ -205,7 +206,7 @@
     <div class="mepros-container">
       <div class="mepros-progress-wrapper">
         <div class="nav-container">
-          <a href="../../index.html">
+          <a href="../index.html">
             <img src="../images/logo.png" alt="Mepros-logo" class="mepros-logo">
           </a>
           <div class="mepros-hamburger-menu">
@@ -216,8 +217,8 @@
         </div>
 
         <div class="language-wrapper">
-          <img src="../images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
-          <img src="../images/tr.png" onclick="changeHomepageLanguageToTurkish()" alt="tr" class="tr">
+          <img src="../images/en.png" onclick="changeProductLanguageToEnglish()" alt="en" class="en">
+          <img src="../images/tr.png" onclick="changeProductLanguageToTurkish()" alt="tr" class="tr">
         </div>
 
         <!--!!! Change whatsapp number !!!-->
@@ -231,22 +232,10 @@
         <div class="mepros-sidebar">
           <ul class="mepros-menu">
             <li class="mepros-menu-item">
-              <a href="index.html"><img src="../images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
+              <a href="../index.html"><img src="../images/logo.png" alt="Mepros-logo" class="mepros-menu-mepros-logo"></a>
             </li>
             <li class="mepros-menu-item">
-              <a href="../../index.html" name="hamburger_menu_home" class="mepros-menu-link translatable">Home</a>
-            </li>
-            <li class="mepros-menu-item">
-              <a href="#mepros-products-section" name="hamburger_menu_products"
-                class="mepros-menu-link translatable">Products</a>
-            </li>
-            <li class="mepros-menu-item">
-              <a href="#mepros-about-us-section" name="hamburger_menu_about" class="mepros-menu-link translatable">About
-                Us</a>
-            </li>
-            <li class="mepros-menu-item">
-              <a href="#mepros-contact-us-section" name="hamburger_menu_contact"
-                class="mepros-menu-link translatable">Contact Us</a>
+              <a href="../index.html" name="hamburger_menu_home" class="mepros-menu-link translatable">Home</a>
             </li>
           </ul>
           <div class="mepros-social-media">
@@ -300,7 +289,7 @@
           <section id="mepros-description">
             <div class="tabs">
               <input type="radio" name="tabs" id="tabone" checked="checked">
-              <label for="tabone">Description</label>
+              <label for="tabone" class="translatable" name='product_description'>Description</label>
               <div class="tab">
                 <ul id="description-tab-body" class="listTabBody"></ul>
               </div>

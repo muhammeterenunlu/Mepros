@@ -11,7 +11,12 @@ class LightingProduct extends Product{
   }
 
   getLoadStrategy() {
-    return new LightingLoadStrategy();
+    switch (globals.chosenLanguage) {
+      case 'en':
+        return new LightingLoadStrategy();
+      case 'tr':
+        return new LightingLoadStrategy_tr();
+    }
   }
 
   getData() {
