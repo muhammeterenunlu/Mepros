@@ -12,6 +12,12 @@ mps_2053_data = {
     "Volt: 220V",
     "Color Options: Red, White, Black, Yellow, Fuschia"
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, elektrostatik toz boya',
+    'Duy: e27',
+    'Volt: 220V',
+    'Renk Seçenekleri: Kırmızı, Beyaz, Siyah, Sarı, Fuşya'
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_2053_data));

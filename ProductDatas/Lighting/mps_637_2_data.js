@@ -12,6 +12,12 @@ mps_637_2_data = {
     "Volt: 220V",
     "Color Options: Copper, Chrome, Golden",
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, Bakır/Sarı/Krom kaplama',
+    'Duy: e27',
+    'Volt: 220V',
+    "Renk Seçenekleri: Bakır, Krom, Altın",
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_637_2_data));

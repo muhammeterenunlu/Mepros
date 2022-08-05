@@ -12,6 +12,13 @@ mps_3039_data = {
     "Stock Colors: Copper, Black, Aging Paint",
     "Applicable Colors: Copper, Golden, Silver, Black, Aging Paint",
   ],
+  tags_tr: [
+    "Materyal: Elektrostatik toz boya, Lak kaplama, soket ve rozans ile uygulanabilir",
+    "Duy: e27",
+    "Volt: 220V",
+    "Stok Rengi: Bakır, Siyah, Eskitme",
+    "Uygulanabilir Renkler: Bakır, Altın, Gümüş, Siyah, Eskitme",
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_3039_data));

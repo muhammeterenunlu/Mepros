@@ -11,9 +11,12 @@ mps_3015_data = {
     "Socket: e27",
     "Volt: 220V",
     "Applicable Colors: Copper, Golden, Silver, Black, Aging Paint",
-    "Material: Metal Aluminum Body, electrostatic powder coat",
-    "Socket: e27",
+  ],
+  tags_tr: [
+    "Materyal: Elektrostatik toz boya, Lak kaplama, rozans ile uygulanabilir",
+    "Duy: e27",
     "Volt: 220V",
+    "Uygulanabilir Renkler: Bakır, Altın, Gümüş, Siyah, Eskitme",
   ],
 }
 

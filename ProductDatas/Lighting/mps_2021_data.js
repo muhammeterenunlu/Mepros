@@ -11,6 +11,11 @@ mps_2021_data = {
     "Socket: e27",
     "Volt: 220V",
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, elektrostatik toz boya',
+    'Duy: e27',
+    'Volt: 220V',
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_2021_data));

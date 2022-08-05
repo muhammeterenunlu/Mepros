@@ -1,4 +1,4 @@
-mps_640_data = {
+Altın = {
   name: "mps-640",
   colorsImagesDictionary: {
     "#ebbc82": [
@@ -10,6 +10,11 @@ mps_640_data = {
     "Material: Metal Aluminum Body, Copper/Yellow/Chrome covered",
     "Socket: e27",
     "Volt: 220V",
+  ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, Bakır/Sarı/Krom kaplama',
+    'Duy: e27',
+    'Volt: 220V',
   ],
 }
 

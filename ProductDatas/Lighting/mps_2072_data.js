@@ -12,6 +12,12 @@ mps_2072_data = {
     "Volt: 220V",
     "Color Options: Black, Platina",
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, elektrostatik toz boya',
+    'Duy: e27',
+    'Volt: 220V',
+    'Renk Seçenekleri: Siyah, Patina'
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_2072_data));

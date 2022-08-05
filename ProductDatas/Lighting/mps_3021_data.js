@@ -13,6 +13,13 @@ mps_3021_data = {
     "Stock Colors: Copper, Golden, Silver, Black",
     "Applicable Colors: Copper, Golden, Silver, Black, Aging Paint",
   ],
+  tags_tr: [
+    "Materyal: Elektrostatik toz boya, Lak kaplama, soket ve rozans ile uygulanabilir",
+    "Duy: GU10",
+    "Volt: 220V",
+    "Stok Rengi: Bakır, Altın, Gümüş, Siyah",
+    "Uygulanabilir Renkler: Bakır, Altın, Gümüş, Siyah, Eskitme",
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_3021_data));

@@ -10,7 +10,13 @@ mps_2050z_data = {
     "Material: Metal Aluminum Body, electrostatic powder coat",
     "Socket: e27",
     "Volt: 220V",
-    "Color Options: Red, Black, Yellow"
+    "Color Options: Red, White, Black, Yellow"
+  ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, elektrostatik toz boya',
+    'Duy: e27',
+    'Volt: 220V',
+    'Renk Seçenekleri: Kırmızı, Beyaz, Siyah, Sarı'
   ],
 }
 

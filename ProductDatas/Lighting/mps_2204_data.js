@@ -12,6 +12,12 @@ mps_2204_data = {
     "Volt: 220V",
     "Color Options: Chrome, Copper, Black"
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, elektrostatik toz boya',
+    'Duy: e27',
+    'Volt: 220V',
+    'Renk Seçenekleri: Krom, Bakır, Siyah'
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_2204_data));

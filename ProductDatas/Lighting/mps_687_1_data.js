@@ -11,6 +11,11 @@ mps_687_1_data = {
     "Socket: e27",
     "Volt: 220V",
   ],
+  tags_tr: [
+    'Materyal: Metal Alüminyum Gövde, Bakır/Sarı/Krom kaplama',
+    'Duy: e27',
+    'Volt: 220V',
+  ],
 }
 
 globals.productManager.addProduct(new LightingProduct(mps_687_1_data));
