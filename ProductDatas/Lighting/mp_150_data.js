@@ -7,6 +7,7 @@ mp_150_data = {
     ],
   },
   tags: ['Material: Metal Aluminum Body', 'Socket: e27', 'Volt: 220V'],
+  tags_tr: ['Malzeme: Metal Alüminyum Gövde', 'Soket: e27', 'Volt: 220V'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mp_150_data));

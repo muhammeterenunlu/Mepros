@@ -13,6 +13,16 @@ mps_lp056_data = {
     'All BEGA standard finishes are matte, textured powder coat with minimum 3 mil thickness. BEGA Unidure finish, a fluoropolymer technology, provides superior fade protection in Black, Bronze, and Silver. BEGA standard White, as well as optionally available RAL and custom colors, are a polyester powder.',
     'NRTL listed to North American standards · Suitable for wet locations Protection class IP 65',
   ],
+  tags_tr: [
+    'Simetrik ışık dağılımına sahip hafif yapı elemanları',
+    'Simetrik ışık dağılımına sahip bir dizi hafif yapı elemanı.',
+    'Hafif yapı elemanları, ortak alanlar için aydınlık tasarım özellikleridir. Peyzaj alanları, plazalar, bina girişleri ve atriyumlar gibi iç ve dış mekanların tanımlanması ve yapılandırılması için idealdirler.',
+    'Döküm ve ekstrüde alüminyum · Saf anodize alüminyumdan yapılmış şeffaf güvenlik camı Reflektör',
+    'LED renk sıcaklıkları: 2700K, 3000K, 3500K, 4000K',
+    'BEGA aydınlatıcılar, satın alma tarihinden itibaren 20 yıla kadar garantili uygun LED değiştirme modülleri ile minimum 60.000 saat hizmet ömrü sunar. Işık akısı, CRI, karartma ve elektriksel özellikler dahil olmak üzere diğer LED teknik verileri, www.bega-us.com adresinde bulunan ayrı armatür teknik özellikleri sayfalarında sağlanmaktadır.',
+    'Bütün BEGA standart kaplamaları, minimum 3 mil kalınlığında mat, dokulu toz boyadır. Bir floropolimer teknolojisi olan BEGA Unidure kaplama, Siyah, Bronz ve Gümüş renklerde üstün solmaya karşı koruma sağlar. BEGA standardı Beyaz, ayrıca isteğe bağlı olarak temin edilebilen RAL ve özel renkler bir polyester tozudur.',
+    'NRTL Kuzey Amerika standartlarına göre listelenmiştir · Islak yerler için uygundur Koruma sınıfı IP 65',
+  ],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_lp056_data));

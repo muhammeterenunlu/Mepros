@@ -16,6 +16,16 @@ mps_p008_data = {
     'Cable: 22 AWG',
     'SCREWLESS MOUNT',
   ],
+  tags_tr: [
+    'Üründe 7 adet Samsung led çip kullanılmaktadır.',
+    'Gerilim: 24V DC',
+    'Akım: 80mA',
+    'Güç: 1.92W',
+    'Işık Şiddeti: 277 LM',
+    'Verimlilik: %95',
+    'Kablo: 22 AWG',
+    'Vidasız Montaj',
+  ],
 };
 
 globals.productManager.addProduct(new ShadingProduct(mps_p008_data));

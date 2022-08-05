@@ -15,6 +15,15 @@ mps_p004_data = {
     'Efficiency: %85',
     'Cable: 22 AWG',
   ],
+  tags_tr: [
+    'Üründe 14 adet Samsung led çip kullanılmaktadır.',
+    'Gerilim: 25V DC',
+    'Akım: 150mA',
+    'Güç: 3.6W',
+    'Işık Şiddeti: 520 LM',
+    'Verimlilik: %85',
+    'Kablo: 22 AWG',
+  ],
 };
 
 globals.productManager.addProduct(new ShadingProduct(mps_p004_data));

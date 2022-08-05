@@ -9,6 +9,12 @@ mps_t014_data = {
     'Rating Current: 3.125-12.5 A DC (Optional)',
     'Protection Class: IP67',
   ],
+  tags_tr: [
+    'Çalışma Voltajı: 110/220V AC',
+    'Çıkış Voltajı: 24V DC',
+    'Derecelendirme Akımı: 3.125-12.5 A DC (Opsiyonel)',
+    'Koruma Sınıfı: IP67',
+  ],
 };
 
 globals.productManager.addProduct(new ShadingProduct(mps_t014_data));
