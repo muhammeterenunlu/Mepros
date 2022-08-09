@@ -67,7 +67,7 @@ html {
 }
 
 .en {
-  width: 9%;
+  width: 7%;
   margin-right: 0.5rem;
 }
 
@@ -76,7 +76,7 @@ html {
 }
 
 .tr {
-  width: 9%;
+  width: 7%;
 }
 
 .tr:hover {
@@ -404,7 +404,7 @@ img {
 .nav {
   height: 50px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #676666;
   position: relative;
 }
 
@@ -434,11 +434,11 @@ img {
   display: inline-block;
   padding: 0.9rem 0.9rem 0.9rem 0.9rem;
   text-decoration: none;
-  color: #efefef;
+  color: #000000;
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(187, 187, 187, 0.3);
 }
 
 .nav > #nav-check {
@@ -459,7 +459,7 @@ img {
   text-align: center;
 }
 
-@media (min-width: 300px) and (max-width: 1149px) {
+@media (min-width: 300px) and (max-width: 849px) {
   .food-img {
     width: 60vw;
     height: 30vw;
@@ -512,14 +512,17 @@ img {
     overflow-y: auto;
   }
   .en {
-    width: 35%;
+    width: 15%;
     margin-right: 0.5rem;
   }
   .tr {
-    width: 35%;
+    width: 15%;
+  }
+  .mepros-footer-copyright {
+    font-size: 1.5rem;
   }
 }
-@media (max-width: 1150px) {
+@media (max-width: 850px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;

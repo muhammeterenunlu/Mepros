@@ -7,6 +7,7 @@ mps_ch037_data = {
     ],
   },
   tags: ['C:60-30cm H:90cm', 'LED Max 130W'],
+  tags_tr: ['C:60-30cm Y:90cm', 'LED Maks 130W'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch037_data));

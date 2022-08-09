@@ -4,6 +4,7 @@ mps_ch040_data = {
     '#ffffff': ['../lighting-images/MPS-CH040.png'],
   },
   tags: ['Led Max 160W', 'C:80cm'],
+  tags_tr: ['Led Maks 160W', 'C:80cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch040_data));

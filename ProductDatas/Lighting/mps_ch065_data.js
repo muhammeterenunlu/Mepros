@@ -7,6 +7,7 @@ mps_ch065_data = {
     '#8B5A23': ['../lighting-images/MPS-CH065E.png'],
   },
   tags: ['Led Max 48W - 4000-6000K', 'C:45cm H:90cm'],
+  tags_tr: ['Led Maks 48W - 4000-6000K', 'C:45cm Y:90cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch065_data));

@@ -7,6 +7,7 @@ mps_ch035_data = {
     ],
   },
   tags: ['C:60cm H:90cm', 'Max:60w X 12 E27'],
+  tags_tr: ['C:60cm Y:90cm', 'Maks:60w X 12 E27'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch035_data));

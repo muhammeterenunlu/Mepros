@@ -10,6 +10,13 @@ mps_3062_data = {
     'Stock Color: Copper, Black, Antique',
     'Applicable Color: Copper, Yellow, Grey, Black, Antique',
   ],
+  tags_tr: [
+    'Üçlü bir üründür. Elektrostatik toz boya ve lake kaplama, opal ve üfleme cam reçine ile uygulanabilir',
+    'Soket: e27',
+    'Volt: 220V',
+    'Stok Rengi: Bakır, Siyah, Antik',
+    'Uygulanabilir Renk: Bakır, Sarı, Gri, Siyah, Antik',
+  ],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_3062_data));

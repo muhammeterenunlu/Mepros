@@ -7,6 +7,7 @@ mps_ch062_data = {
     '#E3BC46': ['../lighting-images/MPS-CH062G.png'],
   },
   tags: ['Led Max 33W - 4000-6000K', 'C:30cm H:60cm'],
+  tags_tr: ['Led Maks 33W - 4000-6000K', 'C:30cm Y:60cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch062_data));
