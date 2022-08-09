@@ -7,6 +7,7 @@ mps_ch056_data = {
     '#E3BC46': ['../lighting-images/MPS-CH056G.png'],
   },
   tags: ['Led Max 30W - 4000-6000K', 'C:30cm H:80cm'],
+  tags_tr: ['Led Maks 30W - 4000-6000K', 'C:30cm Y:80cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch056_data));

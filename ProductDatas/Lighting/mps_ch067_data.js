@@ -7,6 +7,7 @@ mps_ch067_data = {
     '#E3BC46': ['../lighting-images/MPS-CH067G.png'],
   },
   tags: ['Led Max 45W - 4000-6000K', 'C:100cm H:80cm'],
+  tags_tr: ['Led Maks 45W - 4000-6000K', 'C:100cm Y:80cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch067_data));

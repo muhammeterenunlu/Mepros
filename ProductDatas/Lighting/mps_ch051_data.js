@@ -7,6 +7,7 @@ mps_ch051_data = {
     '#E3BC46': ['../lighting-images/MPS-CH051G.png'],
   },
   tags: ['Led Max 65W - 6000K', 'C:55cm H:80cm'],
+  tags_tr: ['Led Maks 65W - 6000K', 'C:55cm Y:80cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch051_data));

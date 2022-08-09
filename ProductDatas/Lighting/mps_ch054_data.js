@@ -7,6 +7,7 @@ mps_ch054_data = {
     '#8B5A23': ['../lighting-images/MPS-CH054E.png'],
   },
   tags: ['Led Max 45W - 4000K', 'C:35cm H:80cm'],
+  tags_tr: ['Led Maks 45W - 4000K', 'C:35cm Y:80cm'],
 };
 
 globals.productManager.addProduct(new LightingProduct(mps_ch054_data));
