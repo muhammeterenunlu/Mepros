@@ -3,6 +3,7 @@ trlang = {
   hamburger_menu_products: 'Ürünler',
   hamburger_menu_about: 'Hakkımızda',
   hamburger_menu_contact: 'İletişim',
+  hamburger_menu_certificates: 'Sertifikalar',
 
   products: 'Ürünler',
   furniture_solutions: 'Mobilyalar',

@@ -3,6 +3,7 @@ enlang = {
   hamburger_menu_products: 'Products',
   hamburger_menu_about: 'About',
   hamburger_menu_contact: 'Contact Us',
+  hamburger_menu_certificates: 'Certificates',
 
   products: 'Products',
   furniture_solutions: 'Furniture Solutions',
