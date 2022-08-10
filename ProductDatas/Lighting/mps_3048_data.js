@@ -1,9 +1,9 @@
 mps_3048_data = {
   name: 'mps-3048',
   colorsImagesDictionary: {
-    '#8B5A20': ['../lighting-images/MPS3048.png'],
+    '#8b5a20': ['../lighting-images/MPS3048.png'],
     '#000000': ['../lighting-images/MPS3048.png'],
-    '#8B5A29': ['../lighting-images/MPS3048.png'],
+    '#8b5a29': ['../lighting-images/MPS3048.png'],
   },
   tags: [
     'It is a triplee product. It can be applied with electrostatic powder paint and lacquer coating, opal and blown glass rosin',
