@@ -25,4 +25,4 @@ mps_lp008_data = {
   ],
 };
 
-globals.productManager.addProduct(new LightingProduct(mps_lp008_data));
+globals.productManager.addProduct(new LightingProduct(mps_lp001_data));

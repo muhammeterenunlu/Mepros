@@ -2,7 +2,7 @@ mps_ch037_data = {
   name: 'mps-ch037',
   colorsImagesDictionary: {
     '#000000': [
-      '../lighting-images/MPS-CH037-1.png',
+      '../lighting-images/MPS-CH037.png',
       '../lighting-images/MPS-CH037-1.png',
     ],
   },
