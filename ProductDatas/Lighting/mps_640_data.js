@@ -1,4 +1,4 @@
-Altın = {
+mps_640_data = {
   name: "mps-640",
   colorsImagesDictionary: {
     "#ebbc82": [
