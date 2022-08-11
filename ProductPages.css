@@ -249,8 +249,8 @@ img {
 
 .food-name {
   position: absolute;
-  top: 3rem;
-  left: 3rem;
+  top: 11%;
+  left: 15%;
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
