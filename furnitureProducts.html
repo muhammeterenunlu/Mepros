@@ -1,423 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture</title>
+    <link rel="stylesheet" href="ProductPages.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap"
+    />
+    <script defer src="Languages/tr.js"></script>
+    <script defer src="Languages/en.js"></script>
+    <script defer src="langm/langm.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Furniture</title>
-  <link rel="stylesheet" href="ProductPages.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&display=swap">
-</head>
+    <script defer src="js/LanguageManager.js"></script>
+    <script defer src="js/languageHandler.js"></script>
+  </head>
 
-<body>
-
-  <div class="container">
-    <div class="hero">
-      <section class="section-1 center">
-        <video autoplay loop muted plays-inline class="back-video">
-          <source src="/font-arazi-draft.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-          <h1>Furniture Solutions</h1>
-        </div>
-      </section>
-    </div>
-
-
-    <!-- Section 3 -->
-
-
-    <div class="nav">
-      <input type="checkbox" id="nav-check">
-      <div class="nav-header">
-
-        <div class="nav-title">
-          <a href="index.html">
-            <img src="images/logo.png" alt="">
-          </a>
-        </div>
-      </div>
-      <div class="nav-btn">
-        <label for="nav-check">
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-      </div>
-
-      <div class="nav-links">
-        <a href="" class="btn1" data-filter="all">All</a>
-        <a href="" class="btn1" data-filter="1">Single Seaters</a>
-        <a href="" class="btn1" data-filter="2">Two Seaters</a>
-        <a href="" class="btn1" data-filter="3">Triple Seaters</a>
-        <a href="" class="btn1" data-filter="4">L Seaters</a>
-        <a href="" class="btn1" data-filter="5">U Seaters</a>
-      </div>
-    </div>
-
-    <div class="language-wrapper">
-      <img src="images/en.png" onclick="changeHomepageLanguageToEnglish()" alt="en" class="en">
-      <img src="images/tr.png" onclick="changeHomepageLanguageToTurkish()" alt="tr" class="tr">
-    </div>
-    <a href="https://wa.me/905319481999" target="_blank"><img src="images/mepros-whatsapp.png" alt="whatsapp-logo"
-        class="mepros-whatsapp-logo"></a>
-
-    <a href="#" class="mepros-scroll-btn">
-      <i class="fas fa-arrow-up"></i>
-    </a>
-
-    <main>
-      <section class="section-3">
-        <section class="container" id="store-products">
-          <div class="gallery">
-            <a href="/ProductPage/fPage.html?&id=mps-f015" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F015v1.png" class="food-img" />
-              <h3 class="food-name">MPS-F015</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f016" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F016v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F016</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f017" class="gallery-link store-products 3">
-              <img src="/furniture-images/MPS-F017v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F017</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f018" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F018v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F018</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f019" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F019v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F019</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f020" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F020v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F020</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f021" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F021v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F021</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f022" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F022v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F022</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f023" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F023.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F023</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f024" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F024v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F024</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f025" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F025v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F025</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f026" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F026v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F026</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f027" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F027v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F027</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f028" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F028v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F028</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f029" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F029v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F029</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f030" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F030v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F030</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f031" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F031v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F031</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f032" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F032v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F032</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f033" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F033v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F033</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f034" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F034v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F034</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f035" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F035v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F035</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f036" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F036v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F036</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f037" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F037v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F037</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f038" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F038v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F038</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f039" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F039-2.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F039</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f040" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F040v2-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F040</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f041" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F041v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F041</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f042" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F042v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F042</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f043" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F043v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F043</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f044" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F044v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F044</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f045" class="gallery-link store-products 5">
-              <img src="furniture-images/MPS-F045v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F045</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f046" class="gallery-link store-products 5">
-              <img src="furniture-images/MPS-F046v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F046</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f047" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F047v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F047</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f048" class="gallery-link store-products 5">
-              <img src="furniture-images/MPS-F048v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F048</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f049" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F049v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F049</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f050" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F050v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F050</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f051" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F051v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F051</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f052" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F052.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F052</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f053" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F053v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F053</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f054" class="gallery-link store-products 1">
-              <img src="furniture-images/MPS-F054v1-2.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F054</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f055" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F055-1.png" class="food-img" />
-              <h3 class="food-name">MPS-F055</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f056" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F056v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F056</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f057" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F057v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F057</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f058" class="gallery-link store-products 4">
-              <img src="furniture-images/MPS-F058v1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F058</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f059" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F059v1-2.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F059</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f060" class="gallery-link store-products 3">
-              <img src="furniture-images/MPS-F060v1-1.jpeg" class="food-img" />
-              <h3 class="food-name">MPS-F060</h3>
-              <p class="food-description">
-              </p>
-            </a>
-
-            <a href="/ProductPage/fPage.html?&id=mps-f061" class="gallery-link store-products 2">
-              <img src="furniture-images/MPS-F061v1-1.png" class="food-img" />
-              <h3 class="food-name">MPS-F061</h3>
-              <p class="food-description">
-              </p>
-            </a>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <section class="section-1 center">
+          <video autoplay loop muted plays-inline class="back-video">
+            <source src="/font-arazi-draft.mp4" type="video/mp4" />
+          </video>
+          <div class="content">
+            <h1 class="translatable" name="p_fs">Furniture Solutions</h1>
           </div>
         </section>
-      </section>
-    </main>
-    <!-- End of Section 3 -->
+      </div>
 
-  </div>
-  <script src="ProductPages_1.js"></script>
-  <script src="ProductPages_2.js"></script>
-</body>
-<div class="row">
-  <footer>
-    <div class="mepros-footer-wrapper">
-      <h1 class="mepros-footer-copyright">
-        Copyright &copy; DTeam. All Rights Reserved.
-      </h1>
+      <!-- Section 3 -->
+
+      <div class="nav">
+        <input type="checkbox" id="nav-check" />
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+          <a href="" class="btn1 translatable" name="p_all" data-filter="all"
+            >All</a
+          >
+          <a href="" class="btn1 translatable" name="p_single" data-filter="1"
+            >Single Seaters</a
+          >
+          <a href="" class="btn1 translatable" name="p_double" data-filter="2"
+            >Two Seaters</a
+          >
+          <a href="" class="btn1 translatable" name="p_triple" data-filter="3"
+            >Three Seaters</a
+          >
+          <a href="" class="btn1 translatable" name="p_l" data-filter="4"
+            >L Seaters</a
+          >
+          <a href="" class="btn1 translatable" name="p_u" data-filter="5"
+            >U Seaters</a
+          >
+        </div>
+      </div>
+
+      <div class="language-wrapper">
+        <img
+          src="images/en.png"
+          onclick="changeHomepageLanguageToEnglish()"
+          alt="en"
+          class="en"
+        />
+        <img
+          src="images/tr.png"
+          onclick="changeHomepageLanguageToTurkish()"
+          alt="tr"
+          class="tr"
+        />
+      </div>
+      <a href="https://wa.me/905319481999" target="_blank"
+        ><img
+          src="images/mepros-whatsapp.png"
+          alt="whatsapp-logo"
+          class="mepros-whatsapp-logo"
+      /></a>
+
+      <a href="#" class="mepros-scroll-btn">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+
+      <main>
+        <section class="section-3">
+          <section class="container" id="store-products">
+            <div class="gallery">
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f015"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F015v1.png" class="food-img" />
+                <h3 class="food-name">MPS-F015</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f016"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F016v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F016</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f017"
+                class="gallery-link store-products 3"
+              >
+                <img src="/furniture-images/MPS-F017v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F017</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f018"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F018v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F018</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f019"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F019v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F019</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f020"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F020v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F020</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f021"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F021v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F021</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f022"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F022v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F022</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f023"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F023.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F023</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f024"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F024v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F024</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f025"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F025v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F025</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f026"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F026v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F026</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f027"
+                class="gallery-link store-products 1"
+              >
+                <img src="furniture-images/MPS-F027v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F027</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f028"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F028v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F028</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f029"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F029v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F029</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f030"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F030v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F030</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f031"
+                class="gallery-link store-products 1"
+              >
+                <img src="furniture-images/MPS-F031v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F031</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f032"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F032v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F032</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f033"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F033v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F033</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f034"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F034v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F034</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f035"
+                class="gallery-link store-products 1"
+              >
+                <img src="furniture-images/MPS-F035v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F035</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f036"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F036v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F036</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f037"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F037v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F037</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f038"
+                class="gallery-link store-products 1"
+              >
+                <img src="furniture-images/MPS-F038v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F038</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f039"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F039-2.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F039</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f040"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F040v2-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F040</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f041"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F041v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F041</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f042"
+                class="gallery-link store-products 2"
+              >
+                <img
+                  src="furniture-images/MPS-F042v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F042</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f043"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F043v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F043</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f044"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F044v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F044</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f045"
+                class="gallery-link store-products 5"
+              >
+                <img src="furniture-images/MPS-F045v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F045</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f046"
+                class="gallery-link store-products 5"
+              >
+                <img
+                  src="furniture-images/MPS-F046v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F046</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f047"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F047v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F047</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f048"
+                class="gallery-link store-products 5"
+              >
+                <img src="furniture-images/MPS-F048v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F048</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f049"
+                class="gallery-link store-products 1"
+              >
+                <img
+                  src="furniture-images/MPS-F049v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F049</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f050"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F050v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F050</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f051"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F051v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F051</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f052"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F052.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F052</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f053"
+                class="gallery-link store-products 3"
+              >
+                <img src="furniture-images/MPS-F053v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F053</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f054"
+                class="gallery-link store-products 1"
+              >
+                <img
+                  src="furniture-images/MPS-F054v1-2.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F054</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f055"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F055-1.png" class="food-img" />
+                <h3 class="food-name">MPS-F055</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f056"
+                class="gallery-link store-products 4"
+              >
+                <img
+                  src="furniture-images/MPS-F056v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F056</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f057"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F057v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F057</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f058"
+                class="gallery-link store-products 4"
+              >
+                <img src="furniture-images/MPS-F058v1.jpeg" class="food-img" />
+                <h3 class="food-name">MPS-F058</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f059"
+                class="gallery-link store-products 3"
+              >
+                <img
+                  src="furniture-images/MPS-F059v1-2.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F059</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f060"
+                class="gallery-link store-products 3"
+              >
+                <img
+                  src="furniture-images/MPS-F060v1-1.jpeg"
+                  class="food-img"
+                />
+                <h3 class="food-name">MPS-F060</h3>
+                <p class="food-description"></p>
+              </a>
+
+              <a
+                href="/ProductPage/fPage.html?&id=mps-f061"
+                class="gallery-link store-products 2"
+              >
+                <img src="furniture-images/MPS-F061v1-1.png" class="food-img" />
+                <h3 class="food-name">MPS-F061</h3>
+                <p class="food-description"></p>
+              </a>
+            </div>
+          </section>
+        </section>
+      </main>
+      <!-- End of Section 3 -->
     </div>
-  </footer>
-</div>
-
+    <script src="ProductPages_1.js"></script>
+    <script src="ProductPages_2.js"></script>
+  </body>
+  <div class="row">
+    <footer>
+      <div class="mepros-footer-wrapper">
+        <h1 class="mepros-footer-copyright">
+          Copyright &copy; DTeam. All Rights Reserved.
+        </h1>
+      </div>
+    </footer>
+  </div>
 </html>
