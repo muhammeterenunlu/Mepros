@@ -1,16 +1,16 @@
 mps_151_data = {
-  name: "mps-151",
+  name: 'mps-151',
   colorsImagesDictionary: {
-    "#DBC182": [
-      "../lighting-images/MPS151.png",
-      "../lighting-images/MPS151-1.png",
+    '#dbc182': [
+      '../lighting-images/MPS151.png',
+      '../lighting-images/MPS151-1.png',
     ],
   },
   tags: [
-    "Material: Metal Aluminum Body, Copper/Yellow/Chrome plated",
-    "Socket: e27",
-    "Volt: 220V",
-    "Color Options: Copper, Chrome, Golden",
+    'Material: Metal Aluminum Body, Copper/Yellow/Chrome plated',
+    'Socket: e27',
+    'Volt: 220V',
+    'Color Options: Copper, Chrome, Golden',
   ],
   tags_tr: [
     'Materyal: Metal Alüminyum Gövde, Bakır/Sarı/Krom kaplama',
@@ -18,6 +18,6 @@ mps_151_data = {
     'Volt: 220V',
     'Renk Seçenekleri: Bakır, Krom, Altın',
   ],
-}
+};
 
 globals.productManager.addProduct(new LightingProduct(mps_151_data));
