@@ -3,7 +3,7 @@ const progressBar = new ProgressBar(
   6,
   document.querySelector('.mepros-progress-wrapper')
 );
-const cyclingTimer = new CyclingTimer(6, 5000);
+const cyclingTimer = new CyclingTimer(6, 10000);
 cyclingTimer.setOnTickFunction(onTick);
 
 function onTick() {

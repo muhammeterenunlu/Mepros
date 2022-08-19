@@ -3,6 +3,7 @@ trlang = {
   hamburger_menu_products: "Ürünler",
   hamburger_menu_about: "Hakkımızda",
   hamburger_menu_contact: "İletişim",
+  hamburger_menu_trailer: "Tanıtım",
   hamburger_menu_certificates: "Sertifikalar",
 
   products: "Ürünler",
@@ -32,6 +33,7 @@ trlang = {
     "Müşterilerimize ve iş ortaklarımıza sunduğumuz ayrıcalıklarla büyüyen, öncü, güçlü ve saygın bir şirket olmak.",
 
   contact_us: "İletişim",
+  trailer:"Tanıtım",
   contact_us_phone: "Telefon",
   contact_us_address: "Adres",
   contact_us_email: "Email",

@@ -27,6 +27,10 @@ a:hover {
     font-size: 25%;
   }
 
+  .mepros-catalogues-buttons {
+    width: 100%;
+  }
+
   .mepros-sidebar {
     width: 40%;
     right: -100%;
@@ -76,11 +80,6 @@ a:hover {
     width: 28rem;
   }
 
-  .mepros-catalogues-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .mepros-section-1-wrapper {
     background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
       url(../images/index-background.jpg) center no-repeat;
@@ -110,6 +109,10 @@ a:hover {
 @media (min-width: 285px) and (max-width: 480px) {
   html {
     font-size: 25%;
+  }
+
+  .mepros-catalogues-buttons {
+    width: 80%;
   }
 
   .mepros-sidebar {
@@ -170,11 +173,6 @@ a:hover {
     font-size: 3.5rem;
   }
 
-  .mepros-catalogues-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .mepros-section-1-wrapper {
     background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
       url(../images/index-background.jpg) center no-repeat;
@@ -205,6 +203,10 @@ a:hover {
 @media (min-width: 481px) and (max-width: 767px) {
   html {
     font-size: 25%;
+  }
+
+  .mepros-catalogues-buttons {
+    width: 60%;
   }
 
   .mepros-sidebar {
@@ -252,12 +254,6 @@ a:hover {
     width: 30rem;
   }
 
-  .mepros-catalogues-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .mepros-contact-us-details div {
     width: 30rem;
   }
@@ -299,6 +295,10 @@ a:hover {
 @media (min-width: 768px) and (max-width: 1024px) {
   html {
     font-size: 25%;
+  }
+
+  .mepros-catalogues-buttons {
+    width: 40%;
   }
 
   .mepros-sidebar {
@@ -360,12 +360,6 @@ a:hover {
 
   .mepros-about-us-heading {
     font-size: 8rem;
-  }
-
-  .mepros-catalogues-buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .mepros-section-1-wrapper {
