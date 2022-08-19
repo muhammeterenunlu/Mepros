@@ -104,6 +104,7 @@
 }
 
 .mepros-line {
+	pointer-events: none;
   width: 200%;
   height: 0.25rem;
   background-color: rgb(0, 0, 0);
