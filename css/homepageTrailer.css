@@ -5,13 +5,11 @@
     position: relative;
 }
 .iframe-container iframe {
+    position: absolute;
      border: 0;
-     height: 80%;
-     left: 0;
-     position: absolute;
-     top: 8%;
-     width: 100%;
-     padding-left: 10%;
-     padding-right: 10%;
-     padding-bottom: 1%;
+     left: 10%;
+     right: 0;
+     top: 12%;
+     height: 70%;
+     width: 80%;
 }
