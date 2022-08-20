@@ -172,31 +172,6 @@ a:hover {
   .mepros-contact-us-details p {
     font-size: 3.5rem;
   }
-
-  .mepros-section-1-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-2-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-3-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-4-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-5-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-6-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -264,30 +239,6 @@ a:hover {
 
   .mepros-contact-us-details p {
     font-size: 3rem;
-  }
-  .mepros-section-1-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-2-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-3-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-4-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-5-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-6-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
   }
 }
 
@@ -360,31 +311,6 @@ a:hover {
 
   .mepros-about-us-heading {
     font-size: 8rem;
-  }
-
-  .mepros-section-1-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-2-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-3-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-4-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-5-wrapper {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
-  }
-  .mepros-section-6-bg {
-    background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
-      url(../images/index-background.jpg) center no-repeat;
   }
 }
 
