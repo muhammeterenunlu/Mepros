@@ -10,7 +10,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0 0.5rem 0;
+  padding: 0rem 0 0.5rem 0;
+  margin-bottom: 5%;
 }
 
 .mepros-about-us-heading {
@@ -139,6 +140,10 @@
   text-transform: uppercase;
   color: var(--grey-color);
   margin-bottom: 1rem;
+  background-color: #c9c9c9;
+  padding: 3.5%;
+  max-width: fit-content;
+  border-radius: 35%;
 }
 
 .mepros-about-us-story-paragraph {
@@ -148,4 +153,147 @@
 
 .mepros-about-us-story-paragraph::first-letter {
   margin-left: 1rem;
+}
+
+.primary-cta {
+  background: linear-gradient(to right, #ff6c26 0%, #ffa526 100%);
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.3s linear all;
+  box-shadow: none;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.primary-cta:hover {
+  background: #222222;
+  color: #ffffff;
+  transition: 0.3s linear all;
+}
+
+.wf-space {
+  padding: 60px 90px;
+}
+
+.wf-left-heading {
+  font-size: 50px;
+  text-transform: capitalize;
+  position: relative;
+  margin: 0;
+  font-weight: 400;
+}
+
+.wf-left-heading span {
+  position: relative;
+  z-index: 99;
+}
+
+.wf-left-heading:after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 33px;
+  background: linear-gradient(to right, #ff6c26 0%, #ffa526 100%);
+  left: 0;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  z-index: 99;
+  position: relative;
+}
+
+.wf-about-us__image {
+  position: relative;
+}
+.wf-about-us__image:after {
+  position: absolute;
+  content: '';
+  left: -15px;
+  width: 25%;
+  height: 100%;
+  background: linear-gradient(to right, #ff6c26 0%, #ffa526 100%);
+  top: -15px;
+  bottom: 0;
+  padding: 15px;
+}
+.column {
+  flex: 0 0 50%;
+  position: relative;
+}
+.wf-about-us__image img {
+  z-index: 9;
+  position: relative;
+  display: block;
+}
+
+.wf-about-us__content {
+  padding-left: 35px;
+}
+
+.wf-about-us {
+  position: relative;
+}
+.wf-about-us:after {
+  position: absolute;
+  content: '';
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  top: 30%;
+}
+
+.wf-about-us__content p {
+  font-size: 15px;
+}
+
+.about1 {
+  background-color: rgba(236, 141, 16, 0.5);
+  padding: 5%;
+  border-radius: 25%;
+}
+.about1:hover {
+  background-color: rgba(236, 141, 16, 0.181);
+}
+
+@media (max-width: 1024px) {
+  .wf-space {
+    padding: 60px 40px;
+  }
+  .wf-about-us__content p {
+    font-size: 13px;
+  }
+
+  .wf-left-heading:after {
+    width: 25px;
+  }
+  .mepros-about-us-header {
+    margin-bottom: 7%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+
+  .wf-about-us__content p {
+    font-size: 11px;
+  }
+
+  .wf-about-us__content {
+    padding-left: 0;
+    margin-left: -15px;
+    padding-top: 30px;
+  }
+  .mepros-about-us-header {
+    margin-bottom: 14%;
+  }
 }
