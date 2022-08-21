@@ -126,11 +126,12 @@
   height: 20rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 5rem;
+  margin-right: 3rem;
 }
 
 .mepros-about-us-story-text {
-  letter-spacing: 0.1rem;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 .mepros-about-us-story-heading {
