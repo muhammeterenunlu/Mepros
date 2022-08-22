@@ -93,14 +93,16 @@
   position: absolute;
   left: 0;
   overflow: hidden;
-  transition: left 1.5s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .mepros-section-wrapper {
   width: inherit;
   height: inherit;
   transform: scale(1.5);
-  transition: all 2s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .mepros-section-1 {
