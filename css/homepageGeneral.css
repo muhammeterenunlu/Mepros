@@ -6,12 +6,17 @@
   text-decoration: none;
   list-style-type: none;
   font-family: 'Inconsolata', monospace;
-  overflow-x: hidden;
 }
 
 html {
   font-size: 45%;
   scroll-behavior: smooth;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 a {
