@@ -11,7 +11,7 @@
 .mepros-catalogues-buttons {
   display: inline-block;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 40%;
 }
 
@@ -41,7 +41,7 @@
 }
 
 div.first {
-  width: 100%;
+  width: auto;
   height: 10rem;
   position: relative;
   margin: auto;
