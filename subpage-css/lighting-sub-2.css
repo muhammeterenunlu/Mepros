@@ -441,10 +441,13 @@ h3 {
   border: #f27a43 solid 0.5rem;
   border-radius: 5%;
 }
-.tabs input[type="radio"] {
+.tabs .tab:hover {
+  background-color: #d4791f28;
+}
+.tabs input[type='radio'] {
   display: none;
 }
-.tabs input[type="radio"]:checked + label + .tab {
+.tabs input[type='radio']:checked + label + .tab {
   display: block;
 }
 
@@ -454,8 +457,8 @@ h3 {
 .tab p {
   background-size: cover;
   box-sizing: border-box;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   line-height: 1.5;
   margin: 0 auto;
@@ -473,8 +476,8 @@ h3 {
 }
 
 .tab p {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 2.2rem;
   color: black;
@@ -482,8 +485,8 @@ h3 {
 }
 
 .tab li {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 2.2rem;
   color: black;

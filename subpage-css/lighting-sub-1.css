@@ -441,6 +441,11 @@ h3 {
   border: #f27a43 solid 0.5rem;
   border-radius: 5%;
 }
+
+.tabs .tab:hover {
+  background-color: #d4791f28;
+}
+
 .tabs input[type='radio'] {
   display: none;
 }
