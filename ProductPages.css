@@ -17,7 +17,7 @@ html {
 }
 .mepros-whatsapp-logo {
   position: fixed;
-  right: 12rem;
+  right: 11rem;
   bottom: 1rem;
   width: 7rem;
   height: 7rem;
@@ -43,7 +43,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   z-index: 200;
   box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
