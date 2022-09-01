@@ -46,6 +46,9 @@ a:hover {
   .mepros-catalogues-buttons {
     width: 100%;
   }
+	.mepros-card {
+		width: 80%;
+	}
 
   .mepros-sidebar {
     width: 40%;
@@ -146,6 +149,10 @@ a:hover {
     align-items: flex-start;
   }
 
+	.mepros-card {
+		width: 80%;
+	}
+
   .mepros-about-us {
     flex-direction: column;
     align-items: flex-start;
@@ -202,6 +209,7 @@ a:hover {
   .mepros-catalogues-buttons {
     width: 80%;
   }
+
 
   .mepros-sidebar {
     width: 40%;
@@ -344,6 +352,7 @@ a:hover {
     right: -100%;
   }
 
+
   .change .mepros-hamburger-menu {
     right: 35rem;
   }
@@ -416,6 +425,10 @@ a:hover {
     flex-direction: column;
     width: 70%;
   }
+
+	.mepros-card {
+		width: 80%;
+	}
 
   .mepros-about-us-video-wrapper {
     width: 160rem;
