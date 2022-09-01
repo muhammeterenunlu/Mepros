@@ -11,6 +11,16 @@
   font-weight: 400;
   list-style-type: none;
 }
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
 
 html {
   font-size: 62.5%;

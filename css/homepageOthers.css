@@ -1,3 +1,14 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
+
 .mepros-display {
   line-height: normal;
 }

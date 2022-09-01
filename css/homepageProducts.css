@@ -1,3 +1,14 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
+
 .mepros-products {
   display: flex;
   flex-direction: column;
@@ -29,7 +40,7 @@
   width: 100%;
   height: 100%;
   background-color: #262626;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 
 .mepros-card-img-wrapper img {
@@ -37,7 +48,7 @@
   height: 100%;
   object-fit: center;
   opacity: 0.9;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   transition: opacity 0.3s;
 }
 
@@ -85,7 +96,7 @@
   font-size: 2rem;
   line-height: 1.5rem;
   color: #eee;
-  border-radius: 0.9rem;
+  border-radius: 1rem;
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
@@ -97,7 +108,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 0 0.5rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 .mepros-products-section-heading {

@@ -1,3 +1,13 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
 .mepros-catalogues {
   display: flex;
   flex-direction: column;
@@ -63,8 +73,8 @@ div.first::before {
   border-top: solid 1rem #f26522;
   border-bottom: solid 1rem #f26522;
   transition: all 0.3s ease;
-  border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 div.first::after {
   content: '';
@@ -77,8 +87,8 @@ div.first::after {
   border-top: solid 1rem #f26522;
   border-bottom: solid 1rem #f26522;
   transition: all 0.3s ease;
-  border-top-right-radius: 0.5rem;
-  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 div.first:hover {
   cursor: crosshair;
@@ -105,7 +115,7 @@ div.first div.background {
   bottom: 0;
   left: 0;
   transition: all ease 0.3s;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
 }
 div.first h1 {
   padding: 1rem;

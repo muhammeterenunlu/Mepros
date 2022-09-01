@@ -1,3 +1,13 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
 /* Section 4 */
 .mepros-contact-us {
   display: flex;
@@ -80,7 +90,7 @@
 }
 
 .mepros-contact-us-phone {
-  border-radius: 15px 50px;
+  border-radius: 16px 50px;
   padding: 1rem;
   background-color: #f29b2288;
   box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);
@@ -91,7 +101,7 @@
 }
 
 .mepros-contact-us-address {
-  border-radius: 15px 50px;
+  border-radius: 16px 50px;
   padding: 1rem;
   background-color: #f29b2288;
   box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);
@@ -102,7 +112,7 @@
 }
 
 .mepros-contact-us-email {
-  border-radius: 15px 50px;
+  border-radius: 16px 50px;
   padding: 1rem;
   background-color: #f29b2288;
   box-shadow: 0rem 12rem 100rem rgb(0, 0, 0);

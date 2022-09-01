@@ -1,3 +1,14 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
+
 .mepros-left-btn {
   left: 4rem;
 }
@@ -52,7 +63,7 @@
   height: 1rem;
   border: 0.1rem solid #fff;
   border-radius: 50%;
-  margin: 0 0.3rem;
+  margin: 0 1rem;
   transition: background-color 0.3s;
 }
 
@@ -305,7 +316,7 @@
 
 .mepros-topleft-logo {
   position: absolute;
-  top: 8px;
+  top: 16px;
   left: 16px;
   font-size: 18px;
 }

@@ -1,3 +1,14 @@
+input {
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+/* Set input inheritance */
+input {
+  font-size: inherit;
+}
+
 .mepros-about-us {
   display: flex;
   flex-direction: column;
@@ -10,7 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0rem 0 0.5rem 0;
+  padding: 0rem 0 1rem 0;
   margin-bottom: 5%;
 }
 
@@ -61,6 +72,8 @@
 .mepros-about-us-video-bar-wrapper {
   width: 100%;
   height: 0.7rem;
+
+
   background-color: #000;
   position: absolute;
   top: 0;
@@ -158,7 +171,7 @@
 .primary-cta {
   background: linear-gradient(to right, #ff6c26 0%, #ffa526 100%);
   color: #ffffff;
-  padding: 10px 25px;
+  padding: 16px 25px;
   border-radius: 50px;
   transition: 0.3s linear all;
   box-shadow: none;
@@ -212,13 +225,13 @@
 .wf-about-us__image:after {
   position: absolute;
   content: '';
-  left: -15px;
+  left: -16px;
   width: 25%;
   height: 100%;
   background: linear-gradient(to right, #ff6c26 0%, #ffa526 100%);
-  top: -15px;
+  top: -16px;
   bottom: 0;
-  padding: 15px;
+  padding: 16px;
 }
 .column {
   flex: 0 0 50%;
@@ -251,7 +264,7 @@
 }
 
 .wf-about-us__content p {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .about1 {
@@ -268,7 +281,7 @@
     padding: 60px 40px;
   }
   .wf-about-us__content p {
-    font-size: 13px;
+    font-size: 16px;
   }
 
   .wf-left-heading:after {
@@ -285,12 +298,12 @@
   }
 
   .wf-about-us__content p {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .wf-about-us__content {
     padding-left: 0;
-    margin-left: -15px;
+    margin-left: -16px;
     padding-top: 30px;
   }
   .mepros-about-us-header {
