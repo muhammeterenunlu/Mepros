@@ -1,10 +1,10 @@
-mps_p008_data = {
-  name: 'mps-p008',
+arcturus_data = {
+  name: 'arcturus',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-P008.png'],
-    '#3d3d3d': ['../shading-images/MPS-P008.png'],
-    '#ffffcc': ['../shading-images/MPS-P008.png'],
-    '#ffffff': ['../shading-images/MPS-P008.png'],
+    '#000000': ['../shading-images/arcturus.png'],
+    '#3d3d3d': ['../shading-images/arcturus.png'],
+    '#ffffcc': ['../shading-images/arcturus.png'],
+    '#ffffff': ['../shading-images/arcturus.png'],
   },
   tags: [
     '7 Samsung led chip is used in the product.',
@@ -28,4 +28,4 @@ mps_p008_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_p008_data));
+globals.productManager.addProduct(new ShadingProduct(arcturus_data));

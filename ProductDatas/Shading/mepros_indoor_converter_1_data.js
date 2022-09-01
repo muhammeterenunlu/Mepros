@@ -1,7 +1,7 @@
-mps_t012_data = {
-  name: 'mps-t012',
+mepros_indoor_converter_1_data = {
+  name: 'mepros-indoor-converter-1',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-T012.png'],
+    '#000000': ['../shading-images/mepros-indoor-converter-1.png'],
   },
   tags: [
     'Operating Voltage: 220V AC',
@@ -15,4 +15,6 @@ mps_t012_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_t012_data));
+globals.productManager.addProduct(
+  new ShadingProduct(mepros_indoor_converter_1_data)
+);

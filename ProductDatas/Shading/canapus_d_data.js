@@ -1,14 +1,14 @@
-mps_w001_data = {
-  name: 'mps-w001',
+canapus_d_data = {
+  name: 'canapus-d',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-W001.png'],
-    '#3d3d3d': ['../shading-images/MPS-W001.png'],
-    '#ffffcc': ['../shading-images/MPS-W001.png'],
-    '#ffffff': ['../shading-images/MPS-W001.png'],
+    '#000000': ['../shading-images/canapus-d.png'],
+    '#3d3d3d': ['../shading-images/canapus-d.png'],
+    '#ffffcc': ['../shading-images/canapus-d.png'],
+    '#ffffff': ['../shading-images/canapus-d.png'],
   },
   tags: [
     '14 Samsung led chip is used in the product.',
-    'Voltage: 25V DC',
+    'Voltage: 24V DC',
     'Current: 150mA',
     'Power: 3.6W',
     'Light İntensity: 520 LM',
@@ -26,4 +26,4 @@ mps_w001_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_w001_data));
+globals.productManager.addProduct(new ShadingProduct(canapus_d_data));

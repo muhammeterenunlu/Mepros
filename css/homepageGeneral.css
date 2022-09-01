@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: 'Inconsolata', monospace;
+  font-family: Arial, sans-serif;
 }
 
 html {
@@ -375,11 +375,11 @@ a:hover {
   }
 
   .mepros-contact-us-details h3 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
   .mepros-contact-us-details p {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .mepros-products-section-heading {
@@ -425,11 +425,11 @@ a:hover {
   }
 
   .mepros-contact-us-details h3 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   .mepros-contact-us-details p {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 

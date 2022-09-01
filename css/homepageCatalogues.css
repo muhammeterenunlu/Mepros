@@ -114,15 +114,5 @@ div.first h1 {
   text-transform: uppercase;
   color: #f26522;
   transition: all ease 0.5s;
-  font-family: 'Baloo Da 2', serif;
-}
-
-div.first1 h1 {
-  padding: 1rem;
-  font-size: 2.5rem;
-  z-index: 5;
-  text-transform: uppercase;
-  color: #f26522;
-  transition: all ease 0.5s;
-  font-family: 'Baloo Da 2', serif;
+  font-family: Arial, sans-serif;
 }

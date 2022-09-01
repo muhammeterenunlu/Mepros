@@ -1,14 +1,14 @@
-mps_p006_data = {
-  name: 'mps-p006',
+canapus_data = {
+  name: 'canapus',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-P006.png'],
-    '#3d3d3d': ['../shading-images/MPS-P006.png'],
-    '#ffffcc': ['../shading-images/MPS-P006.png'],
-    '#ffffff': ['../shading-images/MPS-P006.png'],
+    '#000000': ['../shading-images/canapus.png'],
+    '#3d3d3d': ['../shading-images/canapus.png'],
+    '#ffffcc': ['../shading-images/canapus.png'],
+    '#ffffff': ['../shading-images/canapus.png'],
   },
   tags: [
     '14 Samsung led chip is used in the product.',
-    'Voltage: 25V DC',
+    'Voltage: 24V DC',
     'Current: 150mA',
     'Power: 3.6W',
     'Light İntensity: 520 LM',
@@ -17,7 +17,7 @@ mps_p006_data = {
   ],
   tags_tr: [
     'Üründe 14 adet Samsung led çip kullanılmaktadır.',
-    'Gerilim: 25V DC',
+    'Gerilim: 24V DC',
     'Akım: 150mA',
     'Güç: 3.6W',
     'Işık Şiddeti: 520 LM',
@@ -26,4 +26,4 @@ mps_p006_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_p006_data));
+globals.productManager.addProduct(new ShadingProduct(canapus_data));

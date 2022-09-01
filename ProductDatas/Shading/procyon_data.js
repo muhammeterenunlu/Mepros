@@ -1,10 +1,10 @@
-mps_b011_data = {
-  name: 'mps-b011',
+procyon_data = {
+  name: 'procyon',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-B011.png'],
-    '#3d3d3d': ['../shading-images/MPS-B011.png'],
-    '#ffffcc': ['../shading-images/MPS-B011.png'],
-    '#ffffff': ['../shading-images/MPS-B011.png'],
+    '#000000': ['../shading-images/procyon.png'],
+    '#3d3d3d': ['../shading-images/procyon.png'],
+    '#ffffcc': ['../shading-images/procyon.png'],
+    '#ffffff': ['../shading-images/procyon.png'],
   },
   tags: [
     'Led chip permeter 60.',
@@ -26,4 +26,4 @@ mps_b011_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_b011_data));
+globals.productManager.addProduct(new ShadingProduct(procyon_data));

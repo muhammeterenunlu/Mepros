@@ -1,7 +1,7 @@
-mps_t014_data = {
-  name: 'mps-t014',
+mepros_outdoor_converter_1_data = {
+  name: 'mepros-outdoor-converter-1',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-T014.png'],
+    '#000000': ['../shading-images/mepros-outdoor-converter-1.png'],
   },
   tags: [
     'Operating Voltage: 110/220V AC',
@@ -17,4 +17,6 @@ mps_t014_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_t014_data));
+globals.productManager.addProduct(
+  new ShadingProduct(mepros_outdoor_converter_1_data)
+);

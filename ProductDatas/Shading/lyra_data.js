@@ -1,10 +1,7 @@
-mps_p009_data = {
-  name: 'mps-p009',
+lyra_data = {
+  name: 'lyra',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-P009.png'],
-    '#3d3d3d': ['../shading-images/MPS-P009.png'],
-    '#ffffcc': ['../shading-images/MPS-P009.png'],
-    '#ffffff': ['../shading-images/MPS-P009.png'],
+    '#3d3d3d': ['../shading-images/lyra.png'],
   },
   tags: [
     '14 Samsung led chip is used in the product.',
@@ -26,4 +23,4 @@ mps_p009_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_p009_data));
+globals.productManager.addProduct(new ShadingProduct(lyra_data));

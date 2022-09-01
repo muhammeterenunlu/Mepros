@@ -1,10 +1,10 @@
-mps_p010_data = {
-  name: 'mps-p010',
+antares_data = {
+  name: 'antares',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-P010.png'],
-    '#3d3d3d': ['../shading-images/MPS-P010.png'],
-    '#ffffcc': ['../shading-images/MPS-P010.png'],
-    '#ffffff': ['../shading-images/MPS-P010.png'],
+    '#000000': ['../shading-images/antares.png'],
+    '#3d3d3d': ['../shading-images/antares.png'],
+    '#ffffcc': ['../shading-images/antares.png'],
+    '#ffffff': ['../shading-images/antares.png'],
   },
   tags: [
     '7 Samsung led chip is used in the product.',
@@ -14,7 +14,6 @@ mps_p010_data = {
     'Light İntensity: 277 LM',
     'Efficiency: %95',
     'Cable: 22 AWG',
-    'SCREWLESS MOUNT',
   ],
   tags_tr: [
     'Üründe 7 adet Samsung led çip kullanılmaktadır.',
@@ -24,8 +23,7 @@ mps_p010_data = {
     'Işık Şiddeti: 277 LM',
     'Verimlilik: %95',
     'Kablo: 22 AWG',
-    'Vidasız Montaj',
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_p010_data));
+globals.productManager.addProduct(new ShadingProduct(antares_data));

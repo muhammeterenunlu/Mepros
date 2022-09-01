@@ -1,14 +1,14 @@
-mps_p005_data = {
-  name: 'mps-p005',
+spica_data = {
+  name: 'spica',
   colorsImagesDictionary: {
-    '#000000': ['../shading-images/MPS-P005.png'],
-    '#3d3d3d': ['../shading-images/MPS-P005.png'],
-    '#ffffcc': ['../shading-images/MPS-P005.png'],
-    '#ffffff': ['../shading-images/MPS-P005.png'],
+    '#000000': ['../shading-images/spica.png'],
+    '#3d3d3d': ['../shading-images/spica.png'],
+    '#ffffcc': ['../shading-images/spica.png'],
+    '#ffffff': ['../shading-images/spica.png'],
   },
   tags: [
     '3 Samsung led chip is used in the product.',
-    'Voltage: 25V DC',
+    'Voltage: 24V DC',
     'Current: 150mA',
     'Power: 3.6W',
     'Light İntensity: 222 LM',
@@ -17,7 +17,7 @@ mps_p005_data = {
   ],
   tags_tr: [
     'Üründe 3 adet Samsung led çip kullanılmaktadır.',
-    'Gerilim: 25V DC',
+    'Gerilim: 24V DC',
     'Akım: 150mA',
     'Güç: 3.6W',
     'Işık Şiddeti: 222 LM',
@@ -26,4 +26,4 @@ mps_p005_data = {
   ],
 };
 
-globals.productManager.addProduct(new ShadingProduct(mps_p005_data));
+globals.productManager.addProduct(new ShadingProduct(spica_data));
