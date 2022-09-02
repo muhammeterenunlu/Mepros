@@ -20,8 +20,8 @@ enlang = {
   catalogue_furniture_solutions: "Sofa Solutions",
   catalogue_furniture_solutions1: "Chair Solutions",
   catalogue_lighting_system_solutions: "Led Lighting Solutions",
-  catalogue_lighting_system_solutions1: "Lighting Pole and Bollards Solutions",
-  catalogue_shading_system_solutions: "Shading Systems Solutions",
+  catalogue_lighting_system_solutions1: "Pole and Bollards Solutions",
+  catalogue_shading_system_solutions: "Solutions For Shading Systems",
 
   about: "About Us",
   trailer: "Trailer",

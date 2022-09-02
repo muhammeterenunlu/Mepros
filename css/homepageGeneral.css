@@ -123,6 +123,9 @@ a:hover {
     background: linear-gradient(rgba(255, 198, 128, 0.2), rgba(0, 0, 0, 0.3)),
       url(../images/index-background.jpg) center no-repeat;
   }
+  div.first h1 {
+    font-size: 1.8rem;
+  }
 }
 
 /* Media Query for Iphone X */
@@ -198,6 +201,9 @@ a:hover {
   .mepros-contact-us-details p {
     font-size: 3.5rem;
   }
+  div.first h1 {
+    font-size: 2.2rem;
+  }
 }
 
 /* Media Query for Mobile Devices */
@@ -270,6 +276,9 @@ a:hover {
   .mepros-contact-us-details p {
     font-size: 3.5rem;
   }
+  div.first h1 {
+    font-size: 2rem;
+  }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -334,6 +343,9 @@ a:hover {
 
   .mepros-contact-us-details p {
     font-size: 3rem;
+  }
+  div.first h1 {
+    font-size: 2.2rem;
   }
 }
 

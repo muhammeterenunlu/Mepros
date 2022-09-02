@@ -12,7 +12,7 @@ mepros_dimmer_data = {
     'Encryption Type: 128 Bit',
   ],
   tags_tr: [
-    'Çalışmna Gerilimi: 12-24V',
+    'Çalışma Gerilimi: 12-24V',
     'Derecelendirme Akımı: 24A / CH',
     'İletişim Tipi: Rf',
     'İletişim Frekansı: 433 Mhz',
