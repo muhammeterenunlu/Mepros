@@ -269,8 +269,8 @@ input {
 
 .about1 {
   background-color: rgba(236, 141, 16, 0.5);
-  padding: 5%;
-  border-radius: 25%;
+  padding: 8%;
+  border-radius: 20%;
 }
 .about1:hover {
   background-color: rgba(236, 141, 16, 0.181);
